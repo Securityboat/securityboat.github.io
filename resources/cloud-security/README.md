@@ -1,6 +1,0 @@
-# **Cloud Security**
-
-[https://cloudberry.engineering/tool/](https://cloudberry.engineering/tool/)
-
-[https://github.com/4ndersonLin/awesome-cloud-security#compliances](https://github.com/4ndersonLin/awesome-cloud-security#compliances)
-
