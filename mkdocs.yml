@@ -81,16 +81,16 @@ plugins:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   # - minify:
   #     minify_html: true
-  - exclude:
-      glob:
-        # - exclude/this/path/*
-        - "bd*"
-        - "SUMMARY.md"
-        # - "*.tmp"
-        # - "*.pdf"
-        # - "*.gz"
-      # regex:
-      #   - '.*\.(tmp|bin|tar)$'
+  # - exclude:
+  #     glob:
+  #       # - exclude/this/path/*
+  #       - "bd*"
+  #       - "SUMMARY.md"
+  #       # - "*.tmp"
+  #       # - "*.pdf"
+  #       # - "*.gz"
+  #     # regex:
+  #     #   - '.*\.(tmp|bin|tar)$'
 
 # Hooks
 # hooks:
