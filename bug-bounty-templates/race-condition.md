@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Race condition
+# **Race condition**
 
 ### **Vulnerability Name**
 
@@ -24,11 +24,9 @@ Race conditions are a common type of vulnerability closely related to business l
 
 A race condition attack uses carefully timed requests to cause intentional collisions and exploit this unintended behavior for malicious purposes. Like other logic flaws, the impact of a race condition is heavily dependent on the application and the specific functionality in which it occurs.
 
-{% hint style="info" %}
-_**Add your specific vulnerability description if required, the one given above is a general description.**_
-{% endhint %}
+> **Add your specific vulnerability description if required, the one given above is a general description.**
 
-### Steps to Reproduce
+### **Steps to Reproduce**
 
 1. Log in the application.
 2. Intercept the request in burp suite and send it to repeater.
@@ -37,17 +35,13 @@ _**Add your specific vulnerability description if required, the one given above 
 
 ### **POC**
 
-{% hint style="info" %}
-_**Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**_
-{% endhint %}
+> **Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**
 
 ### **Impact**
 
 This vulnerability can grant attackers access to secured areas of an application. Once the attacker replaces the database update with their own set of data, they will be able to log in as an administrator. Other possibilities include manipulating API calls, tricking a central server into executing the same action multiple times despite it not being valid after the first time.
 
-{% hint style="info" %}
-_**Add your specific impact if required, the one given above is a general impact.**_
-{% endhint %}
+> **Add your specific impact if required, the one given above is a general impact.**
 
 ### **Remediation**
 
@@ -55,11 +49,9 @@ _**Add your specific impact if required, the one given above is a general impact
 * Ensure sensitive endpoints make state changes atomic by using the datastore's concurrency features.
 * As a defense-in-depth measure, take advantage of datastore integrity and consistency features like column uniqueness constraints.
 
-{% hint style="info" %}
-_**Add your specific remediation if required, the above is a general remediation.**_
-{% endhint %}
+> **Add your specific remediation if required, the above is a general remediation.**
 
-### Reference
+### **Reference**
 
 * [https://portswigger.net/web-security/race-conditions#how-to-prevent-race-condition-vulnerabilities](https://portswigger.net/web-security/race-conditions#how-to-prevent-race-condition-vulnerabilities)
 * [https://cwe.mitre.org/data/definitions/362.html](https://cwe.mitre.org/data/definitions/362.html)

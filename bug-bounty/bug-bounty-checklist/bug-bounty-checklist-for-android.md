@@ -1,6 +1,6 @@
-# Bug Bounty Checklist For Android
+# **Bug Bounty Checklist For Android**
 
-### Table of Contents
+### **Table of Contents**
 
 * Important Tools
 * Improper Platform Usage
@@ -14,7 +14,7 @@
 * Reverse Engineering
 * Extraneous Functionality
 
-### &#x20;[Important Tools](../../tools-used-for-android-testing/)
+### **&#x20;[Important Tools](../../tools-used-for-android-testing/README.md)**
 
 * MobSF
 * Frida
@@ -28,7 +28,7 @@
 * Fridump
 * APKLeaks
 
-### Improper Platform Usage
+### **Improper Platform Usage**
 
 * Test for app permissions.
 * Test for minimum security requirements.
@@ -53,7 +53,7 @@
 * Check memory for sensitive data.
 * Testing the Device-Access-Security Policy
 
-### Insecure Communication
+### **Insecure Communication**
 
 * Check for insecure transport layer protocols.
 * Test for insecure algorithms.
@@ -61,7 +61,7 @@
 * Test for End-to-End encryption.
 * Check use of disabling certificate validation.
 
-### Insufficient Cryptography
+### **Insufficient Cryptography**
 
 * Testing for key management.
 * Test for use of custom encryption protocols.
@@ -74,7 +74,7 @@
 * Test for function level access controls.
 * Test for bypassing business logic flaws.
 
-### Client Code Quality
+### **Client Code Quality**
 
 * Test for SQL injection and local file inclusion.
 * Test Service components.
@@ -83,18 +83,18 @@
 * Test for Local file inclusion through NSFileManager or webviews.
 * Test for sensitive information masking.
 
-### Code Tampering
+### **Code Tampering**
 
 * Test for unauthorize code modification.
 * Test for runtime manipulation.
 * Check for rooted device.
 
-### Reverse Engineering
+### **Reverse Engineering**
 
 * Test for code Obfuscating.
 * Test for information leakage/ HArdcoded credentials in the binaries.
 
-### Extraneous Functionality
+### **Extraneous Functionality**
 
 * Test for password string disclosure.
 * Test for hidden and unscrutinised functionality

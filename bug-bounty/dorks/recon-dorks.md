@@ -1,4 +1,4 @@
-# Recon Dorks
+# **Recon Dorks**
 
 ```
 site:http://codepad.co "company"
@@ -27,6 +27,6 @@ inurl:gitlab "company"
 
 ```
 
-#### Reference
+#### **Reference**
 
 [Ahsan Khan](https://twitter.com/hunter0x7)

@@ -1,10 +1,10 @@
-# wsdler For SOAP Services
+# **wsdler For SOAP Services**
 
-### Description
+### **Description**
 
 This extension is convenient when you are pentesting SOAP services that expose WSDL files. This extension removes the pain of loading the WSDL file in SoapUI and hitting each SOAP endpoint with Burp as a proxy.
 
-### Steps to install
+### **Steps to install**
 
 1. Start Burp Suite.
 2. Move to the Extender tab.
@@ -12,8 +12,8 @@ This extension is convenient when you are pentesting SOAP services that expose W
 4. Search wsdler.
 5. Hit Install.
 
-### References
+### **References**
 
-{% embed url="https://portswigger.net/bappstore/594a49bb233748f2bc80a9eb18a2e08f" %}
+[https://portswigger.net/bappstore/594a49bb233748f2bc80a9eb18a2e08f](https://portswigger.net/bappstore/594a49bb233748f2bc80a9eb18a2e08f)
 
-{% embed url="https://github.com/portswigger/wsdler" %}
+[https://github.com/portswigger/wsdler](https://github.com/portswigger/wsdler)

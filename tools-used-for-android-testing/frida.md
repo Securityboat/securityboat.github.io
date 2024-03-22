@@ -1,4 +1,4 @@
-# Frida
+# **Frida**
 
 
 
@@ -13,18 +13,18 @@ Some use cases of Frida
 * Trace private application code
 * Bypass various software sided locks (like app lock)
 
-### Setting Up Frida For Testing
+### **Setting Up Frida For Testing**
 
 We need to install the Frida tool on a laptop/PC and Frida Server on a mobile device.&#x20;
 
-#### Steps to Frida tool install on Laptop/PC
+#### **Steps to Frida tool install on Laptop/PC**
 
 1. Install Python 3 and the latest pip.
 2. Open the terminal or command prompt and run the following command.              `pip install frida-tools`
 3. Verify Frida is installed properly.                                                                         `frida --version`
 4. If the version is displayed then Frida is properly installed.
 
-#### Steps to install on Android device&#x20;
+#### **Steps to install on Android device&#x20;**
 
 1. Execute the following command to get to know about the process type on the device( Emulator/Physical device ).                                                                                      `adb shell                                                                    getprop | grep abi`                                                       &#x20;
 2. Download the supported Frida server from  [https://github.com/frida/frida/releases](https://github.com/frida/frida/releases)
@@ -36,5 +36,5 @@ We need to install the Frida tool on a laptop/PC and Frida Server on a mobile de
 6. Give Executable permission to Frida Server.                                                     `chmod 777 frida-server`
 7. Run Frida Server.                                                                                              `./frida-server`
 
-### How To use
+### **How To use**
 

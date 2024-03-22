@@ -1,4 +1,4 @@
-# Recommendation and References
+# **Recommendation and References**
 
 **Following additional general practices and resources are recommended:**
 

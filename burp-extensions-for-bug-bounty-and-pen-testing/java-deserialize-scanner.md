@@ -1,6 +1,6 @@
-# Java Deserialize Scanner
+# **Java Deserialize Scanner**
 
-### Description
+### **Description**
 
 Java Deserialization Scanner extension is used to detect and exploit Java [deserialization vulnerabilities](../resources/web-app-pentest/insecure-deserialization.md).&#x20;
 
@@ -20,7 +20,7 @@ This extension can be use by Iitegration with burp suites active and passive sca
 12. Mozilla Rhino (two different chains)
 13. Vaadin
 
-### Steps to install
+### **Steps to install**
 
 1. Start Burp Suite.
 2. Move to the Extender tab.
@@ -28,8 +28,8 @@ This extension can be use by Iitegration with burp suites active and passive sca
 4. Search Java deserialize scanner.
 5. Hit Install.
 
-### References
+### **References**
 
-{% embed url="https://github.com/federicodotta/Java-Deserialization-Scanner" %}
+[https://github.com/federicodotta/Java-Deserialization-Scanner](https://github.com/federicodotta/Java-Deserialization-Scanner)
 
-{% embed url="https://portswigger.net/bappstore/228336544ebe4e68824b5146dbbd93ae" %}
+[https://portswigger.net/bappstore/228336544ebe4e68824b5146dbbd93ae](https://portswigger.net/bappstore/228336544ebe4e68824b5146dbbd93ae)

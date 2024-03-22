@@ -1,4 +1,4 @@
-# Portable Hacking Machine
+# **Portable Hacking Machine**
 
 ### **Table of Contents**
 
@@ -27,7 +27,7 @@ Hackers and penetration testers use portable hacking machines for several reason
 7. **Separation from Personal Systems:** Keeping hacking activities on a separate, isolated device helps protect personal or corporate systems from potential compromise and legal issues.
 8. **Legal and Ethical Considerations:** Ethical hackers and penetration testers must operate within legal and ethical boundaries. Using a designated portable hacking machine helps maintain a clear separation between legitimate security assessments and illegal activities.
 
-### Creating your own portable hacking machine using Raspberry Pi
+### **Creating your own portable hacking machine using Raspberry Pi**
 
 **Materials You'll Need:**
 
@@ -47,13 +47,13 @@ Hackers and penetration testers use portable hacking machines for several reason
 
 **Note:** In this example I will download raspberry pi (64-bit) image. Why 64-bit image because some tools might not work in 32-bit properly as _BurpSuite. S_o I will be using 64-bit image in this example.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 03_200727.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 03_200727.png" alt=""><figcaption></figcaption></figure>
 
 **Download balenaEtcher:**
 
 Use Etcher ([https://etcher.balena.io/](https://etcher.balena.io/)) to write the Kali Linux image to the MicroSD card. Select the image you downloaded and the MicroSD card as the target.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 03_202228.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 03_202228.png" alt=""><figcaption></figcaption></figure>
 
 **Note:** I am using balenaEtcher but you can also use raspberry pi [imager](https://www.raspberrypi.com/software/) or [rufus](https://rufus.ie/en/) in order to flash image to micro SD card.
 
@@ -61,35 +61,35 @@ Use Etcher ([https://etcher.balena.io/](https://etcher.balena.io/)) to write the
 
 1. Open Etcher
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 03_203024.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 03_203024.png" alt=""><figcaption></figcaption></figure>
 
 2. Click on “Flash from file” and select the kali linux image you downloaded previously.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 03_203148.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 03_203148.png" alt=""><figcaption></figcaption></figure>
 
 3. Connect your SD card to your system then click on “Select target” and select you micro SD card carefully.
 
 **Note:** All the data in your SD card will be erased so please take the backup of SD card already.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 03_203526.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 03_203526.png" alt=""><figcaption></figcaption></figure>
 
 It will give warning if you are using micro SD card higher than 64 GB. Click on “Yes, I’m Sure”.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 03_203604.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 03_203604.png" alt=""><figcaption></figcaption></figure>
 
 4. Then click on “Flash” and sit back relax until it completes the flashing of image to you SD card. Time depends on SD card write speed.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 03_203624.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 03_203624.png" alt=""><figcaption></figcaption></figure>
 
 **Tip:** Use high speed SD card to get high flash speed and high system performs on raspberry pi.
 
 It will also validate the flash so let that happen or you can skip it by clicking on “skip”.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 03_204644.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 03_204644.png" alt=""><figcaption></figcaption></figure>
 
 5. After it done flashing quite the balenaEtcher and remove your micro SD card from system.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 03_205111.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 03_205111.png" alt=""><figcaption></figcaption></figure>
 
 From here you have two ways:
 
@@ -104,7 +104,7 @@ You can do this by various tools like [advanced IP scanner](https://www.advanced
 
 I will suggest the simple way. Just go to your router dashboard and see the connected devices and get the IP.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 03_214118.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 03_214118.png" alt=""><figcaption></figcaption></figure>
 
 As you see I got mine easily.
 
@@ -112,33 +112,33 @@ As you see I got mine easily.
 
 Open the windows terminal and type “ssh kali@raspberry\_pi-ip” and hit enter.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 03_215016.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 03_215016.png" alt=""><figcaption></figcaption></figure>
 
 Type “yes” and enter.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 03_215126.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 03_215126.png" alt=""><figcaption></figcaption></figure>
 
 Now you will need to enter the password. The default **password** is “**kal**i” and hit enter.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 03_215407.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 03_215407.png" alt=""><figcaption></figcaption></figure>
 
 Then first update and upgrade your machine by using the command “**sudo apt update && sudo apt upgrade -y**”
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 04_080018.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 04_080018.png" alt=""><figcaption></figcaption></figure>
 
 After that run command “sudo kalipi-config”. A window will open.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 04_080229.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 04_080229.png" alt=""><figcaption></figcaption></figure>
 
 Then select “Network Options → Wi-Fi” It will show nearby Wi-Fi access points.(You can navigate using arrow keys in it)
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 04_080603.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 04_080603.png" alt=""><figcaption></figcaption></figure>
 
 Then hit enter. Then you will need to enter SSID (Wi-Fi name) and then password to connect that Wi-Fi.
 
 Then you will be back to main window. Then navigate to “finish” by using arrow keys and hit enter.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023 09 04_081218.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../attachments/Screenshot_2023 09 04_081218.png" alt=""><figcaption></figcaption></figure>
 
 You will be connected to Wi-Fi. Now next time you don’t need to connect ethernet cable to raspberry pi it will automatically connected to your Wi-Fi.
 
@@ -146,7 +146,7 @@ Finally we are done with setting up raspberry pi portable hacking machine.
 
 **Note:** Don’t forget to change the default the password of your user. You can change it by running command “passwd" then enter old password and then new password (you might not see the password while typing for security reasons).
 
-#### Pros and cons of portable hacking machine
+#### **Pros and cons of portable hacking machine**
 
 Pros:
 
@@ -164,6 +164,6 @@ Cons:
 4. Risk of Detection: Even discreet devices are not entirely immune to detection, and if discovered, they could lead to suspicion or security alerts.
 5. Maintenance: Portable hacking machines may require ongoing maintenance and updates to ensure that tools and software remain current and effective.
 
-#### Summary
+#### **Summary**
 
 In summary, we explored the world of portable hacking machines, which are small, versatile devices like Raspberry Pi used by ethical hackers to test and improve computer security. These devices have the advantage of being portable, allowing testers to move around easily. They can be customized to fit specific needs and save time during security checks. However, misusing them can lead to legal and ethical issues, and setting them up can be complicated and costly. It's crucial to use these tools responsibly, following the law and ethical guidelines, to ensure they do more good than harm in the world of cybersecurity.

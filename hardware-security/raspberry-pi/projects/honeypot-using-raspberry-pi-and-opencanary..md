@@ -1,4 +1,4 @@
-# Honeypot using Raspberry Pi & Opencanary.
+# **Honeypot using Raspberry Pi & Opencanary.**
 
 **Table of Contents**
 
@@ -8,7 +8,7 @@
 4. Setting up Raspberry pi as honeypot.
 5. Summary.
 
-#### What is honeypot & opencanary?
+#### **What is honeypot & opencanary?**
 
 **Honeypot:**
 
@@ -31,7 +31,7 @@ Key features of OpenCanary include:
 5. **Community Support:**
    * Being open-source, OpenCanary benefits from a community of users and contributors who actively contribute to its development and share insights on threat intelligence.
 
-#### Why companies use honeypot?
+#### **Why companies use honeypot?**
 
 Companies use honeypots as strategic cybersecurity tools for a variety of reasons, each contributing to an overall enhancement of their security posture. Here are some key reasons why companies deploy honeypots:
 
@@ -66,11 +66,11 @@ Companies use honeypots as strategic cybersecurity tools for a variety of reason
     * **Purpose:** Some industries and regulatory frameworks may require organizations to implement specific cybersecurity measures.
     * **Benefit:** Deploying honeypots can help companies meet compliance requirements and demonstrate a commitment to robust cybersecurity practices.
 
-#### Advantages and disadvantages of honeypot.
+#### **Advantages and disadvantages of honeypot.**
 
 Honeypots are valuable tools in the field of cybersecurity, but like any technology, they come with their own set of advantages and disadvantages. Here's an overview:
 
-#### Advantages of Honeypots:
+#### **Advantages of Honeypots:**
 
 1. **Early Threat Detection:**
    * **Advantage:** Honeypots allow for the early detection of potential threats and attacks because they are decoy systems designed to attract malicious activity.
@@ -97,7 +97,7 @@ Honeypots are valuable tools in the field of cybersecurity, but like any technol
    * **Advantage:** Honeypots, especially on platforms like Raspberry Pi, offer cost-effective cybersecurity measures.
    * **Use Case:** Small organizations or individuals with limited budgets can still implement effective security measures.
 
-#### Disadvantages of Honeypots:
+#### **Disadvantages of Honeypots:**
 
 1. **Resource Intensive:**
    * **Disadvantage:** Honeypots can consume significant resources, both in terms of hardware and monitoring efforts.
@@ -123,7 +123,7 @@ Honeypots are valuable tools in the field of cybersecurity, but like any technol
 
 Understanding these advantages and disadvantages is crucial for making informed decisions about deploying honeypots and managing them effectively within a cybersecurity strategy.
 
-#### Setting up Raspberry Pi as opencanary honeypot.
+#### **Setting up Raspberry Pi as opencanary honeypot.**
 
 1. Setup Raspberry Pi.
 2. Install & configure Opencanary on Raspberry Pi.
@@ -342,6 +342,6 @@ To check it is started or not execute the following command:
 
 3. Now reboot the raspberry pi by using the command sudo reboot . And test the services which you started on opencanary by sending random inputs and see if you get alerts on gmail or not.
 
-#### Summary:
+#### **Summary:**
 
 In conclusion, using a Raspberry Pi as a honeypot with OpenCanary offers an economical and flexible solution for enhancing cybersecurity defenses. By emulating various services and attracting potential attackers, this setup provides early threat detection, valuable insights into attack techniques, and contributes to collaborative threat intelligence. The straightforward installation process, coupled with the versatility of Raspberry Pi, makes this approach accessible for both enthusiasts and small businesses. Monitoring OpenCanary logs allows users to gain a deeper understanding of the evolving threat landscape, while ethical deployment and compliance with legal considerations ensure responsible cybersecurity practices. Ultimately, deploying a Raspberry Pi as a honeypot using OpenCanary is an educational and effective strategy for bolstering overall security posture.

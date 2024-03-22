@@ -1,4 +1,4 @@
-# Manual Code Crawling
+# **Manual Code Crawling**
 
 This appendix gives practical examples of how to carry out code crawling in the following programming languages:
 

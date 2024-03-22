@@ -1,4 +1,4 @@
-# Searching for Code in .NET
+# **Searching for Code in .NET**
 
 Firstly, one needs to be familiar with the tools one can use in order to perform text searching, following this one needs to know what to look for.
 

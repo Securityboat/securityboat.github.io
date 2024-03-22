@@ -1,6 +1,6 @@
-# SAML Raider
+# **SAML Raider**
 
-### Description
+### **Description**
 
 This extension is used for testing SAML infrastructures. It contains two core functionalities: Manipulating SAML Messages and manage X.509 certificates.
 
@@ -28,7 +28,7 @@ The certificate manager provides the following capabilities:
 * Create new X.509 certificates
 * Editing and self-sign existing X.509 certificates
 
-### Steps to install
+### **Steps to install**
 
 1. Start Burp Suite.
 2. Move to the Extender tab.
@@ -36,8 +36,8 @@ The certificate manager provides the following capabilities:
 4. Search SAML raider.
 5. Hit Install.
 
-### References
+### **References**
 
-{% embed url="https://github.com/PortSwigger/saml-raider" %}
+[https://github.com/PortSwigger/saml-raider](https://github.com/PortSwigger/saml-raider)
 
-{% embed url="https://blog.compass-security.com/2015/07/saml-burp-extension" %}
+[https://blog.compass-security.com/2015/07/saml-burp-extension](https://blog.compass-security.com/2015/07/saml-burp-extension)

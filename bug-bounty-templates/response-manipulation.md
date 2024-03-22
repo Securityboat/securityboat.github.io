@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Response manipulation
+# **Response manipulation**
 
 ### **Vulnerability Name**
 
@@ -24,11 +24,9 @@ A client-side resource manipulation vulnerability is an input validation flaw. I
 
 This vulnerability consists of the ability to control the URLs that link to some resources present in a web page. The impact of this vulnerability varies, and it is usually adopted to conduct XSS attacks. This vulnerability makes it is possible to interfere with the expected application’s behavior by causing it to load and render malicious objects.
 
-{% hint style="info" %}
-_**Add your specific vulnerability description if required, the one given above is a general description.**_
-{% endhint %}
+> **Add your specific vulnerability description if required, the one given above is a general description.**
 
-### Steps to Reproduce
+### **Steps to Reproduce**
 
 1. Log in the application.
 2. Intercept the request in burp suite.
@@ -39,17 +37,13 @@ _**Add your specific vulnerability description if required, the one given above 
 
 ### **POC**
 
-{% hint style="info" %}
-_**Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**_
-{% endhint %}
+> **Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**
 
 ### **Impact**
 
 Attacker can interfere with the expected application’s behavior by causing it to load and render malicious objects. It enables them to potentially deliver misleading, unauthorized, or malicious content to end-users.
 
-{% hint style="info" %}
-_**Add your specific impact if required, the one given above is a general impact.**_
-{% endhint %}
+> **Add your specific impact if required, the one given above is a general impact.**
 
 ### **Remediation**
 
@@ -58,10 +52,8 @@ _**Add your specific impact if required, the one given above is a general impact
 * Choose the appropriate token for the level of risk of the transaction.
 * Where possible, implement multi-factor authentication to prevent automated, credential stuffing, brute force, and stolen credential re-use attacks.
 
-{% hint style="info" %}
-_**Add your specific remediation if required, the above is a general remediation.**_
-{% endhint %}
+> **Add your specific remediation if required, the above is a general remediation.**
 
-### Reference
+### **Reference**
 
 * [https://owasp.org/www-project-web-security-testing-guide/latest/4-Web\_Application\_Security\_Testing/11-Client-side\_Testing/06-Testing\_for\_Client-side\_Resource\_Manipulation](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web\_Application\_Security\_Testing/11-Client-side\_Testing/06-Testing\_for\_Client-side\_Resource\_Manipulation)

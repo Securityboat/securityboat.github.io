@@ -1,4 +1,4 @@
-# Appendix A: Glossary
+# **Appendix A: Glossary**
 
 **Abuse Case:** Describes the intentional and unintentional misuses of the software. Abuse cases should challenge the assumptions of the system design.
 

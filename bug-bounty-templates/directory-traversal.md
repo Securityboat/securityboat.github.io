@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Directory Browsing
+# **Directory Browsing**
 
 ### **Vulnerability Name**
 
@@ -24,9 +24,7 @@ A directory browsing (AKA directory listing) provides an attacker with the compl
 
 Web servers can be configured to automatically list the contents of directories that do not have an index page. This can aid an attacker by enabling them to quickly identify the resources on a given path and proceed directly to analyzing and attacking those resources.
 
-{% hint style="info" %}
-_**Add your specific vulnerability description if required, the one given above is a general description.**_
-{% endhint %}
+> **Add your specific vulnerability description if required, the one given above is a general description.**
 
 ### **Steps to Reproduce**
 
@@ -35,17 +33,13 @@ _**Add your specific vulnerability description if required, the one given above 
 
 ### **POC**
 
-{% hint style="info" %}
-_**Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**_
-{% endhint %}
+> **Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**
 
 ### **Impact**
 
 Exposing the contents of a directory can lead to an attacker gaining access to source code or providing useful information for the attacker to devise exploits, such as the creation times of files or any information that may be encoded in file names. The files contained within the directory may reveal sensitive information or provide attackers with information regarding versions, platform information, and source code that may help uncover vulnerabilities in the application or infrastructure.
 
-{% hint style="info" %}
-_**Add your specific impact if required, the one given above is a general impact.**_
-{% endhint %}
+> **Add your specific impact if required, the one given above is a general impact.**
 
 ### **Remediation**
 
@@ -53,11 +47,9 @@ _**Add your specific impact if required, the one given above is a general impact
 * Ensure sensitive information is removed from application directories and utilize access control lists to prevent access when necessary.
 * Place into each directory a default file (such as index.htm) that the web server will display instead of returning a directory listing.
 
-{% hint style="info" %}
-_**Add your specific remediation if required, the above is a general remediation.**_
-{% endhint %}
+> **Add your specific remediation if required, the above is a general remediation.**
 
-### References
+### **References**
 
 * [https://portswigger.net/kb/issues/00600100\_directory-listing](https://portswigger.net/kb/issues/00600100\_directory-listing)
 * [https://cwe.mitre.org/data/definitions/548.html](https://cwe.mitre.org/data/definitions/548.html)

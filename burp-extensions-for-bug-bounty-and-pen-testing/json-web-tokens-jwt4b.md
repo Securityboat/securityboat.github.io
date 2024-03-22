@@ -1,6 +1,6 @@
-# JSON Web Tokens (JWT4B)
+# **JSON Web Tokens (JWT4B)**
 
-### Description
+### **Description**
 
 JSON Web Tokens (JWT4B) is used to decode and manipulate JSON web tokens on the fly, and it checks for their validity and automates common attacks.
 
@@ -14,7 +14,7 @@ Features of JWT4B
 * Validity checks and support for 'expires', 'not before', 'issued at' fields in the payload
 * Automatic tests for security flags in cookie transmitted JWTs
 
-### Steps to install
+### **Steps to install**
 
 1. Start Burp Suite.
 2. Move to the Extender tab.
@@ -22,7 +22,7 @@ Features of JWT4B
 4. Search JSON web tokens.
 5. Hit Install.
 
-### Build Your Own Version with Eclipse
+### **Build Your Own Version with Eclipse**
 
 1. Clone this repository [https://github.com/PortSwigger/json-web-tokens](https://github.com/PortSwigger/json-web-tokens) create a new Eclipse Java project.
 2. Right-click go to configure and click on "Convert to Maven Project".
@@ -31,6 +31,6 @@ Features of JWT4B
 5. Export runnable fat JAR including libraries.
 6. Load the JAR in Burp through the Extender Tab -> Extensions -> Click Add
 
-### Reference
+### **Reference**
 
-{% embed url="https://github.com/PortSwigger/json-web-tokens" %}
+[https://github.com/PortSwigger/json-web-tokens](https://github.com/PortSwigger/json-web-tokens)

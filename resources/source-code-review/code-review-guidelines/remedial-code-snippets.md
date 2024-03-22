@@ -2,7 +2,7 @@
 description: Sample remedial code snippet examples
 ---
 
-# Remedial Code Snippets
+# **Remedial Code Snippets**
 
 ### **Always Use Security Manager**
 
@@ -133,7 +133,7 @@ Input into a system should be checked so that it will not cause excessive resour
 
 In rare cases, it may not be practical to ensure that the input is reasonable. It may be necessary to carefully combine resource checking with the logic of processing the data. In addition to attacks that cause excessive resource consumption, attacks that result in persistent DoS, such as wasting significant disk space, need to be defended against. Server systems should be especially robust against external attacks.
 
-#### Beware of activities that may use disproportionate resources
+#### **Beware of activities that may use disproportionate resources**
 
 Examples of attacks include:
 
@@ -149,7 +149,7 @@ Examples of attacks include:
 * Detailed logging of unusual behavior may result in excessive output to log files.
 * Infinite loops can be caused by parsing some corner case data. Ensure that each iteration of a loop makes some progress.
 
-#### Release resources in all cases
+#### **Release resources in all cases**
 
 Some objects, such as open files, locks, and manually allocated memory, behave as resources that require every acquire operation to be paired with a definite release. It is easy to overlook the vast possibilities for execution paths when exceptions are thrown. Resources should always be released promptly no matter what.
 
@@ -238,7 +238,7 @@ public void bufferedWriteGzipFile(
 
 &#x20;Note, however, that in certain situations a try statement may never complete running (either normally or abruptly). For example, code inside of the try statement could indefinitely block while attempting to access a resource. If the try statement calls into untrusted code, that code could also intentionally sleep or block in order to prevent the clean-up code from being reached. As a result, resources used in a try-with-resources statement may not be closed, or code in a finally block may never be executed in these situations.
 
-#### Resource limit checks should not suffer from integer overflow
+#### **Resource limit checks should not suffer from integer overflow**
 
 The Java language provides bounds checking on arrays which mitigates the vast majority of integer overflow attacks. However, some operations on primitive integral types silently overflow. Therefore, take care when checking resource limits. This is particularly important on persistent resources, such as disk space, where a reboot may not clear the problem.
 
@@ -594,7 +594,7 @@ Most of the scripting and injection attacks happen due to improper/no validation
 
 A very common form of attack involves causing a particular program to interpret data crafted in such a way as to cause an unanticipated change of control. Typically, but not always, this involves text formats.
 
-#### Generate valid formatting
+#### **Generate valid formatting**
 
 Attacks using maliciously crafted inputs to cause incorrect formatting of outputs are well-documented [\[7\]](https://www.oracle.com/technetwork/java/seccodeguide-139067.html#ref-7). Such attacks generally involve exploiting special characters in an input string, incorrect escaping, or partial removal of special characters.
 
@@ -602,7 +602,7 @@ If the input string has a particular format, combining correction and validation
 
 Use well-tested libraries instead of ad hoc code. There are many libraries for creating XML. Creating XML documents using raw text is error-prone. For unusual formats where appropriate libraries do not exist, such as configuration files, create classes that cleanly handle all formatting and only formatting code.
 
-#### Avoid dynamic SQL
+#### **Avoid dynamic SQL**
 
 It is well known that dynamically created SQL statements including untrusted input are subject to command injection. This often takes the form of supplying an input containing a quote character (') followed by SQL. Avoid dynamic SQL.
 
@@ -625,7 +625,7 @@ ps.setString(1,customerID)
 ResultSet rs = ps.executeQuery();
 ```
 
-#### XML and HTML generation requires care
+#### **XML and HTML generation requires care**
 
 Untrusted data should be properly sanitized before being included in HTML or XML output. Failure to properly sanitize the data can lead to many different security problems, such as Cross-Site Scripting (XSS) and XML Injection vulnerabilities. It is important to be particularly careful when using Java Server Pages (JSP).
 
@@ -633,7 +633,7 @@ There are many different ways to sanitize data before including it in output. Ch
 
 Implementing correct data sanitization and encoding can be tricky and error-prone. Therefore, it is better to use a library to perform these tasks during HTML or XML construction.
 
-#### Avoid any untrusted data on the command line
+#### **Avoid any untrusted data on the command line**
 
 When creating new processes, do not place any untrusted data on the command line. Behavior is platform-specific, poorly documented, and frequently surprising.
 
@@ -666,7 +666,7 @@ switch(filename) {
 }
 ```
 
-#### Restrict XML inclusion
+#### **Restrict XML inclusion**
 
 XML Document Type Definitions (DTDs) allow URLs to be defined as system entities, such as local files and HTTP URLs within the local intranet or localhost. XML External Entity (XXE) attacks insert local files into XML data which may then be accessible to the client. Similar attacks may be made using XInclude, the XSLT document function, and the XSLT import and include elements. The safest way to avoid these problems while maintaining the power of XML is to reduce privileges and to use the most restrictive configuration possible for the XML parser. Reducing privileges still allows you to grant some access, such as inclusion to pages from the same-origin website if necessary. XML parsers can also be configured to limit functionality based on what is required, such as disallowing external entities or disabling DTDs altogether.
 
@@ -722,11 +722,11 @@ private static void receiveXMLStream(InputStream inStream, DefaultHandler defHan
 
 Likewise, when the Document Object Model (DOM) approach is used to parse XML structures, the DOM validation features of JAXP should be used.
 
-#### Care with BMP files
+#### **Care with BMP files**
 
 BMP image files may contain references to local ICC (International Color Consortium) files. Whilst the contents of ICC files are unlikely to be interesting, the act of attempting to read files may be an issue. Either avoid BMP files or reduce privileges.
 
-#### Disable HTML display in Swing components
+#### **Disable HTML display in Swing components**
 
 Many Swing pluggable look-and-feel interpret the text in certain components starting with \<html> as HTML. If the text is from an untrusted source, an adversary may craft the HTML such that other components appear to be present or perform inclusion attacks.
 
@@ -734,7 +734,7 @@ To disable the HTML render feature, set the "`html.disable`" client property of 
 
 `label.putClientProperty("html.disable", true);`
 
-#### Take care interpreting untrusted code
+#### **Take care interpreting untrusted code**
 
 Code can be hidden in a number of places. If the source is not trusted to supply code, then a secure sandbox must be constructed to run it in. Some examples of components or APIs that can potentially execute untrusted code include:
 
@@ -747,7 +747,7 @@ Code can be hidden in a number of places. If the source is not trusted to supply
 * LDAP (RFC 2713) allows the loading of remote code in a server response. On the Oracle JDK, this is disabled by default but may be enabled or disabled through the `com.sun.jndi.ldap.object.trustURLCodebase` system property.
 * Many SQL implementations allow the execution of code with effects outside of the database itself.
 
-#### Prevent injection of exceptional floating-point values
+#### **Prevent injection of exceptional floating-point values**
 
 Working with floating-point numbers requires care when importing those from outside of a trust boundary, as the NaN (not a number) or infinite values can be injected into applications via untrusted input data, for example by conversion of (untrusted) Strings converted by the Double.valueOf method. Unfortunately, the processing of exceptional values is typically not immediately noticed without introducing sanitization code. Moreover, passing an exceptional value to an operation propagates the exceptional numeric state to the operation result.
 

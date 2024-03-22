@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# SSTI (Server-Side Template Injection)
+# **SSTI (Server-Side Template Injection)**
 
 ### **Vulnerability Name**
 
@@ -24,9 +24,7 @@ Server-side template injection is when an attacker is able to use native templat
 
 As the name suggests, server-side template injection payloads are delivered and evaluated server-side, potentially making them much more dangerous than a typical client-side template injection.
 
-{% hint style="info" %}
-_**Add your specific vulnerability description if required, the one given above is a general description.**_
-{% endhint %}
+> **Add your specific vulnerability description if required, the one given above is a general description.**
 
 ### **Payload**
 
@@ -34,7 +32,7 @@ _**Add your specific vulnerability description if required, the one given above 
 Add your payload here
 ```
 
-### Steps to Reproduce
+### **Steps to Reproduce**
 
 1. Go to _\[Affected URL]_.
 2. Intercept the request in burp suite and send it to repeater.
@@ -43,9 +41,7 @@ Add your payload here
 
 ### **POC**
 
-{% hint style="info" %}
-_**Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**_
-{% endhint %}
+> **Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**
 
 ### **Impact**
 
@@ -53,9 +49,7 @@ At the severe end of the scale, an attacker can potentially achieve remote code 
 
 Even in cases where full remote code execution is not possible, an attacker can often still use server-side template injection as the basis for numerous other attacks, potentially gaining read access to sensitive data and arbitrary files on the server.
 
-{% hint style="info" %}
-_**Add your specific impact if required, the one given above is a general impact.**_
-{% endhint %}
+> **Add your specific impact if required, the one given above is a general impact.**
 
 ### **Remediation**
 
@@ -63,11 +57,9 @@ _**Add your specific impact if required, the one given above is a general impact
 * Separating the logic from the presentation as much as possible can greatly reduce your exposure to the most dangerous template-based attacks.
 * Another measure is to only execute users' code in a sandboxed environment where potentially dangerous modules and functions have been removed altogether.
 
-{% hint style="info" %}
-_**Add your specific remediation if required, the above is a general remediation.**_
-{% endhint %}
+> **Add your specific remediation if required, the above is a general remediation.**
 
-### Reference
+### **Reference**
 
 * [https://portswigger.net/web-security/server-side-template-injection#how-to-prevent-server-side-template-injection-vulnerabilities](https://portswigger.net/web-security/server-side-template-injection#how-to-prevent-server-side-template-injection-vulnerabilities)
 * [https://portswigger.net/research/server-side-template-injection](https://portswigger.net/research/server-side-template-injection)

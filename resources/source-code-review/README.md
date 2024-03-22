@@ -4,17 +4,17 @@ description: >-
   applications
 ---
 
-# Source Code Review
+# **Source Code Review**
 
 
 
-{% embed url="https://find-sec-bugs.github.io/bugs.htm" %}
+[https://find-sec-bugs.github.io/bugs.htm](https://find-sec-bugs.github.io/bugs.htm)
 
-{% embed url="https://jshint.com/" %}
+[https://jshint.com/](https://jshint.com/)
 
-{% embed url="https://owasp.org/www-pdf-archive/OWASP_AlphaRelease_CodeReviewGuide2.0.pdf" %}
+[https://owasp.org/www-pdf-archive/OWASP_AlphaRelease_CodeReviewGuide2.0.pdf](https://owasp.org/www-pdf-archive/OWASP_AlphaRelease_CodeReviewGuide2.0.pdf)
 
-{% embed url="https://github.com/returntocorp/semgrep" %}
+[https://github.com/returntocorp/semgrep](https://github.com/returntocorp/semgrep)
 
 
 

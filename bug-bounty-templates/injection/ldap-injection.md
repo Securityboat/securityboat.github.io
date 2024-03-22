@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# LDAP Injection
+# **LDAP Injection**
 
 ### **Vulnerability Name**
 
@@ -24,9 +24,7 @@ LDAP injection arises when user-controllable data is copied in an unsafe way int
 
 A web application could use LDAP in order to let users authenticate or search other users’ information inside a corporate structure. The goal of LDAP injection attacks is to inject LDAP search filters metacharacters in a query which will be executed by the application.
 
-{% hint style="info" %}
-_**Add your specific vulnerability description if required, the one given above is a general description.**_
-{% endhint %}
+> **Add your specific vulnerability description if required, the one given above is a general description.**
 
 ### **Payload**
 
@@ -34,7 +32,7 @@ _**Add your specific vulnerability description if required, the one given above 
 Add your payload here
 ```
 
-### Steps to Reproduce
+### **Steps to Reproduce**
 
 1. Go to _\[Affected URL]_.
 2. Intercept the request in burp suite and send it to repeater.
@@ -43,17 +41,13 @@ Add your payload here
 
 ### **POC**
 
-{% hint style="info" %}
-_**Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**_
-{% endhint %}
+> **Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**
 
 ### **Impact**
 
 Depending on the function for which the query is used, the attacker may be able to retrieve sensitive data to which they are not authorized, or subvert the application's logic to perform some unauthorized action.
 
-{% hint style="info" %}
-_**Add your specific impact if required, the one given above is a general impact.**_
-{% endhint %}
+> **Add your specific impact if required, the one given above is a general impact.**
 
 ### **Remediation**
 
@@ -61,11 +55,9 @@ _**Add your specific impact if required, the one given above is a general impact
 * In most situations, it will be appropriate to allow only short alphanumeric strings to be copied into queries, and any other input should be rejected.&#x20;
 * At a minimum, input containing any LDAP metacharacters should be rejected; characters that should be blocked include ( ) ; , \* | & = and whitespace.
 
-{% hint style="info" %}
-_**Add your specific remediation if required, the above is a general remediation.**_
-{% endhint %}
+> **Add your specific remediation if required, the above is a general remediation.**
 
-### Reference
+### **Reference**
 
 * [https://cheatsheetseries.owasp.org/cheatsheets/Injection\_Prevention\_Cheat\_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Injection\_Prevention\_Cheat\_Sheet.html)
 * [https://cwe.mitre.org/data/definitions/90.html](https://cwe.mitre.org/data/definitions/90.html)

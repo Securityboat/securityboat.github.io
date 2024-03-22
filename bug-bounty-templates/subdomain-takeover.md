@@ -15,7 +15,7 @@ layout:
     visible: true
 ---
 
-# Subdomain Takeover
+# **Subdomain Takeover**
 
 ### **Vulnerability Name**
 
@@ -27,11 +27,9 @@ A subdomain takeover occurs when an attacker gains control over a subdomain of a
 
 This can happen because either a virtual host hasn't been published yet or a virtual host has been removed. An attacker can take over that subdomain by providing their own virtual host and then hosting their own content for it.
 
-{% hint style="info" %}
-_**Add your specific vulnerability description if required, the one given above is a general description.**_
-{% endhint %}
+> **Add your specific vulnerability description if required, the one given above is a general description.**
 
-### Steps to Reproduce
+### **Steps to Reproduce**
 
 1. Go to _\[Subdomain URL]_.
 2. Observe as this URL shows _\[Specific Error]_.
@@ -41,28 +39,22 @@ _**Add your specific vulnerability description if required, the one given above 
 
 ### **POC**
 
-{% hint style="info" %}
-_**Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**_
-{% endhint %}
+> **Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**
 
 ### **Impact**
 
 Attacker can potentially read cookies set from the main domain, perform cross-site scripting, or circumvent content security policies, thereby enabling them to capture protected information (including logins) or send malicious content to unsuspecting users.
 
-{% hint style="info" %}
-_**Add your specific impact if required, the one given above is a general impact.**_
-{% endhint %}
+> **Add your specific impact if required, the one given above is a general impact.**
 
 ### **Remediation**
 
 * Define standard processes for provisioning and deprovisioning hosts. Do all steps as closely together as possible.
 * Put pressure on hosting vendors to close gaps; ask how they verify that someone claiming a virtual host actually has a legitimate claim to the domain name. Work within your organization to make this part of the vendor qualification process.
 
-{% hint style="info" %}
-_**Add your specific remediation if required, the above is a general remediation.**_
-{% endhint %}
+> **Add your specific remediation if required, the above is a general remediation.**
 
-### Reference
+### **Reference**
 
 * [https://developer.mozilla.org/en-US/docs/Web/Security/Subdomain\_takeovers](https://developer.mozilla.org/en-US/docs/Web/Security/Subdomain\_takeovers)
 * [https://owasp.org/www-project-web-security-testing-guide/latest/4-Web\_Application\_Security\_Testing/02-Configuration\_and\_Deployment\_Management\_Testing/10-Test\_for\_Subdomain\_Takeover](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web\_Application\_Security\_Testing/02-Configuration\_and\_Deployment\_Management\_Testing/10-Test\_for\_Subdomain\_Takeover)

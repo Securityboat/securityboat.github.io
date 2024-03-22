@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# IDOR (Insecure Direct Object References)
+# **IDOR (Insecure Direct Object References)**
 
 ### **Vulnerability Name**
 
@@ -24,11 +24,9 @@ Insecure Direct Object Reference (IDOR) is a vulnerability that arises when atta
 
 IDOR vulnerabilities are most commonly associated with horizontal privilege escalation, but they can also arise in relation to vertical privilege escalation.
 
-{% hint style="info" %}
-_**Add your specific vulnerability description if required, the one given above is a general description.**_
-{% endhint %}
+> **Add your specific vulnerability description if required, the one given above is a general description.**
 
-### Steps to Reproduce
+### **Steps to Reproduce**
 
 1. Login to the application.
 2. Go to _\[Affected URL]_ and alter _\[Vulnerable Parameter]_ value to something else.
@@ -36,17 +34,13 @@ _**Add your specific vulnerability description if required, the one given above 
 
 ### **POC**
 
-{% hint style="info" %}
-_**Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**_
-{% endhint %}
+> **Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**
 
 ### **Impact**
 
 Attackers can bypass authorization and access resources in the system directly, for example database records or files. Insecure Direct Object References allow attackers to bypass authorization and access resources directly by modifying the value of a parameter used to directly point to an object. Such resources can be database entries belonging to other users, files in the system, and more.
 
-{% hint style="info" %}
-_**Add your specific impact if required, the one given above is a general impact.**_
-{% endhint %}
+> **Add your specific impact if required, the one given above is a general impact.**
 
 ### **Remediation**
 
@@ -55,11 +49,9 @@ _**Add your specific impact if required, the one given above is a general impact
 * Wherever possible, use a single application-wide mechanism for enforcing access controls.
 * At the code level, make it mandatory for developers to declare the access that is allowed for each resource, and deny access by default.
 
-{% hint style="info" %}
-_**Add your specific remediation if required, the above is a general remediation.**_
-{% endhint %}
+> **Add your specific remediation if required, the above is a general remediation.**
 
-### Reference
+### **Reference**
 
 * [https://cheatsheetseries.owasp.org/cheatsheets/Insecure\_Direct\_Object\_Reference\_Prevention\_Cheat\_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Insecure\_Direct\_Object\_Reference\_Prevention\_Cheat\_Sheet.html)
 * [https://portswigger.net/web-security/access-control#how-to-prevent-access-control-vulnerabilities](https://portswigger.net/web-security/access-control#how-to-prevent-access-control-vulnerabilities)

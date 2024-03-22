@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Host Header Injection
+# **Host Header Injection**
 
 ### **Vulnerability Name**
 
@@ -24,9 +24,7 @@ HTTP Host header attacks exploit vulnerable websites that handle the value of th
 
 In some cases, such as when the request has been forwarded by an intermediary system, the Host value may be altered before it reaches the intended back-end component.
 
-{% hint style="info" %}
-_**Add your specific vulnerability description if required, the one given above is a general description.**_
-{% endhint %}
+> **Add your specific vulnerability description if required, the one given above is a general description.**
 
 ### **Payload**
 
@@ -34,7 +32,7 @@ _**Add your specific vulnerability description if required, the one given above 
 Add your payload here
 ```
 
-### Steps to Reproduce
+### **Steps to Reproduce**
 
 1. Go to _\[Affected URL]_.
 2. Intercept the request in burp suite and send it to repeater.
@@ -43,9 +41,7 @@ Add your payload here
 
 ### **POC**
 
-{% hint style="info" %}
-_**Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**_
-{% endhint %}
+> **Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**
 
 ### **Impact**
 
@@ -56,9 +52,7 @@ As the Host header is in fact user controllable, this practice can lead to a num
 * Routing-based SSRF.
 * Classic server-side vulnerabilities, such as SQL injection.
 
-{% hint style="info" %}
-_**Add your specific impact if required, the one given above is a general impact.**_
-{% endhint %}
+> **Add your specific impact if required, the one given above is a general impact.**
 
 ### **Remediation**
 
@@ -72,11 +66,9 @@ Other ways to prevent HTTP Host header attacks include:
 * Whitelist permitted domains
 * Be careful with internal-only virtual hosts
 
-{% hint style="info" %}
-_**Add your specific remediation if required, the above is a general remediation.**_
-{% endhint %}
+> **Add your specific remediation if required, the above is a general remediation.**
 
-### Reference
+### **Reference**
 
 * [https://cheatsheetseries.owasp.org/cheatsheets/Injection\_Prevention\_Cheat\_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Injection\_Prevention\_Cheat\_Sheet.html)
 * [https://portswigger.net/web-security/host-header#how-to-prevent-http-host-header-attacks](https://portswigger.net/web-security/host-header#how-to-prevent-http-host-header-attacks)

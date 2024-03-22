@@ -16,7 +16,7 @@ layout:
     visible: true
 ---
 
-# Unrestricted File Upload
+# **Unrestricted File Upload**
 
 ### **Vulnerability Name**
 
@@ -28,11 +28,9 @@ File upload vulnerabilities are when a web server allows users to upload files t
 
 In some cases, the act of uploading the file is in itself enough to cause damage. Other attacks may involve a follow-up HTTP request for the file, typically to trigger its execution by the server.
 
-{% hint style="info" %}
-_**Add your specific vulnerability description if required, the one given above is a general description.**_
-{% endhint %}
+> **Add your specific vulnerability description if required, the one given above is a general description.**
 
-### Steps to Reproduce
+### **Steps to Reproduce**
 
 1. Log in to the application.
 2. Go to _\[Affected URL]_.
@@ -41,9 +39,7 @@ _**Add your specific vulnerability description if required, the one given above 
 
 ### **POC**
 
-{% hint style="info" %}
-_**Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**_
-{% endhint %}
+> **Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**
 
 ### **Impact**
 
@@ -53,9 +49,7 @@ If the filename isn't validated properly, this could allow an attacker to overwr
 
 Failing to make sure that the size of the file falls within expected thresholds could also enable a form of denial-of-service (DoS) attack, whereby the attacker fills the available disk space.
 
-{% hint style="info" %}
-_**Add your specific impact if required, the one given above is a general impact.**_
-{% endhint %}
+> **Add your specific impact if required, the one given above is a general impact.**
 
 ### **Remediation**
 
@@ -63,11 +57,9 @@ _**Add your specific impact if required, the one given above is a general impact
 * Make sure the filename doesn't contain any substrings that may be interpreted as a directory or a traversal sequence (`../`).
 * Rename uploaded files to avoid collisions that may cause existing files to be overwritten.
 
-{% hint style="info" %}
-_**Add your specific remediation if required, the above is a general remediation.**_
-{% endhint %}
+> **Add your specific remediation if required, the above is a general remediation.**
 
-### Reference
+### **Reference**
 
 * [https://cheatsheetseries.owasp.org/cheatsheets/File\_Upload\_Cheat\_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/File\_Upload\_Cheat\_Sheet.html)
 * [https://portswigger.net/web-security/file-upload#how-to-prevent-file-upload-vulnerabilities](https://portswigger.net/web-security/file-upload#how-to-prevent-file-upload-vulnerabilities)

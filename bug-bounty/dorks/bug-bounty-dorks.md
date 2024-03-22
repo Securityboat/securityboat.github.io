@@ -1,4 +1,4 @@
-# Bug Bounty Dorks
+# **Bug Bounty Dorks**
 
 ```
 inurl /bug bounty

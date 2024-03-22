@@ -1,2 +1,2 @@
-# Bug Bounty Checklist
+# **Bug Bounty Checklist**
 

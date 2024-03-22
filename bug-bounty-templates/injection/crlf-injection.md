@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# CRLF Injection
+# **CRLF Injection**
 
 ### **Vulnerability Name**
 
@@ -25,9 +25,7 @@ In a CRLF injection vulnerability attack, the attacker inserts both the carriage
 
 This attack occurs when a user manages to submit a CRLF into an application. This is most commonly done by modifying an HTTP parameter or URL.
 
-{% hint style="info" %}
-_**Add your specific vulnerability description if required, the one given above is a general description.**_
-{% endhint %}
+> **Add your specific vulnerability description if required, the one given above is a general description.**
 
 ### **Payload**
 
@@ -35,7 +33,7 @@ _**Add your specific vulnerability description if required, the one given above 
 Add your payload here
 ```
 
-### Steps to Reproduce
+### **Steps to Reproduce**
 
 1. Go to _\[Affected URL]_.
 2. Intercept the request in burp suite and send it to repeater.
@@ -44,9 +42,7 @@ Add your payload here
 
 ### **POC**
 
-{% hint style="info" %}
-_**Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**_
-{% endhint %}
+> **Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**
 
 ### **Impact**
 
@@ -54,9 +50,7 @@ This vulnerability can lead to a range of security issues, including HTTP respon
 
 CRLF injection can also be used in conjunction with other attacks like Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF) to further compromise a web application, steal sensitive data, or manipulate user interactions.
 
-{% hint style="info" %}
-_**Add your specific impact if required, the one given above is a general impact.**_
-{% endhint %}
+> **Add your specific impact if required, the one given above is a general impact.**
 
 ### **Remediation**
 
@@ -65,11 +59,9 @@ _**Add your specific impact if required, the one given above is a general impact
 * Use output encoding when rendering user-generated content to prevent the injection of malicious data into responses.&#x20;
 * Server configurations should be set to reject any requests containing CRLF characters, and Intrusion Detection Systems (IDS) or Web Application Firewalls (WAF) can be employed to monitor and filter out potentially malicious traffic.
 
-{% hint style="info" %}
-_**Add your specific remediation if required, the above is a general remediation.**_
-{% endhint %}
+> **Add your specific remediation if required, the above is a general remediation.**
 
-### Reference
+### **Reference**
 
 * [https://cheatsheetseries.owasp.org/cheatsheets/Injection\_Prevention\_Cheat\_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Injection\_Prevention\_Cheat\_Sheet.html)
 * [https://owasp.org/www-community/vulnerabilities/CRLF\_Injection](https://owasp.org/www-community/vulnerabilities/CRLF\_Injection)

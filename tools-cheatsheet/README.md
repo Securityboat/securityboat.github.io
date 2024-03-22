@@ -2,9 +2,9 @@
 description: In this section you would find useful commands on Pentesting tools
 ---
 
-# Tools Cheat Sheet
+# **Tools Cheat Sheet**
 
-### References
+### **References**
 
-{% embed url="https://github.com/andrewjkerr/security-cheatsheets" %}
+[https://github.com/andrewjkerr/security-cheatsheets](https://github.com/andrewjkerr/security-cheatsheets)
 

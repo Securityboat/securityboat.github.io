@@ -16,7 +16,7 @@ layout:
     visible: true
 ---
 
-# SSRF (Server-Side Request Forgery)
+# **SSRF (Server-Side Request Forgery)**
 
 ### **Vulnerability Name**
 
@@ -28,11 +28,9 @@ SSRF flaws occur whenever a web application is fetching a remote resource withou
 
 As modern web applications provide end-users with convenient features, fetching a URL becomes a common scenario. As a result, the incidence of SSRF is increasing. Also, the severity of SSRF is becoming higher due to cloud services and the complexity of architectures.
 
-{% hint style="info" %}
-_**Add your specific vulnerability description if required, the one given above is a general description.**_
-{% endhint %}
+> **Add your specific vulnerability description if required, the one given above is a general description.**
 
-### Steps to Reproduce
+### **Steps to Reproduce**
 
 1. Log in to the application.
 2. Go to _\[Affected URL]_.
@@ -42,9 +40,7 @@ _**Add your specific vulnerability description if required, the one given above 
 
 ### **POC**
 
-{% hint style="info" %}
-_**Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**_
-{% endhint %}
+> **Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**
 
 ### **Impact**
 
@@ -52,9 +48,7 @@ This vulnerability can often result in unauthorized actions or access to data wi
 
 An SSRF exploit that causes connections to external third-party systems might result in malicious onward attacks. these can appear to originate from the organization hosting the vulnerable application.
 
-{% hint style="info" %}
-_**Add your specific impact if required, the one given above is a general impact.**_
-{% endhint %}
+> **Add your specific impact if required, the one given above is a general impact.**
 
 ### **Remediation**
 
@@ -63,11 +57,9 @@ _**Add your specific impact if required, the one given above is a general impact
 * Sanitize and validate all client-supplied input data
 * Enforce the URL schema, port, and destination with a positive allow list
 
-{% hint style="info" %}
-_**Add your specific remediation if required, the above is a general remediation.**_
-{% endhint %}
+> **Add your specific remediation if required, the above is a general remediation.**
 
-### Reference
+### **Reference**
 
 * [https://portswigger.net/web-security/ssrf](https://portswigger.net/web-security/ssrf)
 * [https://cheatsheetseries.owasp.org/cheatsheets/Server\_Side\_Request\_Forgery\_Prevention\_Cheat\_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Server\_Side\_Request\_Forgery\_Prevention\_Cheat\_Sheet.html)

@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# SQL Injection
+# **SQL Injection**
 
 ### **Vulnerability Name**
 
@@ -25,9 +25,7 @@ SQL injection, also known as SQLI, is a common attack vector that uses malicious
 
 In some situations, an attacker can escalate a SQL injection attack to compromise the underlying server or other back-end infrastructure. It can also enable them to perform denial-of-service attacks.
 
-{% hint style="info" %}
-_**Add your specific vulnerability description if required, the one given above is a general description.**_
-{% endhint %}
+> **Add your specific vulnerability description if required, the one given above is a general description.**
 
 ### **Payload**
 
@@ -35,18 +33,16 @@ _**Add your specific vulnerability description if required, the one given above 
 Add your payload here
 ```
 
-### Steps to Reproduce
+### **Steps to Reproduce**
 
 1. Go to _\[Affected URL]_.
 2. Intercept the request in burp suite and send it to repeater.
 3. Change the value of _\[Vulnerable Parameter]_ to the above payload and send the request.
 4. Observe as the payload executes in the response.
 
-### &#x20;**POC**
+### **&#x20;**POC****
 
-{% hint style="info" %}
-_**Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**_
-{% endhint %}
+> **Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**
 
 ### **Impact**
 
@@ -58,9 +54,7 @@ There are a number of things an attacker can do when exploiting an SQL injection
 
 It all depends on the capabilities of the attacker.
 
-{% hint style="info" %}
-_**Add your specific impact if required, the one given above is a general impact.**_
-{% endhint %}
+> **Add your specific impact if required, the one given above is a general impact.**
 
 ### **Remediation**
 
@@ -69,11 +63,9 @@ _**Add your specific impact if required, the one given above is a general impact
 * Disallow common injection characters and unnecessary or bad encoding schemas.&#x20;
 * Ensure that proper logging is taking place and is being reviewed, and any malicious traffic which generates an alert is promptly throttled and eventually blacklisted.
 
-{% hint style="info" %}
-_**Add your specific remediation if required, the above is a general remediation.**_
-{% endhint %}
+> **Add your specific remediation if required, the above is a general remediation.**
 
-### Reference
+### **Reference**
 
 * [https://cheatsheetseries.owasp.org/cheatsheets/SQL\_Injection\_Prevention\_Cheat\_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/SQL\_Injection\_Prevention\_Cheat\_Sheet.html)
 * [https://portswigger.net/web-security/sql-injection](https://portswigger.net/web-security/sql-injection)

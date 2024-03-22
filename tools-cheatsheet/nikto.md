@@ -1,16 +1,16 @@
-# Nikto
+# **Nikto**
 
 ```
-# To scan a particular host
+# **To scan a particular host**
 nikto -host [host IP/name]
 
-# To scan a host on multiple ports (default = 80)
+# **To scan a host on multiple ports (default = 80)**
 nikto -host [host IP/name] -port [port number 1], [port number 2], [port number 3]
 
-# To scan a host and output fingerprinted information to a file
+# **To scan a host and output fingerprinted information to a file**
 nikto -host [host IP/name] -output [output_file]
 
-# To use a proxy while scanning a host 
+# **To use a proxy while scanning a host**
 nikto -host [host IP/name] -useproxy [proxy address]
 ```
 

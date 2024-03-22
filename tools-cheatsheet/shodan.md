@@ -1,24 +1,24 @@
-# Shodan
+# **Shodan**
 
 ```
-# Filter IP range
+# **Filter IP range**
 net:<ip range>
 
-# Filter port
+# **Filter port**
 port:<port>
 
-# Filter location
+# **Filter location**
 city:"<city>" country:<country_code>
 geo:<coords>
 
-# Filter hostname
+# **Filter hostname**
 hostname:<hostname>
 
-# Filter operating system
+# **Filter operating system**
 os:<operating system>
 
-# Filter dates
-# Acceptable formats are: day/month/year or day-month-year
+# **Filter dates**
+# **Acceptable formats are: day/month/year or day-month-year**
 before:<date>
 after:<date>
 ```

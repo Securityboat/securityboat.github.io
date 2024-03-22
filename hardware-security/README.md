@@ -1,2 +1,2 @@
-# Hardware Security
+# **Hardware Security**
 

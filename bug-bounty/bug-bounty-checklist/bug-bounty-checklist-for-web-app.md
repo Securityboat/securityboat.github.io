@@ -1,12 +1,10 @@
-# Bug Bounty Checklist for Web App
+# **Bug Bounty Checklist for Web App**
 
-## Bug Bounty Checklist for Web App
+## **Bug Bounty Checklist for Web App**
 
-> This checklist may help you to have a good methodology for bug bounty hunting\
-> When you have done a action, don't forget to check ;)\
-> Happy hunting !
+> **This checklist may help you to have a good methodology for bug bounty hunting. When you have done a action, don't forget to check ;) Happy hunting!**
 
-### Table of Contents
+### **Table of Contents**
 
 * [Recon on wildcard domain](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#%22Recon\_on\_wildcard\_domain%22)
 * [Single domain](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Single\_domain)
@@ -24,7 +22,7 @@
 * [Risky Functionality - Card Payment](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Card)
 * [HTML 5](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#HTML)
 
-### Recon on wildcard domain
+### **Recon on wildcard domain**
 
 * &#x20;Run amass
 * &#x20;Run subfinder
@@ -34,9 +32,9 @@
 * &#x20;Use httprobe
 * &#x20;Run aquatone (screenshot for alive host)
 
-### Single Domain
+### **Single Domain**
 
-#### Scanning
+#### **Scanning**
 
 * &#x20;Nmap scan
 * &#x20;Burp crawler
@@ -45,7 +43,7 @@
 * &#x20;Linkfinder
 * &#x20;Url with Android application
 
-#### Manual checking
+#### **Manual checking**
 
 * &#x20;Shodan
 * &#x20;Censys
@@ -54,7 +52,7 @@
 * &#x20;Github
 * &#x20;OSINT
 
-### Information Gathering
+### **Information Gathering**
 
 * &#x20;Manually explore the site
 * &#x20;Spider/crawl for missed or hidden content
@@ -72,7 +70,7 @@
 * &#x20;Identify third-party hosted content
 * &#x20;Identify Debug parameters
 
-### Configuration Management
+### **Configuration Management**
 
 * &#x20;Check for commonly used application and administrative URLs
 * &#x20;Check for old, backup and unreferenced files
@@ -83,7 +81,7 @@
 * &#x20;Test for non-production data in live environment, and vice-versa
 * &#x20;Check for sensitive data in client-side code (e.g. API keys, credentials)
 
-### Secure Transmission
+### **Secure Transmission**
 
 * &#x20;Check SSL Version, Algorithms, Key length
 * &#x20;Check for Digital Certificate Validity (Duration, Signature and CN)
@@ -92,7 +90,7 @@
 * &#x20;Check session tokens only delivered over HTTPS
 * &#x20;Check if HTTP Strict Transport Security (HSTS) in use
 
-### Authentication
+### **Authentication**
 
 * &#x20;Test for user enumeration
 * &#x20;Test for authentication bypass
@@ -111,7 +109,7 @@
 * &#x20;Test for out-of channel notification of account lockouts and successful password changes
 * &#x20;Test for consistent authentication across applications with shared authentication schema / SSO
 
-### Session Management
+### **Session Management**
 
 * &#x20;Establish how session management is handled in the application (eg, tokens in cookies, token in URL)
 * &#x20;Check session tokens for cookie flags (httpOnly and secure)
@@ -127,7 +125,7 @@
 * &#x20;Test for session puzzling
 * &#x20;Test for CSRF and clickjacking
 
-### Authorization
+### **Authorization**
 
 * &#x20;Test for path traversal
 * &#x20;Test for bypassing authorization schema
@@ -135,7 +133,7 @@
 * &#x20;Test for horizontal Access control problems (between two users at the same privilege level)
 * &#x20;Test for missing authorization
 
-### Data Validation
+### **Data Validation**
 
 * &#x20;Test for Reflected Cross Site Scripting
 * &#x20;Test for Stored Cross Site Scripting
@@ -169,14 +167,14 @@
 * &#x20;Test for Mass Assignment
 * &#x20;Test for NULL/Invalid Session Cookie
 
-### Denial of Service
+### **Denial of Service**
 
 * &#x20;Test for anti-automation
 * &#x20;Test for account lockout
 * &#x20;Test for HTTP protocol DoS
 * &#x20;Test for SQL wildcard DoS
 
-### Business Logic
+### **Business Logic**
 
 * &#x20;Test for feature misuse
 * &#x20;Test for lack of non-repudiation
@@ -184,7 +182,7 @@
 * &#x20;Test for integrity of data
 * &#x20;Test segregation of duties
 
-### Cryptography
+### **Cryptography**
 
 * &#x20;Check if data which should be encrypted is not
 * &#x20;Check for wrong algorithms usage depending on context
@@ -192,7 +190,7 @@
 * &#x20;Check for proper use of salting
 * &#x20;Check for randomness functions
 
-### Risky Functionality - File Uploads
+### **Risky Functionality - File Uploads**
 
 * &#x20;Test that acceptable file types are whitelisted
 * &#x20;Test that file size limits, upload frequency and total file counts are defined and are enforced
@@ -203,7 +201,7 @@
 * &#x20;Test that uploaded files are not served on the same hostname/port
 * &#x20;Test that files and other media are integrated with the authentication and authorisation schemas
 
-### Risky Functionality - Card Payment
+### **Risky Functionality - Card Payment**
 
 * &#x20;Test for known vulnerabilities and configuration issues on Web Server and Web Application
 * &#x20;Test for default or guessable password
@@ -217,14 +215,14 @@
 * &#x20;Test for Authentication and Authorization issues
 * &#x20;Test for CSRF
 
-### HTML 5
+### **HTML 5**
 
 * &#x20;Test Web Messaging
 * &#x20;Test for Web Storage SQL injection
 * &#x20;Check CORS implementation
 * &#x20;Check Offline Web Application
 
-### Source: 
+### **Source:**
 
-{% embed url="https://github.com/sehno/Bug-bounty/blob/master/bugbounty_checklist.md" %}
+[https://github.com/sehno/Bug-bounty/blob/master/bugbounty_checklist.md](https://github.com/sehno/Bug-bounty/blob/master/bugbounty_checklist.md)
 

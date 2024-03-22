@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# SSI Injection
+# **SSI Injection**
 
 ### **Vulnerability Name**
 
@@ -24,9 +24,7 @@ SSI (Server Side Include) Injection is a attack technique where the web applicat
 
 The Server-Side Includes attack allows the exploitation of a web application by injecting scripts in HTML pages or executing arbitrary codes remotely
 
-{% hint style="info" %}
-_**Add your specific vulnerability description if required, the one given above is a general description.**_
-{% endhint %}
+> **Add your specific vulnerability description if required, the one given above is a general description.**
 
 ### **Payload**
 
@@ -34,7 +32,7 @@ _**Add your specific vulnerability description if required, the one given above 
 Add your payload here
 ```
 
-### Steps to Reproduce
+### **Steps to Reproduce**
 
 1. Go to _\[Affected URL]_.
 2. Intercept the request in burp suite and send it to repeater.
@@ -43,17 +41,13 @@ Add your payload here
 
 ### **POC**
 
-{% hint style="info" %}
-_**Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**_
-{% endhint %}
+> **Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**
 
 ### **Impact**
 
 By leveraging this attack vector, the attacker can get the access to sensitive information such as credentials, API keys, etc. and attacker can execute shell commands on server as well. The SSI injection payloads (directives) are injected in the input field of the web application and they are sent to the web server. The web server parses and executes those directives. then, the attack result will be shown on the web application when the user visits that page.
 
-{% hint style="info" %}
-_**Add your specific impact if required, the one given above is a general impact.**_
-{% endhint %}
+> **Add your specific impact if required, the one given above is a general impact.**
 
 ### **Remediation**
 
@@ -61,11 +55,9 @@ _**Add your specific impact if required, the one given above is a general impact
 * HTML entity encoding should be applied on all user input before passing to a page.
 * Only short alphanumeric strings should be accepted. Input containing any other data, including any conceivable SSI metacharacter, should be rejected
 
-{% hint style="info" %}
-_**Add your specific remediation if required, the above is a general remediation.**_
-{% endhint %}
+> **Add your specific remediation if required, the above is a general remediation.**
 
-### Reference
+### **Reference**
 
 * [https://owasp.org/www-community/attacks/Server-Side\_Includes\_(SSI)\_Injection](https://owasp.org/www-community/attacks/Server-Side\_Includes\_\(SSI\)\_Injection)
 * [https://portswigger.net/kb/issues/00101100\_ssi-injection](https://portswigger.net/kb/issues/00101100\_ssi-injection)

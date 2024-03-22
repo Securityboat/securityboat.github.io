@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Command Injection
+# **Command Injection**
 
 ### **Vulnerability Name**
 
@@ -24,9 +24,7 @@ Command injection vulnerability let an attacker execute operating system (OS) co
 
 Any web interface that is not properly sanitized is subject to this exploit. With the ability to execute OS commands, the user can upload malicious programs or even obtain passwords.
 
-{% hint style="info" %}
-_**Add your specific vulnerability description if required, the one given above is a general description.**_
-{% endhint %}
+> **Add your specific vulnerability description if required, the one given above is a general description.**
 
 ### **Payload**
 
@@ -34,7 +32,7 @@ _**Add your specific vulnerability description if required, the one given above 
 Add your payload here
 ```
 
-### Steps to Reproduce
+### **Steps to Reproduce**
 
 1. Go to _\[Affected URL]_.
 2. Intercept the request in burp suite and send it to repeater.
@@ -43,17 +41,13 @@ Add your payload here
 
 ### **POC**
 
-{% hint style="info" %}
-_**Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**_
-{% endhint %}
+> **Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**
 
 ### **Impact**
 
 A potential threat actor can execute unauthorized code on the targeted system, potentially resulting in a total system compromise. This could grant them access to sensitive data residing on the system. The attacker could initiate a Denial of Service (DoS) attack on the target by injecting commands designed to exhaust all available resources.
 
-{% hint style="info" %}
-_**Add your specific impact if required, the one given above is a general impact.**_
-{% endhint %}
+> **Add your specific impact if required, the one given above is a general impact.**
 
 ### **Remediation**
 
@@ -65,11 +59,9 @@ If you have to call out to OS commands with user-supplied input, then you must p
 * Validating that the input is a number.
 * Validating that the input contains only alphanumeric characters, no other syntax or whitespace.
 
-{% hint style="info" %}
-_**Add your specific remediation if required, the above is a general remediation.**_
-{% endhint %}
+> **Add your specific remediation if required, the above is a general remediation.**
 
-### Reference
+### **Reference**
 
 * [https://cheatsheetseries.owasp.org/cheatsheets/OS\_Command\_Injection\_Defense\_Cheat\_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/OS\_Command\_Injection\_Defense\_Cheat\_Sheet.html)
 * [https://portswigger.net/web-security/os-command-injection#how-to-prevent-os-command-injection-attacks](https://portswigger.net/web-security/os-command-injection#how-to-prevent-os-command-injection-attacks)

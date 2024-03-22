@@ -1,4 +1,4 @@
-# Searching for Code in Java
+# **Searching for Code in Java**
 
 **Input and Output Streams**
 

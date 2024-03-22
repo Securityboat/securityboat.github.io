@@ -5,7 +5,7 @@ description: >-
   which can be used while coding to have a secure application
 ---
 
-# Manual  Code Review
+# **Manual  Code Review**
 
 ### **Input Validation**
 

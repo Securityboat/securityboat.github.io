@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Clickjacking
+# **Clickjacking**
 
 ### **Vulnerability Name**
 
@@ -24,9 +24,7 @@ Clickjacking is an attack that tricks a user into clicking a webpage element tha
 
 The absence of the X-Frame-Options header in a web application's HTTP response can allow clickjacking attacks. This security header is used to instruct the browser on whether or not the web page can be embedded within an iframe on another site. Clickjacking is a client-side security issue that affects a variety of browsers and platforms.
 
-{% hint style="info" %}
-_**Add your specific vulnerability description if required, the one given above is a general description.**_
-{% endhint %}
+> **Add your specific vulnerability description if required, the one given above is a general description.**
 
 ### **Steps to Reproduce**
 
@@ -46,19 +44,15 @@ _**Add your specific vulnerability description if required, the one given above 
 &#x3C;/html>
 </code></pre>
 
-### POC
+### **POC**
 
-{% hint style="info" %}
-_**Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**_
-{% endhint %}
+> **Modify the steps to reproduce above if required. Attach snapshots (POC) or a video link here.**
 
 ### **Impact**
 
 An attacker could embed your website in an iframe and by tricking the UI, the user himself could unintentionally perform dangerous actions. You may think that kind of attack is not so dangerous but combined with other vulnerabilities, it could be deadly.
 
-{% hint style="info" %}
-_**Add your specific impact if required, the one given above is a general impact.**_
-{% endhint %}
+> **Add your specific impact if required, the one given above is a general impact.**
 
 ### **Remediation**
 
@@ -68,11 +62,9 @@ Server-side protection against clickjacking is provided by defining and communic
 * Preventing session cookies from being included when the page is loaded in a frame using the SameSite cookie attribute.
 * Implementing JavaScript code in the page to attempt to prevent it being loaded in a frame (known as a "frame-buster").
 
-{% hint style="info" %}
-_**Add your specific remediation if required, the above is a general remediation.**_
-{% endhint %}
+> **Add your specific remediation if required, the above is a general remediation.**
 
-### Reference
+### **Reference**
 
 * [https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking\_Defense\_Cheat\_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking\_Defense\_Cheat\_Sheet.html)
 * [https://portswigger.net/web-security/clickjacking#how-to-prevent-clickjacking-attacks](https://portswigger.net/web-security/clickjacking#how-to-prevent-clickjacking-attacks)

@@ -1,2 +1,2 @@
-# Technical Comics
+# **Technical Comics**
 

@@ -1,6 +1,6 @@
-# NMAP
+# **NMAP**
 
-## Basic Commands
+## **Basic Commands**
 
 ```
 #quickly check live hosts on a network using ARP ping scan
@@ -28,7 +28,7 @@ nmap --top-ports 10 192.168.1.1
 nmap -p 22,443,25,139,120–500,U:663,2000–3000 host
 ```
 
-## Firewall Evasion
+## **Firewall Evasion**
 
 ```
 #Scan host by spoofing your mac address

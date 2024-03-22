@@ -1,12 +1,12 @@
-# GCP API
+# **GCP API**
 
-### What is API ?
+### **What is API ?**
 
 API stands for Application Programming Interface. It is a set of protocols, standards, and tools that allows different software applications to communicate with each other.
 
 APIs enable software applications to interact with each other by sending and receiving data in a structured format. APIs can be used to access data, services, and functionality provided by other applications or web services.
 
-### What is GCP API?
+### **What is GCP API?**
 
 GCP API stands for Google Cloud Platform API. It is a collection of REST APIs that provide programmatic access to GCP services, allowing you to manage your GCP resources programmatically.
 
@@ -14,7 +14,7 @@ These APIs enable you to interact with various GCP services such as Compute Engi
 
 So , Now let's check about GCP API misconfiguration below:
 
-### 1 ) Check for API Key API Restrictions
+### **1 ) Check for API Key API Restrictions**
 
 In order to follow cloud security best practices and reduce the attack surface, Google Cloud API keys should be restricted to call only those APIs required by your application.
 
@@ -76,7 +76,7 @@ null
 }
 ```
 
-### 2 )Check for API Key Application Restrictions
+### **2 )Check for API Key Application Restrictions**
 
 In order to follow cloud security best practices and reduce the attack surface, Google Cloud API keys should be restricted only to trusted hosts, HTTP referrers, and Android/iOS mobile applications.
 
@@ -154,7 +154,7 @@ null
 
 ```
 
-### 3 ) Enable Cloud Asset Inventory
+### **3 ) Enable Cloud Asset Inventory**
 
 Gaining insight into Google Cloud resources and policies is vital for tasks such as DevOps, security analytics, multi-cluster and fleet management, auditing, and governance. With Cloud Asset Inventory you can discover, monitor, and analyze all GCP assets in one place, achieving a better understanding of all your cloud assets across projects and services.
 
@@ -188,7 +188,7 @@ Listed 0 items.
 
 If the _**services list**_ command output returns **Listed 0 items**, as shown in the output example above, the Cloud Asset API is currently disabled, therefore the Google Cloud Asset Inventory is not enabled for the selected GCP project.
 
-### 4 ) Rotate Google Cloud API Keys
+### **4 ) Rotate Google Cloud API Keys**
 
 Once a Google Cloud API key is compromised, it can be used indefinitely unless the project owner revokes or regenerates that key. Rotating GCP API keys will substantially reduce the window of opportunity for exploits and ensure that data can't be accessed with an outdated key that might have been lost, cracked, or stolen.
 

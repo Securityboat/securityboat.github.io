@@ -4,6 +4,6 @@ description: >-
   execution
 ---
 
-# Ways To Achieve RCE
+# **Ways To Achieve RCE**
 
-<figure><img src="../.gitbook/assets/RCE mindmap.png" alt=""><figcaption><p>RCE Mindmap</p></figcaption></figure>
+<figure><img src="../attachments/RCE mindmap.png" alt=""><figcaption><p>RCE Mindmap</p></figcaption></figure>
