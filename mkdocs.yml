@@ -7,7 +7,8 @@ site_name: SecurityBoat Workbook
 site_url: https://securityboat.github.io/workbook
 site_author: Himanshu Gupta
 site_description: >-
-  Knowledge Base for Security Researchers 
+  Delve into the realm of cybersecurity with our comprehensive workbook, thoughtfully curated to cover a vast array of topics ranging from web application security to Android and iOS platforms, network security, cloud security, and even hardware security. <br>
+  Whether you're a beginner or an experienced professional, this workbook provides valuable insights, practical exercises, and essential knowledge to build up your understanding and skills.
 
 # Repository
 repo_name: Securityboat/workbook
@@ -80,13 +81,11 @@ plugins:
   - blog
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  # - minify:
-  #     minify_html: true
-  # - exclude:
-  #     glob:
-  #       # - exclude/this/path/*
-  #       - "bd*"
-  #       - "SUMMARY.md"
+  - exclude:
+      glob:
+        # - exclude/this/path/*
+        - "blog/*"
+        # - "SUMMARY.md"
   #       # - "*.tmp"
   #       # - "*.pdf"
   #       # - "*.gz"
@@ -167,3 +166,4 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
