@@ -1,0 +1,26 @@
+{% extends "main.html" %}
+{% block tabs %}
+  {{ super() }}
+  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__image">
+          <img src="assets/sb_short_logo.png" alt="" style="width: 50%; max-width: 100%; height: auto;" draggable="false">
+        </div>
+        <div class="mdx-hero__content">
+          <h1>Welcome to SecurityBoat Workbook</h1>
+          <p>{{ config.site_description }}</p>
+          <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+            Get Started
+          </a>
+          <a href="https://securityboat.net/contact/" title="Let's Connect" class="md-button" target="_blank">
+            Let's Connect
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}

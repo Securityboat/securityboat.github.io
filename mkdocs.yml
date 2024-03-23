@@ -7,11 +7,11 @@ site_name: SecurityBoat Workbook
 site_url: https://securityboat.github.io/workbook
 site_author: Himanshu Gupta
 site_description: >-
-  This is SecurityBoat Workbook description.
+  Knowledge Base for Security Researchers 
 
 # Repository
-# repo_name: Securityboat/workbook
-# repo_url: https://github.com/Securityboat/workbook
+repo_name: Securityboat/workbook
+repo_url: https://github.com/Securityboat/workbook
 # edit_uri: edit/main/docs/
 
 # Copyright
@@ -20,7 +20,7 @@ copyright: Copyright @ 2024 SecurityBoat Cybersecurity Solution Private Limited
 # Configuration
 theme:
   name: material
-  # custom_dir: material/overrides
+  custom_dir: material/overrides
   features:
     - announce.dismiss
     - content.action.edit
@@ -113,8 +113,6 @@ extra:
       link: https://www.linkedin.com/company/securityboat/
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/securityboat/
-    # - icon: fontawesome/brands/mastodon
-    #   link: https://fosstodon.org/@squidfunk
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/Securityb0at
     - icon: fontawesome/brands/youtube
