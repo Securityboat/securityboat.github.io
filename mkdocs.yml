@@ -166,3 +166,23 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+# Page tree
+# nav:
+#   - Home: index.md
+#   - Pentesting Resources:
+#     - Web Application: README.md
+#     - Network: README.md
+#     - API: README.md
+#     - Android: README.md
+#     - IOS: : README.md
+#     - Cloud: : README.md
+#     - Thick Client: README.md
+#     - Secure Code Review: 
+#   - Bug Bounty: README.md
+#   - Hardware Security: README.md
+#   - Tools and Extensions: README.md
+#   - Mindmaps: README.md
+#   - References: README.md
+#   - CTF's: README.md
+#   - Contributions: README.md
+#   - Technical Comics: README.md

@@ -1,8 +1,8 @@
 ---
-description: The below contributors maintain this book.
+description: Thanks to all the people who helped to make this Gitbook.
 ---
 
-# **About us**
+# **Contributions**
 
 ## **Ninad Mathpati**
 
