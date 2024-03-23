@@ -84,7 +84,7 @@ plugins:
   - exclude:
       glob:
         # - exclude/this/path/*
-        - "blog/*"
+        # - "blog/*"
         # - "SUMMARY.md"
   #       # - "*.tmp"
   #       # - "*.pdf"
