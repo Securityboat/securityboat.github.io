@@ -7,8 +7,7 @@ site_name: SecurityBoat Workbook
 site_url: https://securityboat.github.io/workbook
 site_author: Himanshu Gupta
 site_description: >-
-  Delve into the realm of cybersecurity with our comprehensive workbook, thoughtfully curated to cover a vast array of topics ranging from web application security to Android and iOS platforms, network security, cloud security, and even hardware security. <br>
-  Whether you're a beginner or an experienced professional, this workbook provides valuable insights, practical exercises, and essential knowledge to build up your understanding and skills.
+  This workbook serves as an open-source repository of knowledge cultivated through years of penetration testing and expertise contributed by security professionals at SecurityBoat. <br><br>Covering comprehensive security topics, including application, network, cloud, and hardware security, this workbook provides valuable insights and practical knowledge to build up your understanding and skills.
 
 # Repository
 repo_name: Securityboat/workbook
