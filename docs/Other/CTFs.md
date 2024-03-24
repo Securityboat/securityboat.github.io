@@ -2,7 +2,7 @@
 description: Resources for playing CTF's
 ---
 
-# **CTF's**
+# **CTF**
 
 ### **What is CTF?**
 
