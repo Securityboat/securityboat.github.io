@@ -3,4 +3,4 @@ template: home.html
 title: SecurityBoat Workbook
 ---
 
-Welcome to SecurityBoat Workbook
+Knowledge Base for Security Researchers
