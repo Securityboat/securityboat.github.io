@@ -14,7 +14,7 @@
 * Reverse Engineering
 * Extraneous Functionality
 
-### **&#x20;[Important Tools](../../tools-used-for-android-testing/README.md)**
+### **&#x20;[Important Tools](../../Tools and Extensions/Tools for Android Testing/README.md)**
 
 * MobSF
 * Frida
