@@ -1,6 +1,15 @@
-# Security Workbook on Pentesting
+# SecurityBoat Workbook
 
-- Here's a small collection of resources on Application Security. This work is still in progress and will be completed soon. Need to add many things here.
+## About Us
+- SecurityBoat Workbook is an open-source repository of knowledge cultivated through years of penetration testing and expertise contributed by security professionals at SecurityBoat.
+- Covering comprehensive security topics, including **application**, **api**, **network**, **cloud**, and **hardware security**, this workbook provides valuable insights and practical knowledge to build up your understanding and skills.
 
+## How to Contribute
+- The SecurityBoat Workbook is an open-source project, and we welcome contributions in the form of additions, corrections, or updates to the resources.
+- This workbook was developed using [Mkdocs Material](https://squidfunk.github.io/mkdocs-material/).
+- If you're interested in contributing, you can submit a draft pull request by forking this repository. You can test the changes by either running the server locally or making edits directly to Markdown files from GitHub.
 
-![Clientmoji](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M5EKYeOodH7BcuobaZP%2Fuploads%2Fs73HbY2wz9rvJMKKj371%2Ffile.png?alt=media)
+### Running the Site Locally
+- To run the site locally, install [Mkdocs Material](https://squidfunk.github.io/mkdocs-material/) and test the edits locally.
+
+## Markdown Format
