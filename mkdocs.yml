@@ -22,7 +22,7 @@ theme:
   name: material
   custom_dir: material/overrides
   logo: assets/sb_short_logo.png
-  favicon: assets/cropped-favicon-2-150x150.png
+  favicon: assets/sb_short_logo.png
   features:
     - announce.dismiss
     - content.action.edit
