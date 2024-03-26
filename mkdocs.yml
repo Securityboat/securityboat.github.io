@@ -12,7 +12,7 @@ site_description: >-
 # Repository
 repo_name: Securityboat/workbook
 repo_url: https://github.com/Securityboat/workbook
-# edit_uri: edit/main/docs/
+edit_uri: edit/main/docs/
 
 # Copyright
 copyright: Copyright @ 2024 SecurityBoat Cybersecurity Solution Private Limited
