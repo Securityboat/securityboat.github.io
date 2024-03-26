@@ -72,6 +72,7 @@ extra_css:
 
 # Plugins
 plugins:
+  - blog
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - exclude:
@@ -175,22 +176,259 @@ markdown_extensions:
   - pymdownx.tilde
 
 # Page tree
-# nav:
-#   - Home: index.md
-#   - Pentesting Resources:
-#     - Web Application: README.md
-#     - Network: README.md
-#     - API: README.md
-#     - Android: README.md
-#     - IOS: : README.md
-#     - Cloud: : README.md
-#     - Thick Client: README.md
-#     - Secure Code Review: 
-#   - Bug Bounty: README.md
-#   - Hardware Security: README.md
-#   - Tools and Extensions: README.md
-#   - Mindmaps: README.md
-#   - References: README.md
-#   - CTF's: README.md
-#   - Contributions: README.md
-#   - Technical Comics: README.md
+nav:
+    - Home: index.md
+    - Pentesting:
+        - Pentesting/index.md
+        - Web Application:
+            - Pentesting/Web Application/index.md
+            - Business Logic Vulnerabilities:
+              - Pentesting/Web Application/business-logic-vulnerabilities/index.md
+              - Pentesting/Web Application/business-logic-vulnerabilities/2fa-bypass.md
+              - Pentesting/Web Application/business-logic-vulnerabilities/password-reset-functionality.md
+            - Command Injection:
+              - Pentesting/Web Application/command-injection/index.md
+              - Pentesting/Web Application/command-injection/cms.md
+            - XSS:
+              - Pentesting/Web Application/cross-site-scripting-xss/index.md
+              - Pentesting/Web Application/cross-site-scripting-xss/payloads.md
+            - Git Recon:
+              - Pentesting/Web Application/git-recon/index.md
+              - Pentesting/Web Application/git-recon/github-dorks.md
+            - Insecure HTTP Methods:
+              - Pentesting/Web Application/insecure-http-methods/index.md
+              - Pentesting/Web Application/insecure-http-methods/google-dorks.md
+            - Keyhacks:
+              - Pentesting/Web Application/keyhacks/index.md
+              - Pentesting/Web Application/keyhacks/firebase-exploits.md
+              - Pentesting/Web Application/keyhacks/gmaps-api-scanner.md
+              - Pentesting/Web Application/keyhacks/map-box-api-scanner.md
+            - Sensitive Information Disclosure:
+              - Pentesting/Web Application/sensitive-information-disclosure/index.md
+              - Pentesting/Web Application/sensitive-information-disclosure/web-cache-poisoning.md
+            - Pentesting/Web Application/Directory bruteforcing-fingerprinting.md
+            - Pentesting/Web Application/clickjacking.md
+            - Pentesting/Web Application/crlf-injection-0d-0a.md
+            - Pentesting/Web Application/cross-site-request-forgery-csrf.md
+            - Pentesting/Web Application/directory-enumeration.md
+            - Pentesting/Web Application/encoding.md
+            - Pentesting/Web Application/file-inclusion.md
+            - Pentesting/Web Application/file-upload-bypass.md
+            - Pentesting/Web Application/http-cheat-sheet.md
+            - Pentesting/Web Application/http-request-smuggling.md
+            - Pentesting/Web Application/idor.md
+            - Pentesting/Web Application/insecure-deserialization.md
+            - Pentesting/Web Application/jwt-and-its-bypass.md
+            - Pentesting/Web Application/my-checklist.md
+            - Pentesting/Web Application/oauth.md
+            - Pentesting/Web Application/payloads.md
+            - Pentesting/Web Application/postmessage-vuls.md
+            - Pentesting/Web Application/race-conditions.md
+            - Pentesting/Web Application/reconnotes.md
+            - Pentesting/Web Application/redirects.md
+            - Pentesting/Web Application/response-manipulation.md
+            - Pentesting/Web Application/saml-sso.md
+            - Pentesting/Web Application/server-side-template-injection-ssti.md
+            - Pentesting/Web Application/shodan.md
+            - Pentesting/Web Application/sql-injection.md
+            - Pentesting/Web Application/ssrf.md
+            - Pentesting/Web Application/subdomain-enumeration.md
+            - Pentesting/Web Application/template-injection.md
+            - Pentesting/Web Application/unristricted-file-upload.md
+            - Pentesting/Web Application/vps-1.md
+            - Pentesting/Web Application/vps.md
+            - Pentesting/Web Application/web-app-pentest-checklist.md
+            - Pentesting/Web Application/web-cache-deception.md
+            - Pentesting/Web Application/xxe.md
+        - API:
+            - Pentesting/API/index.md
+            - Pentesting/API/api-endpoints.md
+            - Pentesting/API/graphql.md
+            - Pentesting/API/rest.md
+            - Pentesting/API/soap.md
+        - Android:
+            - Pentesting/Android/index.md
+            - Pentesting/Android/broken-cryptography.md
+            - Pentesting/Android/command-line-for-android-pt-cheatsheet.md
+            - Pentesting/Android/content-providers.md
+            - Pentesting/Android/deep-dive-into-activities.md
+            - Pentesting/Android/extraneous-functionality.md
+            - Pentesting/Android/improper-error-handling.md
+            - Pentesting/Android/improper-input-validation.md
+            - Pentesting/Android/improper-session-handling.md
+            - Pentesting/Android/insecure-data-storage.md
+            - Pentesting/Android/intent-and-intent-filters.md
+            - Pentesting/Android/mobile-infrastructure-and-architecture.md
+            - Pentesting/Android/poor-authorization-and-authenticationntitled.md
+            - Pentesting/Android/reverse-engineer.md
+            - Pentesting/Android/rooting-and-connecting-devices.md
+            - Pentesting/Android/ssl-pinning.md
+            - Pentesting/Android/understand-android-os.md
+            - Pentesting/Android/understanding-androidmanifest.xml.md
+            - Pentesting/Android/unintended-data-leakage.md
+            - Pentesting/Android/unsafe-data-transmission.md
+        - IOS:
+            - Pentesting/IOS/index.md
+            - Pentesting/IOS/command-line-cheatsheet-for-ios-pt.md
+            - Pentesting/IOS/how-to-extract-ipa-from-idevice-manually..md
+            - Pentesting/IOS/lets-jailbreak-iphone-ipad.md
+            - Pentesting/IOS/reverse-engineering.md
+            - Pentesting/IOS/setting-up-frida+objection.md
+            - Pentesting/IOS/ssl-pinning.md
+            - Pentesting/IOS/untitled.md
+        - Network:
+            - Pentesting/Network/index.md
+            - Pentesting/Network/active-info-gathering.md
+            - Pentesting/Network/basic-linux-and-windows-commands.md
+            - Pentesting/Network/brute-force.md
+            - Pentesting/Network/buffer-overflow.md
+            - Pentesting/Network/cheatsheet-short.md
+            - Pentesting/Network/common-ports-and-services.md
+            - Pentesting/Network/dns-zone-transfer-attack.md
+            - Pentesting/Network/main-tools.md
+            - Pentesting/Network/misc.md
+            - Pentesting/Network/oscp-one-page-repository.md
+            - Pentesting/Network/oscp-vulnhub-practice-learning.md
+            - Pentesting/Network/pivoting.md
+            - Pentesting/Network/port-and-services-scanning.md
+            - Pentesting/Network/post-exploitation.md
+            - Pentesting/Network/priv-escalation.md
+            - Pentesting/Network/recon-scanning-and-enumeration.md
+            - Pentesting/Network/shells.md
+            - Pentesting/Network/smb-enumeration.md
+            - Pentesting/Network/snmp-enumeration.md
+            - Pentesting/Network/transferring-files.md
+        - Thick Client:
+            - Pentesting/Thick Client/index.md
+            - Linux Application Pentesting:
+              - Pentesting/Thick Client/linux-application-pentesting/index.md
+              - Pentesting/Thick Client/linux-application-pentesting/basics.md
+              - Pentesting/Thick Client/linux-application-pentesting/buffer-overflow.md
+              - Pentesting/Thick Client/linux-application-pentesting/reversing-linux-applications.md
+            - Windows Application Pentesting:
+              - Pentesting/Thick Client/windows-application-pentesting/index.md
+              - Pentesting/Thick Client/windows-application-pentesting/architecture.md
+              - Pentesting/Thick Client/windows-application-pentesting/assembly-analysis.md
+              - Pentesting/Thick Client/windows-application-pentesting/buffer-overflow.md
+              - Pentesting/Thick Client/windows-application-pentesting/dll-hijacking.md
+              - Pentesting/Thick Client/windows-application-pentesting/gui-attacks.md
+              - Pentesting/Thick Client/windows-application-pentesting/hardcoded-sensitive-information.md
+              - Pentesting/Thick Client/windows-application-pentesting/information-gathering.md
+              - Pentesting/Thick Client/windows-application-pentesting/lack-of-code-obfuscation.md
+              - Pentesting/Thick Client/windows-application-pentesting/memory-analysis.md
+              - Pentesting/Thick Client/windows-application-pentesting/registry-monitoring.md
+              - Pentesting/Thick Client/windows-application-pentesting/sql-injection.md
+              - Pentesting/Thick Client/windows-application-pentesting/testing-approach.md
+              - Pentesting/Thick Client/windows-application-pentesting/unquoted-service-paths.md
+        - Cloud:
+            - Pentesting/Cloud/index.md
+            - Pentesting/Cloud/Best practice rules for Google Cloud Platform.md
+            - Pentesting/Cloud/Cloud Security.md
+            - Pentesting/Cloud/GCP API.md
+            - Pentesting/Cloud/GCP Domain Name System (DNS).md
+            - Pentesting/Cloud/GCP Identity and Access Management (IAM).md
+            - Pentesting/Cloud/GOOGLE VPC.md
+            - Pentesting/Cloud/gcp-api.md
+        - Secure Code Review:
+            - Pentesting/Secure Code Review/index.md
+            - Pentesting/Secure Code Review/appendix-a-glossary.md
+            - Pentesting/Secure Code Review/code-review-checklist.md
+            - Pentesting/Secure Code Review/code-review-guidelines.md
+            - Pentesting/Secure Code Review/manual-code-review.md
+            - Pentesting/Secure Code Review/recommendation-and-references.md
+            - Pentesting/Secure Code Review/remedial-code-snippets.md
+            - Manual Code Crawling:
+                - Pentesting/Secure Code Review/manual-code-crawling/README.md
+                - Pentesting/Secure Code Review/manual-code-crawling/searching-for-code-in-.net.md
+                - Pentesting/Secure Code Review/manual-code-crawling/searching-for-code-in-classic-asp.md
+                - Pentesting/Secure Code Review/manual-code-crawling/searching-for-code-in-java.md
+                - Pentesting/Secure Code Review/manual-code-crawling/searching-for-code-in-javascript-and-ajax.md
+    - Bug Bounty:
+        - Bug Bounty/README.md
+        - Bug Bounty/how-to-get-started-in-a-bug-bounty.md
+        - Bug Bounty/bug-bounty-checklist-for-web-app.md
+        - Bug Bounty/bug-bounty-checklist-for-android.md
+        - Bug Bounty/bug-bounty-dorks.md
+        - Bug Bounty Report Templates:
+            - Bug Bounty/Report Templates/README.md
+            - Bug Bounty/Report Templates/clickjacking.md
+            - Bug Bounty/Report Templates/command-injection.md
+            - Bug Bounty/Report Templates/crlf-injection.md
+            - Bug Bounty/Report Templates/csrf-cross-site-request-forgery.md
+            - Bug Bounty/Report Templates/directory-traversal.md
+            - Bug Bounty/Report Templates/dom-xss-document-object-model-based-cross-site-scripting.md
+            - Bug Bounty/Report Templates/github-recon.md
+            - Bug Bounty/Report Templates/host-header-injection.md
+            - Bug Bounty/Report Templates/html-injection.md
+            - Bug Bounty/Report Templates/idor-insecure-direct-object-references.md
+            - Bug Bounty/Report Templates/insecure-deserialization.md
+            - Bug Bounty/Report Templates/ldap-injection.md
+            - Bug Bounty/Report Templates/lfi-local-file-inclusion.md
+            - Bug Bounty/Report Templates/open-redirect.md
+            - Bug Bounty/Report Templates/race-condition.md
+            - Bug Bounty/Report Templates/response-manipulation.md
+            - Bug Bounty/Report Templates/rfi-remote-file-inclusion.md
+            - Bug Bounty/Report Templates/rxss-reflected-cross-site-scripting.md
+            - Bug Bounty/Report Templates/sql-injection.md
+            - Bug Bounty/Report Templates/ssi-injection.md
+            - Bug Bounty/Report Templates/ssrf-server-side-request-forgery.md
+            - Bug Bounty/Report Templates/subdomain-takeover.md
+            - Bug Bounty/Report Templates/sxss-stored-cross-site-scripting.md
+            - Bug Bounty/Report Templates/template-injection.md
+            - Bug Bounty/Report Templates/unrestricted-file-upload.md
+            - Bug Bounty/Report Templates/use-of-default-credentials.md
+    - Tools and Extensions:
+        - Tools and Extensions/index.md
+        - Burp Suite Extensions:
+            - Tools and Extensions/Burp Suite Extensions/README.md
+            - Tools and Extensions/Burp Suite Extensions/authmatrix.md
+            - Tools and Extensions/Burp Suite Extensions/flow.md
+            - Tools and Extensions/Burp Suite Extensions/http-request-smuggler.md
+            - Tools and Extensions/Burp Suite Extensions/java-deserialize-scanner.md
+            - Tools and Extensions/Burp Suite Extensions/json-js-beautifier.md
+            - Tools and Extensions/Burp Suite Extensions/json-web-tokens-jwt4b.md
+            - Tools and Extensions/Burp Suite Extensions/saml-raider.md
+            - Tools and Extensions/Burp Suite Extensions/wsdler-for-soap-services.md
+        - Tools Cheatsheet for Pentesting:
+            - Tools and Extensions/Tools Cheatsheet for Pentesting/README.md
+            - Tools and Extensions/Tools Cheatsheet for Pentesting/metasploit.md
+            - Tools and Extensions/Tools Cheatsheet for Pentesting/nikto.md
+            - Tools and Extensions/Tools Cheatsheet for Pentesting/nmap.md
+            - Tools and Extensions/Tools Cheatsheet for Pentesting/shodan.md
+            - Tools and Extensions/Tools Cheatsheet for Pentesting/sqlmap.md
+            - Tools and Extensions/Tools Cheatsheet for Pentesting/wpscan.md
+        - Tools for Android Testing:
+            - Tools and Extensions/Tools for Android Testing/README.md
+            - Tools and Extensions/Tools for Android Testing/frida.md
+            - Tools and Extensions/Tools for Android Testing/mobile-security-framework-mobsf.md
+    - Mindmaps:
+        - Mindmaps/README.md
+        - Mindmaps/android-app-pen-test-mindmap.md
+        - Mindmaps/ios-app-pen-test-mindmap.md
+        - Mindmaps/thick-client-pentest-mindmap.md
+        - Mindmaps/ways-to-achieve-rce.md
+        - Mindmaps/web-app-pen-test-mindmap.md
+    - Other:
+        - Other/index.md
+        - Basic Linux Commands:
+            - Other/basic-linux-commands/README.md
+            - Other/basic-linux-commands/bash-scripting.md
+            - Other/basic-linux-commands/linux-commands.md
+            - Other/basic-linux-commands/linux-windowsmain-commands.md
+            - Other/basic-linux-commands/windows.md
+        - Hardware Security:
+            - Other/Hardware Security/README.md
+            - NodeMCU ESP8266:
+                - Other/Hardware Security/NodeMCU ESP8266/README.md
+                - Other/Hardware Security/NodeMCU ESP8266/Wi-Fi Deauther.md
+            - Raspberry Pi:
+                - Other/Hardware Security/Raspberry Pi/README.md
+                - Other/Hardware Security/Raspberry Pi/honeypot-using-raspberry-pi-and-opencanary..md
+                - Other/Hardware Security/Raspberry Pi/portable-hacking-machine.md
+                - Other/Hardware Security/Raspberry Pi/usb-rubber-ducky-using-raspberry-pi-pico.md
+        - Technical Comics:
+            - Other/Technical Comics/README.md
+            - Other/Technical Comics/The Story of XSS.md
+        - Other/CTF Resources.md
+        - Other/References.md
+    - Contributions.md
