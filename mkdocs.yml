@@ -21,6 +21,8 @@ copyright: Copyright @ 2024 SecurityBoat Cybersecurity Solution Private Limited
 theme:
   name: material
   custom_dir: material/overrides
+  logo: assets/sb_short_logo.png
+  favicon: assets/cropped-favicon-2-150x150.png
   features:
     - announce.dismiss
     - content.action.edit
@@ -71,7 +73,6 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/cropped-favicon-2-150x150.png
   # icon:
     # logo: assets/sb_full_logo.png
 
