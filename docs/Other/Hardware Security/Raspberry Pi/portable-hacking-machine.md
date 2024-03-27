@@ -47,7 +47,7 @@ Hackers and penetration testers use portable hacking machines for several reason
 
 **Note:** In this example I will download raspberry pi (64-bit) image. Why 64-bit image because some tools might not work in 32-bit properly as _BurpSuite. S_o I will be using 64-bit image in this example.
 
-<figure><img src="../../../attachments/Screenshot_2023 09 03_200727.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 03_200727.png)
 
 **Download balenaEtcher:**
 

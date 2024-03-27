@@ -11,7 +11,7 @@
 
 The Raspberry Pi Pico is a microcontroller board developed by the Raspberry Pi Foundation, known for its popular line of single-board computers (SBCs) like the Raspberry Pi 4. The Raspberry Pi Pico was introduced in January 2021 and is designed to provide an affordable and accessible platform for embedded systems, electronics projects, and learning about microcontrollers.
 
-<figure><img src="../../../attachments/hero-desktop-0be741ca0b96c13025520975475b902c.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/hero-desktop-0be741ca0b96c13025520975475b902c.png)
 
 Key features and specifications of the Raspberry Pi Pico include:
 
@@ -49,25 +49,25 @@ Overall, the Raspberry Pi Pico is a versatile microcontroller board that provide
 
 1. First download the circuit python for your pico from [here](https://circuitpython.org/board/raspberry\_pi\_pico/).
 
-<figure><img src="../../../attachments/Screenshot 2023-09-29 090721.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot 2023-09-29 090721.png)
 
 Note:- If you are using pico w then download this it from [here](https://circuitpython.org/board/raspberry\_pi\_pico\_w/).
 
 2. Connect your pico to system.
 
-<figure><img src="../../../attachments/Screenshot 2023-09-29 091159.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot 2023-09-29 091159.png)
 
 3. Now copy paste the  `.uf2` circuit python file to pico. It will disconnect pico and automatically and connect it back to system automatically.
 
-<figure><img src="../../../attachments/Screenshot 2023-09-29 091213.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot 2023-09-29 091213.png)
 
 4. Now download the latest release of `adafruit-circuitpython-bundle-8.x-mpy-YYYYMMDD.zip` from [here](https://github.com/adafruit/Adafruit\_CircuitPython\_Bundle/releases/) and extract it on your system.
 
-<figure><img src="../../../attachments/Screenshot 2023-09-29 091315.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot 2023-09-29 091315.png)
 
 5. Navigate to `lib` folder and copy the `adafruit_hid` folder to the pico.
 
-<figure><img src="../../../attachments/Screenshot 2023-10-02 112726.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot 2023-10-02 112726.png)
 
 6. Now copy the following files and folder from `adafruit_hid/lib` to `lib` folder of pico.
    1. `adafruit_debouncer.mpy`
@@ -75,11 +75,11 @@ Note:- If you are using pico w then download this it from [here](https://circuit
    3. `addafruit_wsgi`
    4. `asyncio`
 
-<figure><img src="../../../attachments/Screenshot 2023-10-02 112911.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot 2023-10-02 112911.png)
 
 7. Now download the `pico-ducky.zip` from github [repository](https://github.com/dbisu/pico-ducky) and extract it.
 
-<figure><img src="../../../attachments/Screenshot 2023-10-02 113006.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot 2023-10-02 113006.png)
 
 8.  Now copy the following files from the pico-ducky folder to pico drive.
 
@@ -91,11 +91,11 @@ Note:- If you are using pico w then download this it from [here](https://circuit
 
     **From:**
 
-<figure><img src="../../../attachments/Screenshot 2023-10-02 113116.png" alt="" width="563"><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot 2023-10-02 113116.png)
 
 &#x20;        **To:**&#x20;
 
-<figure><img src="../../../attachments/Screenshot 2023-10-02 113116.png" alt="" width="563"><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot 2023-10-02 113116.png)
 
 9. Now open any text editor you like and copy paste the following ducky script. for testing the pico-ducky only.
 
@@ -113,7 +113,7 @@ Note:- If you are using pico w then download this it from [here](https://circuit
 
 `STRING Hello World!`
 
-<figure><img src="../../../attachments/Screenshot 2023-10-02 113641.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot 2023-10-02 113641.png)
 
 And save it as `payload.dd` in pico drive.
 

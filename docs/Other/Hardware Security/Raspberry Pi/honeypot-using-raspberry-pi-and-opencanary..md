@@ -142,46 +142,46 @@ After gathering all the required tool we can setup the raspberry pi for opencana
 
 1. Go to the official Raspberry Pi [website](https://www.raspberrypi.com/software/) and download the “**Raspberry Pi Imager**” tool according to your OS.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023-11-10_134503.png" alt="" width="563"><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-11-10_134503.png)
 
 2. Install the raspberry pi Imager as normal software we install usually.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-11-12 203345.png" alt="" width="468"><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot 2023-11-12 203345.png)
 
 3. Open the Imager and give the administrative privileges and select raspberry pi board according to your raspberry pi version.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023-11-10_140000.png" alt="" width="511"><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-11-10_140000.png)
 
 4. Next choose the OS Raspberry Pi OS Lite (64 bit).
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023-11-09_130619.png" alt="" width="511"><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-11-09_130619.png)
 
 **Note:** We are using Lite version means only CLI is available. If you want to access it through GUI use Full or normal 64 bit version. But you will need monitor, keyboard, mouse & connectors to access and use GUI.
 
 5. Now insert the micro-SD card into your computer/laptop. Then select the choose storage and select your SD card properly.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023-11-09_130642.png" alt="" width="511"><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-11-09_130642.png)
 
 6. After that it will ask for “Would you like to apply OS customization settings?” click on edit settings.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023-11-09_130828.png" alt="" width="511"><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-11-09_130828.png)
 
 7. Enable the following options as shown in the picture and set the following things
    1. Username & password.
    2. Wi-Fi name(SSID) & password.
    3. Time zone & keyboard layout.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023-11-09_130753.png" alt="" width="406"><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-11-09_130753.png)
 
 Now go to service tab, enable ssh and turn on “Use password authentication” option on as follows:
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023-11-12_172022.png" alt="" width="406"><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-11-12_172022.png)
 
 All the data on the micro SD card will be erased. So select the SD card carefully and take backup of micro SD card before proceeding
 
 After that click on “**Yes”** on warning.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023-11-09_130832.png" alt="" width="511"><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-11-09_130832.png)
 
 let it complete the flash. (could take 5-10 min depending on SD card read/write speed).
 
@@ -191,7 +191,7 @@ let it complete the flash. (could take 5-10 min depending on SD card read/write 
 
     Here username is which you given already before flashing SD card and IP address of raspberry pi.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023-11-09_153003.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-11-09_153003.png)
 
 If you are connecting for first time it will ask for “continue connecting?” then type `yes` and hit enter and enter the `password` you set in the previous step.
 
@@ -201,7 +201,7 @@ If you are connecting for first time it will ask for “continue connecting?” 
 
     `sudo apt update && sudo apt upgrade -y`
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023-11-09_153047.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-11-09_153047.png)
 
 This will update all the packages to their latest version.
 
@@ -209,7 +209,7 @@ This will update all the packages to their latest version.
 
     `sudo apt install python3-dev python3-pip python3-virtualenv python3-venv python3-scapy libssl-dev libpcap-dev`
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023-11-09_153708.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-11-09_153708.png)
 
 _**Install & configure Opencanary on Raspberry Pi.**_
 
@@ -221,13 +221,13 @@ _**Install & configure Opencanary on Raspberry Pi.**_
 
     `pip install opencanary`
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023-11-09_154038.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-11-09_154038.png)
 
 After that execute the following command to create a configuration file of opencanary
 
 `opencanaryd --confing`
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023-11-09_154255.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-11-09_154255.png)
 
 This will create a file name opencanary.conf in the /etc/opencanaryd/ directory.
 
@@ -235,15 +235,15 @@ This will create a file name opencanary.conf in the /etc/opencanaryd/ directory.
 
     `sudo nano /etc/opencanaryd/opencanary.conf`
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2023-11-09_154352.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-11-09_154352.png)
 
 The command will open the file in nano text editor. Here you can configure the honeypot configuration like what services should be on, on what port should they run etc.
 
-<figure><img src="../../../.gitbook/assets/16.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/16.png)
 
 3. Here set `“http.enabled” : true` to set fake http server on. Now press CTRL + S to save & CTRL + X to exit from nano.
 
-<figure><img src="../../../.gitbook/assets/17.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/17.png)
 
 4. Now we need to setup your mail in order to get alerts on email. Add the following lines in the configuration file “handlers” section as follows:
 
@@ -259,7 +259,7 @@ The command will open the file in nano text editor. Here you can configure the h
 },
 ```
 
-<figure><img src="../../../.gitbook/assets/18.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/18.png)
 
 **Note:** Create a new sperate gmail for raspberry pi opencanary. As this is risky to set an main gmail as opencanary alert gmail. Because if attacker compromised the honeypot they can get access to your gmail.
 
@@ -273,19 +273,19 @@ here are the steps to get [app password](https://support.google.com/accounts/ans
 
 **Note:** If you see the following error message while starting opencanary. Just open configuration file again and check if there is brackets or commas are missing and add them if missing.
 
-<figure><img src="../../../.gitbook/assets/19.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/19.png)
 
 5.  After this we will start our opencanary setup by using following command:
 
     `opencanaryd --start`
 
-<figure><img src="../../../.gitbook/assets/20.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/20.png)
 
 We can see in the log which services are started. To test it is working or not, try login through FTP with random username & password and see if you get alerts on your gmail with username & password.
 
 6. Now test opencanary by trying to login through FTP with fake username and password. Opencanary will automatically send alerts on your gmail as follows:
 
-<figure><img src="../../../.gitbook/assets/21.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/21.png)
 
 _**Configure auto start opencanary on boot.**_
 
@@ -312,7 +312,7 @@ ExecStart=/home/pi/env/bin/opencanaryd --start
 WantedBy=multi-user.target
 ```
 
-<figure><img src="../../../.gitbook/assets/22.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/22.png)
 
 Now press CTRL + S to save & CTRL + X to exit from nano.
 
@@ -328,7 +328,7 @@ To check it is enabled or not execute the following command:
 
 `sudo systemctl is-enabled opencanary.service`
 
-<figure><img src="../../../.gitbook/assets/24.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/24.png)
 
 2\. To start the service.
 
@@ -338,7 +338,7 @@ To check it is started or not execute the following command:
 
 `sudo systemctl status opencanary.service`
 
-<figure><img src="../../../.gitbook/assets/23.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/23.png)
 
 3. Now reboot the raspberry pi by using the command sudo reboot . And test the services which you started on opencanary by sending random inputs and see if you get alerts on gmail or not.
 

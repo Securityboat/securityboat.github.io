@@ -35,95 +35,95 @@ A WiFi deauther and a WiFi jammer are both devices used to disrupt wireless comm
 
 1. Download the Arduino IDE from [here](https://www.arduino.cc/en/software)
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_120758.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_120758.png)
 
 Click on “Just download”.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_120812.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_120812.png)
 
 2. Install the IDE just like normal software.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_121009.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_121009.png)
 
 Let it run it’s initial setup
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_121044.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_121044.png)
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_121100.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_121100.png)
 
 Give admin privileges if needed.
 
 3. When it get complete go to file → Preferences.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_121537.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_121537.png)
 
 4. Scroll down and add [http://arduino.esp8266.com/stable/package\_esp8266com\_index.json](http://arduino.esp8266.com/stable/package\_esp8266com\_index.json) in “Additional boards manager URLs”.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_130813.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_130813.png)
 
 It will update it’s board manager list
 
-<figure><img src="../../../attachments/Screenshot 2023-09-09 130818.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot 2023-09-09 130818.png)
 
 5. Then go to boards manager(second button at left sidebar) and search for “esp8266”.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_130848.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_130848.png)
 
 6. Install the driver for esp8266.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_130936.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_130936.png)
 
 7. Then go to Tools → Board → esp8266 → generic esp866 module. This will set our board for us.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_131002.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_131002.png)
 
 8. The download the latest version of deauther from the github [repository](https://github.com/spacehuhntech/esp8266\_deauther). Download the zip.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_131616.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_131616.png)
 
 9. Extract the zip and open the **esp8266\_deauther** folder.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_131659.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_131659.png)
 
 10. Open the `esp8266_deauther.ino` file in Arduino IDE.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_132128.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_132128.png)
 
 Make sure you already select the correct board.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_131002.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_131002.png)
 
 11. Compile the code
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_132209.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_132209.png)
 
 12. After compilation select the board port in Tools → port.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_132607.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_132607.png)
 
 13. Then upload the code
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_132633.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_132633.png)
 
 Let the upload complete
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_133150.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_133150.png)
 
 14. You will see an Wi-Fi access point name “pwned”
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_133224.png" alt="" width="283"><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_133224.png)
 
 15. &#x20;Just connect with it with default password “deauther”.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_133411.png" alt="" width="283"><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_133411.png)
 
 16. Open the browser and type “192.168.4.1” and press enter you will see the following warning page about deauther
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_133520.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_133520.png)
 
 17. Now you will see the “Scan” page of deauther which will showcase nearby Wi-Fi access points.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_133754 1.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_133754 1.png)
 
 Here you have 3 options:
 
@@ -139,19 +139,19 @@ Lets see one by one.
 
     You can add and remove the access points in order add or remove them from the scope of attack.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_133754.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_133754.png)
 
 2. SSIDs:
 
 Here you can add the dummy SSIDs for beacon attack.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_133821.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_133821.png)
 
 3. Attack:
 
 Here you choose which type of attack you want to do.
 
-<figure><img src="../../../attachments/Screenshot_2023-09-09_133821.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023-09-09_133821.png)
 
 There are **3 type of attack**:
 
