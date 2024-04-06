@@ -2,72 +2,30 @@
 description: Thanks to all the people who helped to make this Gitbook.
 ---
 
-# **Contributions**
+# **Contributors**
 
-## **Ninad Mathpati**
+**Ninad Mathpati** [:material-web:](https://ninadmathpati.com) [:fontawesome-brands-linkedin-in:](https://linkedin.com/in/ninad-mathpati/)     [:fontawesome-brands-square-x-twitter:](https://twitter.com/ninad\_mathpati)
 
-[https://ninadmathpati.com](https://ninadmathpati.com)
+**Shubham Chaskar** [:material-web:](https://shubhamchaskar.com/) [:fontawesome-brands-linkedin-in:](https://www.linkedin.com/in/shubham-chaskar) [:fontawesome-brands-square-x-twitter:](https://twitter.com/chaskar\_shubham)
 
-[https://linkedin.com/in/ninad-mathpati/](https://linkedin.com/in/ninad-mathpati/)
+**Jyotiranjan Mohapatra** [:fontawesome-brands-linkedin-in:](https://www.linkedin.com/in/jyotiranjan-mohapatra/) [:fontawesome-brands-square-x-twitter:](https://twitter.com/sonumohapatra92)
 
-[https://twitter.com/ninad\_mathpati](https://twitter.com/ninad\_mathpati)
+**Sunil Kande** [:material-web:](https://techfrendz007.blogspot.com/) [:fontawesome-brands-linkedin-in:](https://www.linkedin.com/in/sunil-kande-495b7812b/) [:fontawesome-brands-square-x-twitter:](https://twitter.com/Sunil45\_)
 
-## **Shubham Chaskar**
+**Sanyam Chawla** [:fontawesome-brands-linkedin-in:](https://www.linkedin.com/in/infosecsanyam/) [:fontawesome-brands-square-x-twitter:](https://twitter.com/infosecsanyam)
 
-[https://shubhamchaskar.com/](https://shubhamchaskar.com/)
+**Rushikesh Ambuskar** [:fontawesome-brands-square-x-twitter:](https://twitter.com/u1tran00b)
 
-[https://www.linkedin.com/in/shubham-chaskar](https://www.linkedin.com/in/shubham-chaskar)
+**Mukul Trivedi** [:fontawesome-brands-linkedin-in:](https://www.linkedin.com/in/m0hn1sh/) [:fontawesome-brands-square-x-twitter:](https://twitter.com/M0hn1sh)
 
-[https://twitter.com/chaskar\_shubham](https://twitter.com/chaskar\_shubham)
+**Gaurav Ahire** [:fontawesome-brands-linkedin-in:](https://www.linkedin.com/in/gaurav-ahire-27b378140) [:fontawesome-brands-square-x-twitter:](https://twitter.com/GauravAhire12)
 
-## **Jyotiranjan Mohapatra**
+**Gaurav Popalghat** [:fontawesome-brands-linkedin-in:](https://www.linkedin.com/in/noobx/) [:fontawesome-brands-square-x-twitter:](https://twitter.com/N008x)
 
-[https://twitter.com/sonumohapatra92](https://twitter.com/sonumohapatra92)
+**Varad Magare** [:fontawesome-brands-square-x-twitter:](https://twitter.com/magarevarad)
 
-[https://www.linkedin.com/in/jyotiranjan-mohapatra/](https://www.linkedin.com/in/jyotiranjan-mohapatra/)
+**Akshay Satav** [:fontawesome-brands-linkedin-in:](https://www.linkedin.com/in/akshaysatav) [:fontawesome-brands-square-x-twitter:](https://twitter.com/AkkiSatav)
 
-## **Sunil Kande**
+**Himanshu Gupta** [:fontawesome-brands-linkedin-in:](https://www.linkedin.com/in/himanshugupta2077) [:fontawesome-brands-square-x-twitter:](https://twitter.com/himanshug2077)
 
-[https://techfrendz007.blogspot.com/](https://techfrendz007.blogspot.com/)
-
-[https://www.linkedin.com/in/sunil-kande-495b7812b/](https://www.linkedin.com/in/sunil-kande-495b7812b/)
-
-[https://twitter.com/Sunil45\_](https://twitter.com/Sunil45\_)
-
-## **Sanyam Chawla**
-
-[https://www.linkedin.com/in/infosecsanyam/](https://www.linkedin.com/in/infosecsanyam/)
-
-[https://twitter.com/infosecsanyam](https://twitter.com/infosecsanyam)
-
-## **Rushikesh Ambuskar**
-
-[https://twitter.com/u1tran00b](https://twitter.com/u1tran00b)
-
-## **Mukul Trivedi**
-
-[https://www.linkedin.com/in/m0hn1sh/](https://www.linkedin.com/in/m0hn1sh/)
-
-[https://twitter.com/M0hn1sh](https://twitter.com/M0hn1sh)
-
-## **Gaurav Ahire**
-
-[https://www.linkedin.com/in/gaurav-ahire-27b378140](https://www.linkedin.com/in/gaurav-ahire-27b378140)
-
-[https://twitter.com/GauravAhire12](https://twitter.com/GauravAhire12)
-
-## **Gaurav Popalghat**
-
-[https://www.linkedin.com/in/noobx/](https://www.linkedin.com/in/noobx/)
-
-[https://twitter.com/N008x](https://twitter.com/N008x)&#x20;
-
-## **Varad Magare**
-
-[https://twitter.com/magarevarad](https://twitter.com/magarevarad)
-
-## **Akshay Satav**
-
-[https://www.linkedin.com/in/akshaysatav](https://www.linkedin.com/in/akshaysatav)
-
-[https://twitter.com/AkkiSatav](https://twitter.com/AkkiSatav)
+**Tejas Shingade** [:fontawesome-brands-linkedin-in:](https://www.linkedin.com/in/tejas-shingade/)
