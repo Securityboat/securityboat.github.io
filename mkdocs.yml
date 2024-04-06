@@ -248,25 +248,25 @@ nav:
             - Pentesting/API/soap.md
         - Android:
             - Pentesting/Android/index.md
-            - Pentesting/Android/broken-cryptography.md
-            - Pentesting/Android/command-line-for-android-pt-cheatsheet.md
-            - Pentesting/Android/content-providers.md
+            - Pentesting/Android/mobile-infrastructure-and-architecture.md
+            - Pentesting/Android/understand-android-os.md
+            - Pentesting/Android/understanding-androidmanifest.xml.md
             - Pentesting/Android/deep-dive-into-activities.md
-            - Pentesting/Android/extraneous-functionality.md
+            - Pentesting/Android/content-providers.md
+            - Pentesting/Android/intent-and-intent-filters.md
+            - Pentesting/Android/rooting-and-connecting-devices.md
+            - Pentesting/Android/broken-cryptography.md
+            - Pentesting/Android/poor-authorization-and-authenticationntitled.md
             - Pentesting/Android/improper-error-handling.md
             - Pentesting/Android/improper-input-validation.md
             - Pentesting/Android/improper-session-handling.md
             - Pentesting/Android/insecure-data-storage.md
-            - Pentesting/Android/intent-and-intent-filters.md
-            - Pentesting/Android/mobile-infrastructure-and-architecture.md
-            - Pentesting/Android/poor-authorization-and-authenticationntitled.md
-            - Pentesting/Android/reverse-engineer.md
-            - Pentesting/Android/rooting-and-connecting-devices.md
-            - Pentesting/Android/ssl-pinning.md
-            - Pentesting/Android/understand-android-os.md
-            - Pentesting/Android/understanding-androidmanifest.xml.md
-            - Pentesting/Android/unintended-data-leakage.md
             - Pentesting/Android/unsafe-data-transmission.md
+            - Pentesting/Android/unintended-data-leakage.md
+            - Pentesting/Android/ssl-pinning.md
+            - Pentesting/Android/extraneous-functionality.md
+            - Pentesting/Android/reverse-engineer.md
+            - Pentesting/Android/command-line-for-android-pt-cheatsheet.md
         - IOS:
             - Pentesting/IOS/index.md
             - Pentesting/IOS/command-line-cheatsheet-for-ios-pt.md
