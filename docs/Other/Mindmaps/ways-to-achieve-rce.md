@@ -6,4 +6,4 @@ description: >-
 
 # **Ways To Achieve RCE**
 
-![](../attachments/RCE mindmap.png)
+![](../../attachments/RCE mindmap.png)

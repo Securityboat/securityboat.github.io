@@ -401,15 +401,15 @@ nav:
             - Tools and Extensions/Tools for Android Testing/README.md
             - Tools and Extensions/Tools for Android Testing/frida.md
             - Tools and Extensions/Tools for Android Testing/mobile-security-framework-mobsf.md
-    - Mindmaps:
-        - Mindmaps/README.md
-        - Mindmaps/android-app-pen-test-mindmap.md
-        - Mindmaps/ios-app-pen-test-mindmap.md
-        - Mindmaps/thick-client-pentest-mindmap.md
-        - Mindmaps/ways-to-achieve-rce.md
-        - Mindmaps/web-app-pen-test-mindmap.md
     - Other:
         - Other/index.md
+        - Mindmaps:
+            - Other/Mindmaps/README.md
+            - Other/Mindmaps/android-app-pen-test-mindmap.md
+            - Other/Mindmaps/ios-app-pen-test-mindmap.md
+            - Other/Mindmaps/thick-client-pentest-mindmap.md
+            - Other/Mindmaps/ways-to-achieve-rce.md
+            - Other/Mindmaps/web-app-pen-test-mindmap.md
         - Basic Linux Commands:
             - Other/basic-linux-commands/README.md
             - Other/basic-linux-commands/bash-scripting.md
