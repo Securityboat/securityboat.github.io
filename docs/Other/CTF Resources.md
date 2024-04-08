@@ -1,52 +1,43 @@
+**CTF Resources**
+
+**Description:** This document provides a comprehensive list of resources for individuals interested in participating in Capture The Flag (CTF) competitions, a popular form of information security challenge.
+
 ---
-description: Resources for playing CTF's
+
+# **What is CTF?**
+
+Capture The Flag (CTF) is an information security competition that presents participants with a variety of tasks, ranging from scavenger hunts on Wikipedia to basic programming exercises, or even attempting to breach a server to obtain specific data. In these challenges, participants are typically tasked with locating a specific piece of text, often referred to as the "flag," which may be concealed on a server or within a webpage.
+
+For more information, visit: [CTF Gitbook](https://d00mfist1.gitbooks.io/ctf/content/), [CTF Checklist for Beginners](https://fareedfauzi.gitbook.io/ctf-checklist-for-beginner/reverse-engineering), [Beginner's Guide to CTFs](https://infosecwriteups.com/beginners-guide-to-ctfs-c934a0d7f5f9), [Introduction to Cybersecurity and CTF Contests](https://betterprogramming.pub/an-introduction-to-cybersecurity-capture-the-flag-contests-and-basic-security-concepts-80f3fbf62bbc), [CTF 101](https://ctf101.org/)
+
 ---
 
-# **CTF**
+## **Cryptography**
 
-### **What is CTF?**
+Explore cryptography techniques at [Interactive Maths](https://crypto.interactive-maths.com/monoalphabetic-substitution-ciphers.html).
 
-CTF (Capture The Flag) is a kind of information security competition that challenges contestants to solve a variety of tasks ranging from a scavenger hunt on wikipedia to basic programming exercises, to hacking your way into a server to steal data. In these challenges, the contestant is usually asked to find a specific piece of text that may be hidden on the server or behind a webpage. This goal is called the flag, hence the name!
+---
 
-[https://d00mfist1.gitbooks.io/ctf/content/](https://d00mfist1.gitbooks.io/ctf/content/)
+## **Tools**
 
-[https://fareedfauzi.gitbook.io/ctf-checklist-for-beginner/reverse-engineering](https://fareedfauzi.gitbook.io/ctf-checklist-for-beginner/reverse-engineering)
+Discover various CTF tools at [Awesome Open Source](https://awesomeopensource.com/projects/ctf-tools), [CTF Tools Repository](https://github.com/MrMugiwara/CTF-Tools).
 
-[https://infosecwriteups.com/beginners-guide-to-ctfs-c934a0d7f5f9](https://infosecwriteups.com/beginners-guide-to-ctfs-c934a0d7f5f9)
+### **Collaboration Tools**
 
-[https://betterprogramming.pub/an-introduction-to-cybersecurity-capture-the-flag-contests-and-basic-security-concepts-80f3fbf62bbc](https://betterprogramming.pub/an-introduction-to-cybersecurity-capture-the-flag-contests-and-basic-security-concepts-80f3fbf62bbc)
+Enhance teamwork with tools like [CTFNote](https://github.com/TFNS/CTFNote).
 
-[https://ctf101.org/](https://ctf101.org/)
+---
 
-### **Cryptography**
+## **References**
 
-[https://crypto.interactive-maths.com/monoalphabetic-substitution-ciphers.html](https://crypto.interactive-maths.com/monoalphabetic-substitution-ciphers.html)
+Access useful references and repositories at [CTF Resources](https://ctfs.github.io/), [CTF GitHub](https://github.com/ctfs/), [CTF Time](https://ctftime.org), [Lanjelot's CTFs](https://github.com/lanjelot/ctfs).
 
-### **Tools**
+---
 
-[https://awesomeopensource.com/projects/ctf-tools](https://awesomeopensource.com/projects/ctf-tools)
+## **Where to Practice?**
 
-[https://github.com/MrMugiwara/CTF-Tools](https://github.com/MrMugiwara/CTF-Tools)
+Sharpen your skills at platforms like [Hack The Box](https://hackthebox.eu/), [TryHackMe](https://tryhackme.com/), [VulnHub](https://www.vulnhub.com/), [OverTheWire](https://overthewire.org/wargames/), [picoCTF](https://picoctf.org/), [CTFlearn](https://ctflearn.com/), [Root-Me](https://www.root-me.org/), [CryptoHack](https://cryptohack.org/), [Hacker101](https://www.hacker101.com/), and [CyberSecLabs](https://cyberseclabs.co.uk/).
 
-#### **Collaboration tools**
+---
 
-[https://github.com/TFNS/CTFNote](https://github.com/TFNS/CTFNote)
-
-### **References**
-
-[https://ctfs.github.io/](https://ctfs.github.io/)
-
-[https://github.com/ctfs/](https://github.com/ctfs/)
-
-[https://ctftime.org](https://ctftime.org)
-
-[https://github.com/lanjelot/ctfs](https://github.com/lanjelot/ctfs)
-
-### **Where to Practice?**
-
-[https://hackthebox.eu/](https://hackthebox.eu/)
-
-[https://tryhackme.com/](https://tryhackme.com/)
-
-[https://www.vulnhub.com/](https://www.vulnhub.com/)
-
+This compilation aims to provide a comprehensive starting point for individuals interested in delving into the world of CTF competitions and information security challenges. Explore, learn, and enjoy the journey!
