@@ -194,6 +194,7 @@ nav:
               - Pentesting/Web Application/dorking/index.md
               - Pentesting/Web Application/dorking/google-dorks.md              
               - Pentesting/Web Application/dorking/github-dorks.md
+              - Pentesting/Web Application/dorking/shodan.md
             - Keyhacks:
               - Pentesting/Web Application/keyhacks/index.md
               - Pentesting/Web Application/keyhacks/firebase-exploits.md
@@ -227,7 +228,6 @@ nav:
             - Pentesting/Web Application/response-manipulation.md
             - Pentesting/Web Application/saml-sso.md
             - Pentesting/Web Application/server-side-template-injection-ssti.md
-            - Pentesting/Web Application/shodan.md
             - Pentesting/Web Application/sql-injection.md
             - Pentesting/Web Application/ssrf.md
             - Pentesting/Web Application/subdomain-enumeration.md
