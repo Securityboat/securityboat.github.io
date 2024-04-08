@@ -405,7 +405,7 @@ nav:
         - Other/index.md
         - Mindmaps:
             - Other/Mindmaps/README.md
-        - Basic Linux Commands:
+        - CLI Commands:
             - Other/basic-linux-commands/README.md
             - Other/basic-linux-commands/bash-scripting.md
             - Other/basic-linux-commands/linux-commands.md
