@@ -189,7 +189,7 @@ nav:
             - XSS:
               - Pentesting/Web Application/cross-site-scripting-xss/index.md
               - Pentesting/Web Application/cross-site-scripting-xss/payloads.md
-            - Git Recon:
+            - Dorking:
               - Pentesting/Web Application/git-recon/index.md
               - Pentesting/Web Application/git-recon/github-dorks.md
             - Insecure HTTP Methods:
