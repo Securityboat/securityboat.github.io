@@ -53,7 +53,7 @@ Hackers and penetration testers use portable hacking machines for several reason
 
 Use Etcher ([https://etcher.balena.io/](https://etcher.balena.io/)) to write the Kali Linux image to the MicroSD card. Select the image you downloaded and the MicroSD card as the target.
 
-<figure><img src="../../../attachments/Screenshot_2023 09 03_202228.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 03_202228.png)
 
 **Note:** I am using balenaEtcher but you can also use raspberry pi [imager](https://www.raspberrypi.com/software/) or [rufus](https://rufus.ie/en/) in order to flash image to micro SD card.
 
@@ -61,35 +61,35 @@ Use Etcher ([https://etcher.balena.io/](https://etcher.balena.io/)) to write the
 
 1. Open Etcher
 
-<figure><img src="../../../attachments/Screenshot_2023 09 03_203024.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 03_203024.png)
 
 2. Click on “Flash from file” and select the kali linux image you downloaded previously.
 
-<figure><img src="../../../attachments/Screenshot_2023 09 03_203148.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 03_203148.png)
 
 3. Connect your SD card to your system then click on “Select target” and select you micro SD card carefully.
 
 **Note:** All the data in your SD card will be erased so please take the backup of SD card already.
 
-<figure><img src="../../../attachments/Screenshot_2023 09 03_203526.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 03_203526.png)
 
 It will give warning if you are using micro SD card higher than 64 GB. Click on “Yes, I’m Sure”.
 
-<figure><img src="../../../attachments/Screenshot_2023 09 03_203604.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 03_203604.png)
 
 4. Then click on “Flash” and sit back relax until it completes the flashing of image to you SD card. Time depends on SD card write speed.
 
-<figure><img src="../../../attachments/Screenshot_2023 09 03_203624.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 03_203624.png)
 
 **Tip:** Use high speed SD card to get high flash speed and high system performs on raspberry pi.
 
 It will also validate the flash so let that happen or you can skip it by clicking on “skip”.
 
-<figure><img src="../../../attachments/Screenshot_2023 09 03_204644.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 03_204644.png)
 
 5. After it done flashing quite the balenaEtcher and remove your micro SD card from system.
 
-<figure><img src="../../../attachments/Screenshot_2023 09 03_205111.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 03_205111.png)
 
 From here you have two ways:
 
@@ -104,7 +104,7 @@ You can do this by various tools like [advanced IP scanner](https://www.advanced
 
 I will suggest the simple way. Just go to your router dashboard and see the connected devices and get the IP.
 
-<figure><img src="../../../attachments/Screenshot_2023 09 03_214118.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 03_214118.png)
 
 As you see I got mine easily.
 
@@ -112,33 +112,33 @@ As you see I got mine easily.
 
 Open the windows terminal and type “ssh kali@raspberry\_pi-ip” and hit enter.
 
-<figure><img src="../../../attachments/Screenshot_2023 09 03_215016.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 03_215016.png)
 
 Type “yes” and enter.
 
-<figure><img src="../../../attachments/Screenshot_2023 09 03_215126.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 03_215126.png)
 
 Now you will need to enter the password. The default **password** is “**kal**i” and hit enter.
 
-<figure><img src="../../../attachments/Screenshot_2023 09 03_215407.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 03_215407.png)
 
 Then first update and upgrade your machine by using the command “**sudo apt update && sudo apt upgrade -y**”
 
-<figure><img src="../../../attachments/Screenshot_2023 09 04_080018.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 04_080018.png)
 
 After that run command “sudo kalipi-config”. A window will open.
 
-<figure><img src="../../../attachments/Screenshot_2023 09 04_080229.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 04_080229.png)
 
 Then select “Network Options → Wi-Fi” It will show nearby Wi-Fi access points.(You can navigate using arrow keys in it)
 
-<figure><img src="../../../attachments/Screenshot_2023 09 04_080603.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 04_080603.png)
 
 Then hit enter. Then you will need to enter SSID (Wi-Fi name) and then password to connect that Wi-Fi.
 
 Then you will be back to main window. Then navigate to “finish” by using arrow keys and hit enter.
 
-<figure><img src="../../../attachments/Screenshot_2023 09 04_081218.png" alt=""><figcaption></figcaption></figure>
+![](../../../attachments/Screenshot_2023 09 04_081218.png)
 
 You will be connected to Wi-Fi. Now next time you don’t need to connect ethernet cable to raspberry pi it will automatically connected to your Wi-Fi.
 
