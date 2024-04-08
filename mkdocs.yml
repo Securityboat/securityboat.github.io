@@ -200,7 +200,6 @@ nav:
               - Pentesting/Web Application/keyhacks/firebase-exploits.md
               - Pentesting/Web Application/keyhacks/gmaps-api-scanner.md
               - Pentesting/Web Application/keyhacks/map-box-api-scanner.md
-              - Pentesting/Web Application/keyhacks/Tools.md
             - Sensitive Information Disclosure:
               - Pentesting/Web Application/sensitive-information-disclosure/index.md
               - Pentesting/Web Application/sensitive-information-disclosure/web-cache-poisoning.md
