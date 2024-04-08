@@ -186,18 +186,14 @@ nav:
               - Pentesting/Web Application/business-logic-vulnerabilities/index.md
               - Pentesting/Web Application/business-logic-vulnerabilities/2fa-bypass.md
               - Pentesting/Web Application/business-logic-vulnerabilities/password-reset-functionality.md
-            - Command Injection:
-              - Pentesting/Web Application/command-injection/index.md
-              - Pentesting/Web Application/command-injection/cms.md
             - XSS:
               - Pentesting/Web Application/cross-site-scripting-xss/index.md
               - Pentesting/Web Application/cross-site-scripting-xss/payloads.md
-            - Git Recon:
-              - Pentesting/Web Application/git-recon/index.md
-              - Pentesting/Web Application/git-recon/github-dorks.md
-            - Insecure HTTP Methods:
-              - Pentesting/Web Application/insecure-http-methods/index.md
-              - Pentesting/Web Application/insecure-http-methods/google-dorks.md
+            - Pentesting/Web Application/insecure-http-methods/index.md
+            - Dorking:
+              - Pentesting/Web Application/dorking/index.md
+              - Pentesting/Web Application/dorking/google-dorks.md              
+              - Pentesting/Web Application/dorking/github-dorks.md
             - Keyhacks:
               - Pentesting/Web Application/keyhacks/index.md
               - Pentesting/Web Application/keyhacks/firebase-exploits.md
@@ -208,6 +204,8 @@ nav:
               - Pentesting/Web Application/sensitive-information-disclosure/web-cache-poisoning.md
             - Pentesting/Web Application/Directory bruteforcing-fingerprinting.md
             - Pentesting/Web Application/clickjacking.md
+            - Pentesting/Web Application/command-injection.md
+            - Pentesting/Web Application/cms.md
             - Pentesting/Web Application/crlf-injection-0d-0a.md
             - Pentesting/Web Application/cross-site-request-forgery-csrf.md
             - Pentesting/Web Application/directory-enumeration.md
