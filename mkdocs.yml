@@ -186,9 +186,6 @@ nav:
               - Pentesting/Web Application/business-logic-vulnerabilities/index.md
               - Pentesting/Web Application/business-logic-vulnerabilities/2fa-bypass.md
               - Pentesting/Web Application/business-logic-vulnerabilities/password-reset-functionality.md
-            - Command Injection:
-              - Pentesting/Web Application/command-injection/index.md
-              - Pentesting/Web Application/command-injection/cms.md
             - XSS:
               - Pentesting/Web Application/cross-site-scripting-xss/index.md
               - Pentesting/Web Application/cross-site-scripting-xss/payloads.md
@@ -208,6 +205,8 @@ nav:
               - Pentesting/Web Application/sensitive-information-disclosure/web-cache-poisoning.md
             - Pentesting/Web Application/Directory bruteforcing-fingerprinting.md
             - Pentesting/Web Application/clickjacking.md
+            - Pentesting/Web Application/command-injection.md
+            - Pentesting/Web Application/command-injection/cms.md
             - Pentesting/Web Application/crlf-injection-0d-0a.md
             - Pentesting/Web Application/cross-site-request-forgery-csrf.md
             - Pentesting/Web Application/directory-enumeration.md
