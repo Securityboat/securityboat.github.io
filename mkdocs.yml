@@ -190,9 +190,9 @@ nav:
               - Pentesting/Web Application/cross-site-scripting-xss/index.md
               - Pentesting/Web Application/cross-site-scripting-xss/payloads.md
             - Dorking:
-              - Pentesting/Web Application/git-recon/index.md
-              - Pentesting/Web Application/insecure-http-methods/google-dorks.md              
-              - Pentesting/Web Application/git-recon/github-dorks.md
+              - Pentesting/Web Application/dorking/index.md
+              - Pentesting/Web Application/dorking/google-dorks.md              
+              - Pentesting/Web Application/dorking/github-dorks.md
             - Insecure HTTP Methods:
               - Pentesting/Web Application/insecure-http-methods/index.md
             - Keyhacks:
