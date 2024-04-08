@@ -189,12 +189,11 @@ nav:
             - XSS:
               - Pentesting/Web Application/cross-site-scripting-xss/index.md
               - Pentesting/Web Application/cross-site-scripting-xss/payloads.md
+            - Pentesting/Web Application/insecure-http-methods/index.md
             - Dorking:
               - Pentesting/Web Application/dorking/index.md
               - Pentesting/Web Application/dorking/google-dorks.md              
               - Pentesting/Web Application/dorking/github-dorks.md
-            - Insecure HTTP Methods:
-              - Pentesting/Web Application/insecure-http-methods/index.md
             - Keyhacks:
               - Pentesting/Web Application/keyhacks/index.md
               - Pentesting/Web Application/keyhacks/firebase-exploits.md
