@@ -221,7 +221,6 @@ nav:
             - Pentesting/Web Application/payloads.md
             - Pentesting/Web Application/postmessage-vuls.md
             - Pentesting/Web Application/race-conditions.md
-            - Pentesting/Web Application/reconnotes.md
             - Pentesting/Web Application/redirects.md
             - Pentesting/Web Application/response-manipulation.md
             - Pentesting/Web Application/saml-sso.md
@@ -345,6 +344,7 @@ nav:
         - Bug Bounty/bug-bounty-checklist-for-web-app.md
         - Bug Bounty/bug-bounty-checklist-for-android.md
         - Bug Bounty/bug-bounty-dorks.md
+        - Bug Bounty/reconnotes.md
         - Bug Bounty Report Templates:
             - Bug Bounty/Report Templates/README.md
             - Bug Bounty/Report Templates/clickjacking.md
