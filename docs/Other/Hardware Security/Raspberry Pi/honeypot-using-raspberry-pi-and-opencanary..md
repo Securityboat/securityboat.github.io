@@ -1,4 +1,4 @@
-# **Honeypot using Raspberry Pi & Opencanary.**
+# **Honeypot using Raspberry Pi & Opencanary**
 
 ## **What is honeypot & opencanary?**
 
@@ -20,103 +20,26 @@ Key features of OpenCanary include:
 
 ## **Why companies use honeypot?**
 
-Companies use honeypots as strategic cybersecurity tools for a variety of reasons, each contributing to an overall enhancement of their security posture. Here are some key reasons why companies deploy honeypots:
+Companies use honeypots as a cybersecurity strategy to lure and trap cyber attackers, acting as decoys that mimic real systems, networks, or data. Honeypots are designed to be attractive targets, deliberately containing vulnerabilities to attract hackers. When attackers interact with a honeypot, their techniques, tools, and behaviors can be monitored and analyzed without risking actual data or systems. This intelligence allows companies to better understand potential threats, improve their defenses, and sometimes even identify the attackers. By acting as early warning systems, honeypots help companies preemptively bolster their security measures, making them an essential component in a comprehensive cybersecurity strategy. Here are some key reasons why companies deploy honeypots:
 
-- **Early Threat Detection**:
-   - **Purpose** Honeypots serve as decoy systems designed to attract and detect unauthorized or malicious activity.
-   - **Benefit** Early detection allows companies to identify potential threats before they can impact critical systems, enabling faster response and mitigation.
+- **Early Threat Detection**
 - **Understanding Attack Techniques**
-   - **Purpose** Honeypots provide insights into the tactics, techniques, and procedures (TTPs) used by attackers.
-   - **Benefit** By studying attack techniques, companies can better understand the evolving threat landscape and adapt their security measures accordingly.
 - **Threat Intelligence Gathering**
-   - **Purpose** Honeypots contribute to the collection of valuable threat intelligence data.
-   - **Benefit** This intelligence aids in the identification of emerging threats, helping companies make informed decisions about their cybersecurity strategies.
 - **Incident Response Preparation**
-   - **Purpose** Honeypots offer a controlled environment for testing and refining incident response procedures.
-   - **Benefit** Regular simulation of attack scenarios enhances the preparedness of incident response teams, ensuring a more effective response to real-world incidents.
 - **Evaluation of Security Posture**
-   - **Purpose** Companies use honeypots to assess the effectiveness of their existing security measures.
-   - **Benefit** Regular evaluations help identify vulnerabilities and weaknesses, allowing organizations to proactively address security gaps.
 - **Security Awareness and Training**
-   - **Purpose** Honeypots can be used as educational tools for training security teams and raising awareness about potential threats.
-   - **Benefit** Security professionals gain hands-on experience in dealing with various types of attacks, enhancing their skills and readiness.
 - **Research and Collaboration**
-   - **Purpose** Companies contribute to cybersecurity research and collaborate with the broader security community.
-   - **Benefit** Sharing findings from honeypot deployments can lead to the development of more effective defense strategies and the discovery of new threats.
 - **Strategic Deception**
-   - **Purpose** Honeypots act as strategic elements of deception to mislead and divert attackers.
-   - **Benefit** Attackers may be lured into interacting with the honeypot, providing companies with an opportunity to observe and analyze their tactics.
 - **Legal and Ethical Deterrent**
-   - **Purpose** The presence of honeypots can act as a legal and ethical deterrent to potential attackers.
-   - **Benefit** Knowing that a network has honeypots in place may discourage attackers, as they are more likely to be detected and face legal consequences.
 - **Compliance Requirements**
-   - **Purpose** Some industries and regulatory frameworks may require organizations to implement specific cybersecurity measures.
-   - **Benefit** Deploying honeypots can help companies meet compliance requirements and demonstrate a commitment to robust cybersecurity practices.
 
-## **Advantages and disadvantages of honeypot.**
-
-Honeypots are valuable tools in the field of cybersecurity, but like any technology, they come with their own set of advantages and disadvantages. Here's an overview:
-
-### **Advantages of Honeypots**
-
-1. **Early Threat Detection**
-   * **Advantage** Honeypots allow for the early detection of potential threats and attacks because they are decoy systems designed to attract malicious activity.
-   * **Use Case** Organizations can identify and analyze new and evolving attack techniques before they reach critical systems.
-2. **Insight into Attack Techniques**
-   * **Advantage** Honeypots provide insight into the methods, tactics, and tools used by attackers.
-   * **Use Case** Security professionals can learn about the latest attack trends, helping them stay ahead in terms of cybersecurity awareness.
-3. **Threat Intelligence Gathering**
-   * **Advantage** Honeypots contribute to the collection of valuable threat intelligence, aiding in understanding the current threat landscape.
-   * **Use Case** This intelligence can be used to enhance security measures and create more effective defense strategies.
-4. **Incident Response Preparation**
-   * **Advantage** Honeypots offer a controlled environment for testing and refining incident response procedures.
-   * **Use Case** Organizations can improve their readiness to respond to real-world security incidents.
-5. **Security Awareness and Training**
-   * **Advantage** Honeypots can be used for training security teams and raising awareness about potential threats.
-   * **Use Case** Security professionals can gain hands-on experience in dealing with various types of attacks.
-6. **Evaluation of Security Posture**
-   * **Advantage** Organizations can use honeypots to assess the effectiveness of their existing security measures.
-   * **Use Case** Regular evaluations help in identifying and addressing vulnerabilities before they are exploited.
-7. **Research and Collaboration**
-   * **Advantage** Honeypots contribute to cybersecurity research and can foster collaboration within the security community.
-   * **Use Case** Findings from honeypot deployments can be shared to benefit the broader community.
-8. **Budget-Friendly Cybersecurity Measures**
-   * **Advantage** Honeypots, especially on platforms like Raspberry Pi, offer cost-effective cybersecurity measures.
-   * **Use Case** Small organizations or individuals with limited budgets can still implement effective security measures.
-
-### **Disadvantages of Honeypots**
-
-1. **Resource Intensive**
-   * **Disadvantage** Honeypots can consume significant resources, both in terms of hardware and monitoring efforts.
-   * **Consideration** Organizations need to carefully manage resource allocation to avoid impacting production systems.
-2. **False Positives**
-   * **Disadvantage** Honeypots may generate false positives, triggering alerts for non-malicious activity.
-   * **Mitigation** Regular tuning and adjustment of honeypot configurations can help reduce false positives.
-3. **Potential for Misuse**
-   * **Disadvantage** Honeypots, if not secured properly, can become targets for attackers.
-   * **Mitigation** Isolation and strict access controls are crucial to prevent honeypots from being used as launchpads for attacks.
-4. **Legal and Ethical Concerns**
-   * **Disadvantage** The deployment of honeypots may raise legal and ethical concerns, especially if they interact with external systems.
-   * **Consideration** It's important to adhere to legal and ethical guidelines and disclose the presence of honeypots appropriately.
-5. **Complexity of Management**
-   * **Disadvantage** Managing and maintaining honeypots can be complex, especially for users with limited cybersecurity expertise.
-   * **Consideration** User-friendly honeypot solutions and clear documentation can help address this challenge.
-6. **Limited Visibility**
-   * **Disadvantage** Honeypots only provide information about attacks directed at them and may not offer a comprehensive view of the entire network.
-   * **Consideration** Supplement honeypot data with other security measures for a more holistic cybersecurity strategy.
-7. **Time-Consuming**
-   * **Disadvantage** Setting up and maintaining honeypots can be time-consuming.
-   * **Consideration** Organizations should weigh the benefits against the time investment and determine if it aligns with their security goals.
-
-Understanding these advantages and disadvantages is crucial for making informed decisions about deploying honeypots and managing them effectively within a cybersecurity strategy.
-
-## **Setting up Raspberry Pi as opencanary honeypot.**
+## **Setting up Raspberry Pi as opencanary honeypot**
 
 1. Setup Raspberry Pi.
 2. Install & configure Opencanary on Raspberry Pi.
 3. Configure auto start opencanary on boot.
 
-_**Setup Raspberry Pi.**_
+### **Setup Raspberry Pi**
 
 Before setting up the Raspberry Pi. Below is the list of tools we need in order to setup.
 
@@ -127,33 +50,33 @@ Before setting up the Raspberry Pi. Below is the list of tools we need in order 
 
 After gathering all the required tool we can setup the raspberry pi for opencanary. Below are the step-by-step instructions to set up a Raspberry Pi for OpenCanary:
 
-1. Go to the official Raspberry Pi [website](https://www.raspberrypi.com/software/) and download the “**Raspberry Pi Imager**” tool according to your OS.
+**Step 1:** Go to the official Raspberry Pi [website](https://www.raspberrypi.com/software/) and download the “**Raspberry Pi Imager**” tool according to your OS.
 
 ![](../../../attachments/Screenshot_2023-11-10_134503.png)
 
-2. Install the raspberry pi Imager as normal software we install usually.
+**Step 2:** Install the raspberry pi Imager as normal software we install usually.
 
 ![](../../../attachments/Screenshot 2023-11-12 203345.png)
 
-3. Open the Imager and give the administrative privileges and select raspberry pi board according to your raspberry pi version.
+**Step 3:** Open the Imager and give the administrative privileges and select raspberry pi board according to your raspberry pi version.
 
 ![](../../../attachments/Screenshot_2023-11-10_140000.png)
 
-4. Next choose the OS Raspberry Pi OS Lite (64 bit).
+**Step 4:** Next choose the OS Raspberry Pi OS Lite (64 bit).
 
 ![](../../../attachments/Screenshot_2023-11-09_130619.png)
 
 **Note** We are using Lite version means only CLI is available. If you want to access it through GUI use Full or normal 64 bit version. But you will need monitor, keyboard, mouse & connectors to access and use GUI.
 
-5. Now insert the micro-SD card into your computer/laptop. Then select the choose storage and select your SD card properly.
+**Step 5:** Now insert the micro-SD card into your computer/laptop. Then select the choose storage and select your SD card properly.
 
 ![](../../../attachments/Screenshot_2023-11-09_130642.png)
 
-6. After that it will ask for “Would you like to apply OS customization settings?” click on edit settings.
+**Step 6:** After that it will ask for “Would you like to apply OS customization settings?” click on edit settings.
 
 ![](../../../attachments/Screenshot_2023-11-09_130828.png)
 
-7. Enable the following options as shown in the picture and set the following things
+**Step 7:** Enable the following options as shown in the picture and set the following things
    1. Username & password.
    2. Wi-Fi name(SSID) & password.
    3. Time zone & keyboard layout.
@@ -172,7 +95,7 @@ After that click on “**Yes”** on warning.
 
 let it complete the flash. (could take 5-10 min depending on SD card read/write speed).
 
-8.  After that insert the SD card in raspberry pi and boot (start) it. If you have monitor and keyboard setup the boot and open the terminal. And if you are following the steps given then search for IP address of raspberry pi in network through any network scanner or open the router dashboard and get the IP address of raspberry pi from there and run the following command to connect to it with command line.
+**Step 8:**  After that insert the SD card in raspberry pi and boot (start) it. If you have monitor and keyboard setup the boot and open the terminal. And if you are following the steps given then search for IP address of raspberry pi in network through any network scanner or open the router dashboard and get the IP address of raspberry pi from there and run the following command to connect to it with command line.
 
     `ssh username@ip_address`
 
@@ -184,29 +107,29 @@ If you are connecting for first time it will ask for “continue connecting?” 
 
 **Note** If you didn’t set any password then the default username is `pi` and password is `raspberry`.
 
-9.  Then execute the following command to update & upgrade system.
+**Step 9:**  Then execute the following command to update & upgrade system.
 
-    `sudo apt update && sudo apt upgrade -y`
+`sudo apt update && sudo apt upgrade -y`
 
 ![](../../../attachments/Screenshot_2023-11-09_153047.png)
 
 This will update all the packages to their latest version.
 
-10. Execute the following command to install required packages for opencanary.
+**Step 10:** Execute the following command to install required packages for opencanary.
 
-    `sudo apt install python3-dev python3-pip python3-virtualenv python3-venv python3-scapy libssl-dev libpcap-dev`
+`sudo apt install python3-dev python3-pip python3-virtualenv python3-venv python3-scapy libssl-dev libpcap-dev`
 
 ![](../../../attachments/Screenshot_2023-11-09_153708.png)
 
-_**Install & configure Opencanary on Raspberry Pi.**_
+### **Install & configure Opencanary on Raspberry Pi**
 
-1.  Execute the following command to install opencanary.
+**Step 1:**  Execute the following command to install opencanary.
 
-    `virtualenv env/`
+`virtualenv env/`
 
-    `. env/bin/activate`
+`. env/bin/activate`
 
-    `pip install opencanary`
+`pip install opencanary`
 
 ![](../../../attachments/Screenshot_2023-11-09_154038.png)
 
@@ -218,9 +141,9 @@ After that execute the following command to create a configuration file of openc
 
 This will create a file name opencanary.conf in the /etc/opencanaryd/ directory.
 
-2.  Now execute following command to edit that configuration file.
+**Step 2:**  Now execute following command to edit that configuration file.
 
-    `sudo nano /etc/opencanaryd/opencanary.conf`
+`sudo nano /etc/opencanaryd/opencanary.conf`
 
 ![](../../../attachments/Screenshot_2023-11-09_154352.png)
 
@@ -228,11 +151,11 @@ The command will open the file in nano text editor. Here you can configure the h
 
 ![](../../../attachments/16.png)
 
-3. Here set `“http.enabled” : true` to set fake http server on. Now press CTRL + S to save & CTRL + X to exit from nano.
+**Step 3:** Here set `“http.enabled” : true` to set fake http server on. Now press CTRL + S to save & CTRL + X to exit from nano.
 
 ![](../../../attachments/17.png)
 
-4. Now we need to setup your mail in order to get alerts on email. Add the following lines in the configuration file “handlers” section as follows:
+**Step 4:** Now we need to setup your mail in order to get alerts on email. Add the following lines in the configuration file “handlers” section as follows:
 
 ```json
 "SMTP": {
@@ -262,23 +185,23 @@ here are the steps to get [app password](https://support.google.com/accounts/ans
 
 ![](../../../attachments/19.png)
 
-5.  After this we will start our opencanary setup by using following command:
+**Step 5:**  After this we will start our opencanary setup by using following command:
 
-    `opencanaryd --start`
+`opencanaryd --start`
 
 ![](../../../attachments/20.png)
 
 We can see in the log which services are started. To test it is working or not, try login through FTP with random username & password and see if you get alerts on your gmail with username & password.
 
-6. Now test opencanary by trying to login through FTP with fake username and password. Opencanary will automatically send alerts on your gmail as follows:
+**Step 6:** Now test opencanary by trying to login through FTP with fake username and password. Opencanary will automatically send alerts on your gmail as follows:
 
 ![](../../../attachments/21.png)
 
-_**Configure auto start opencanary on boot.**_
+### **Configure auto start opencanary on boot**
 
-1.  Create a file using nano in `/etc/systemd/system` directory as following command and paste the data in it.
+**Step 1:** Create a file using nano in `/etc/systemd/system` directory as following command and paste the data in it.
 
-    `sudo nano /etc/systemd/system/opencanary.service`
+`sudo nano /etc/systemd/system/opencanary.service`
 
 ```
 Description=OpenCanary honeypot
@@ -303,9 +226,9 @@ WantedBy=multi-user.target
 
 Now press CTRL + S to save & CTRL + X to exit from nano.
 
-**Note** If you want services like ssh, smb, etc. to be running fake then set the **`User=root`** to get the alerts on gmail or else it will not send any alerts regarding those services.
+**Note:** If you want services like ssh, smb, etc. to be running fake then set the **`User=root`** to get the alerts on gmail or else it will not send any alerts regarding those services.
 
-2. After saving file execute the following command to enable service on system boot & start the service to test.
+**Step 2:** After saving file execute the following command to enable service on system boot & start the service to test.
 
 1\. To enable service.
 
@@ -327,7 +250,7 @@ To check it is started or not execute the following command:
 
 ![](../../../attachments/23.png)
 
-3. Now reboot the raspberry pi by using the command sudo reboot . And test the services which you started on opencanary by sending random inputs and see if you get alerts on gmail or not.
+3\. Now reboot the raspberry pi by using the command sudo reboot . And test the services which you started on opencanary by sending random inputs and see if you get alerts on gmail or not.
 
 ## **Summary**
 
