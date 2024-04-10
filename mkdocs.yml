@@ -402,10 +402,10 @@ nav:
         - Other/index.md
         - Mindmaps:
             - Other/Mindmaps/README.md
-        - CLI Commands:
+        - Command Line Interface:
             - Other/basic-linux-commands/README.md
-            - Other/basic-linux-commands/bash-scripting.md
             - Other/basic-linux-commands/linux-commands.md
+            - Other/basic-linux-commands/bash-scripting.md
             - Other/basic-linux-commands/windows.md
         - Hardware:
             - Other/Hardware Security/README.md
