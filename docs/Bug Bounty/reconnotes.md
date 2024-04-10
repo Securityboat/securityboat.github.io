@@ -463,7 +463,7 @@ https://github.com/vishal9066/RegExAPI                       For API findings on
 
 ### **References** ###
 
-[https://github.com/bminossi/ReconNotes](https://github.com/bminossi/ReconNotes)
+- [https://github.com/bminossi/ReconNotes](https://github.com/bminossi/ReconNotes)
 
-[https://sidxparab.gitbook.io/subdomain-enumeration-guide](https://sidxparab.gitbook.io/subdomain-enumeration-guide)
+- [https://sidxparab.gitbook.io/subdomain-enumeration-guide](https://sidxparab.gitbook.io/subdomain-enumeration-guide)
 
