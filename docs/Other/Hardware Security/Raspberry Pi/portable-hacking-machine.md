@@ -142,19 +142,19 @@ Finally we are done with setting up raspberry pi portable hacking machine.
 
 **Pros:**
 
-1. Mobility: Portable hacking machines, often built on compact platforms like Raspberry Pi, offer mobility and flexibility for conducting security assessments in diverse environments.
-2. Customization: Users can tailor portable hacking machines to their specific needs, selecting hardware components and software tools to suit their ethical hacking objectives.
-3. Isolation: Keeping hacking activities on a dedicated, isolated device helps protect personal or critical systems from potential compromise.Quick
-4. Deployment: Pre-configured portable machines can save time during incident response or time-sensitive security assessments, eliminating the need to set up an environment from scratch.
-5. Legal and Ethical Boundary: A portable hacking machine can be used to reinforce the importance of conducting ethical hacking within legal and ethical boundaries.
+1. **Mobility:** Portable hacking machines, often built on compact platforms like Raspberry Pi, offer mobility and flexibility for conducting security assessments in diverse environments.
+2. **Customization:** Users can tailor portable hacking machines to their specific needs, selecting hardware components and software tools to suit their ethical hacking objectives.
+3. **Isolation:** Keeping hacking activities on a dedicated, isolated device helps protect personal or critical systems from potential compromise.Quick
+4. **Deployment:** Pre-configured portable machines can save time during incident response or time-sensitive security assessments, eliminating the need to set up an environment from scratch.
+5. **Legal and Ethical Boundary:** A portable hacking machine can be used to reinforce the importance of conducting ethical hacking within legal and ethical boundaries.
 
 **Cons:**
 
-1. Legal and Ethical Concerns: Misuse of portable hacking machines can lead to legal consequences and ethical dilemmas if used for unauthorized and malicious purposes.
-2. Complexity: Setting up and configuring a portable hacking machine can be complex, requiring technical expertise and knowledge of ethical hacking tools.
-3. Cost: Building a capable portable hacking machine with advanced hardware components can be expensive, especially when considering additional accessories and tools.
-4. Risk of Detection: Even discreet devices are not entirely immune to detection, and if discovered, they could lead to suspicion or security alerts.
-5. Maintenance: Portable hacking machines may require ongoing maintenance and updates to ensure that tools and software remain current and effective.
+1. **Legal and Ethical Concerns:** Misuse of portable hacking machines can lead to legal consequences and ethical dilemmas if used for unauthorized and malicious purposes.
+2. **Complexity:** Setting up and configuring a portable hacking machine can be complex, requiring technical expertise and knowledge of ethical hacking tools.
+3. **Cost:** Building a capable portable hacking machine with advanced hardware components can be expensive, especially when considering additional accessories and tools.
+4. **Risk of Detection:** Even discreet devices are not entirely immune to detection, and if discovered, they could lead to suspicion or security alerts.
+5. **Maintenance:** Portable hacking machines may require ongoing maintenance and updates to ensure that tools and software remain current and effective.
 
 ## **Summary**
 
