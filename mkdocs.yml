@@ -228,7 +228,6 @@ nav:
             - Pentesting/Web Application/sql-injection.md
             - Pentesting/Web Application/ssrf.md
             - Pentesting/Web Application/subdomain-enumeration.md
-            - Pentesting/Web Application/template-injection.md
             - Pentesting/Web Application/unristricted-file-upload.md
             - Pentesting/Web Application/web-app-pentest-checklist.md
             - Pentesting/Web Application/web-cache-deception.md
