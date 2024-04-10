@@ -1,115 +1,69 @@
+# **How to Begin Your Bug Bounty Journey**
+
+To start your bug bounty journey, numerous platforms are publicly accessible for anyone interested in joining the bug bounty community. We refrain from naming specific platforms, as we believe it's essential for you to take your first steps independently!
+
+For beginners or individuals entirely new to application security, it's crucial to have a basic understanding of the following:
+
+- Linux
+- DNS
+- Website functioning
+- Data transfer mechanisms
+- OWASP top 10 (for both web and mobile)
+- Networking basics
+- Effective use of search engines
+
+In the bug bounty realm, it's commonly expected that you conduct basic Google searches to find answers. If you can't find a solution, you can always turn to the community on various social platforms for assistance.
+
+## **Learning Linux**
+
+You have the flexibility to choose any Linux distribution for hacking purposes. Some distributions are tailored as hacking environments, offering pre-installed tools. Alternatively, using a mainstream distribution like Ubuntu for hacking can enhance your Linux skills, albeit with occasional installation challenges. Strengthening your Linux proficiency is valuable for scripting automated hacking tools in the future.
+
+## **Understanding DNS and Networking**
+
+Understanding how websites function, the role of DNS, and networking fundamentals like subnets, ports, ASN, TCP, UDP, and ICMP is essential for bug bounty endeavors.
+
+## **Familiarizing with OWASP Top 10**
+
+The OWASP Top 10 serves as a foundational awareness document for developers and application security enthusiasts. It covers vulnerabilities in both web and mobile applications and serves as an excellent starting point for learning about security vulnerabilities.
+
+## **Leveraging Search Engines**
+
+Utilizing search engines effectively is integral to bug hunting. If you encounter difficulties, remember that most answers are readily available on the internet. Engage with the infosec community for guidance and support.
+
+## **Learning Attack Techniques**
+
+In addition to OWASP Top 10, explore platforms that offer insights into various attack vectors and provide lab environments to practice exploiting vulnerabilities.
+
+## **Exercise Patience**
+
+Patience is paramount in bug bounty hunting. Finding your first bug and evolving into a skilled bug hunter takes time and consistent effort. Treat hacking as a continuous learning process.
+
+## **Learning from YouTube Channels**
+
+YouTube is a valuable resource for bug bounty education. Explore recommended channels that cover bug bounty topics comprehensively.
+
+## **Engaging in Capture The Flag (CTF) Challenges**
+
+Participating in CTF challenges can enhance your hacking skills. Several platforms offer CTF challenges to help you sharpen your abilities.
+
+## **Selecting Bug Bounty Programs**
+
+When selecting bug bounty programs, prioritize applications you're familiar with as a regular user. Consider your comfort level with web or mobile applications to guide your choice.
+
+## **Dealing with Challenges**
+
+Struggling to find bugs is a common challenge. Remember that setbacks are part of the learning process. Take breaks when needed and return with renewed determination.
+
+## **Handling Duplicates**
+
+Encountering duplicate bugs is normal and indicates you're on the right track. Explore different exploitation methods and attempt to bypass patched vulnerabilities.
+
+## **Exploring Educational Courses**
+
+While there's debate surrounding the efficacy of bug bounty courses, some reputable courses can significantly aid your learning journey. Choose courses wisely to enhance your skills.
+
+## **Final Thoughts**
+
+Embarking on a bug bounty journey requires dedication and patience. While it may lead to frustration and burnout at times, the satisfaction of contributing to cybersecurity and gaining recognition is invaluable.
+
 ---
-description: >-
-  A big question in front of everyone who wants to start in bug bounty! We hope
-  this will clear your thoughts at some level!
----
-
-# **How to get started in a bug bounty?**
-
-Straight to the Point, multiple platforms are publicly available for everyone to join and be a part of the bug bounty community! We are not going to name any as we believe you must start your first step without any help! ;)&#x20;
-
-For a beginner or the person who is entirely new to application security, you must have a basic understanding of the following things,
-
-```
-Linux
-DNS
-How Websites work?
-How they transfer the data?
-OWASP top 10(Web+Mobile)
-Networking
-How to Google!
-```
-
-When it comes to bug bounty, almost everyone expects you to do at least a basic google search that can find the answer for you! If it doesn't, you can always ask the community using different social platforms.
-
-### **Learn the Linux**
-
-You can choose any Linux distribution to hack on! It's totally up to you! Some distributions are built as a hacking arena! A lot of tools come to preinstall in that! So you can start with that!
-
-Not using one of these prebuilt hacking arenas? "Good choice too!" When you use something like Ubuntu as your primary OS for hacking, you will come across a lot of installation bugs sometimes but will also strengthen your "Linux" Skills. In the future, you will be writing your automated hacking scripts. To do that Linux skills will become handy.
-
-### **DNS, Networking**
-
-You must know, how websites work? What happened when you type info.ninadmathpati.com? What's the DNS role in this? How that can be helpful in a bug bounty? Subnets, Ports, ASN, TCP, UDP, ICMP these and some more networking basics you have to cover before you start doing bug bounty!
-
-### **OWASP Top 10**
-
-The OWASP Top 10 is a standard awareness document for developers and application security. The document is available for Web, and Mobile applications. We Believe this is the perfect start point for learning about security vulnerabilities. So go check out their official website!
-
-### **Google**
-
-Have you asked anyone about something related to bug bounty or a bug or anything simple? And the person told you to search on "google"! There are a lot of reasons people usually answer like that! The primary one is obviously because it is readily available on the internet! You need to understand that people on the other side did the same thing. (almost everyone) They expect you to at least search on the internet, learn and if have any doubts ask. People in the infosec community are so helpful in nature that we are sure they will help you! We have purposely shared some of the half information with you above because we want you to complete this information using a basic google search.
-
-Example?: what are the Linux distros available for hacking?
-
-### **Learn the attacks!**
-
-As you already have covered OWASP Top 10, some other great platforms teach you more attack vectors plus a lab to try your hands on such vulnerabilities. This time we are sharing some of these platform links with you, :)
-
-[https://portswigger.net/web-security](https://portswigger.net/web-security)
-
-[https://pentesterlab.com/](https://pentesterlab.com/)
-
-[https://www.pentesteracademy.com/](https://www.pentesteracademy.com/)
-
-[https://www.bugbountyhunter.com/](https://www.bugbountyhunter.com/)
-
-### **Patience is the key!**
-
-One of the most important things to understand about bug bounty is, it may take time to find your first bug and evolve as a good bug hunter! No one in the world became a good hacker in a day or even in a month. It will take time. So invest most of the time in learning! "Remember, hacking is learning!"
-
-### **Hackers on YouTube!**
-
-YouTube is another great place to learn about bug bounty! We are listing some of the best channels we believe are out there for everyone!
-
-[https://www.youtube.com/channel/UCCZDt7MuC3Hzs6IH4xODLBw](https://www.youtube.com/channel/UCCZDt7MuC3Hzs6IH4xODLBw)
-
-[https://www.youtube.com/c/codingo](https://www.youtube.com/c/codingo)
-
-[https://www.youtube.com/c/InsiderPhD](https://www.youtube.com/c/InsiderPhD)
-
-[https://www.youtube.com/channel/UCIXot2vRgeM5alhAlpTbhQA](https://www.youtube.com/channel/UCIXot2vRgeM5alhAlpTbhQA)
-
-[https://www.youtube.com/channel/UCQN2DsjnYH60SFBIA6IkNwg](https://www.youtube.com/channel/UCQN2DsjnYH60SFBIA6IkNwg)
-
-[https://www.youtube.com/channel/UC0ZTPkdxlAKf-V33tqXwi3Q](https://www.youtube.com/channel/UC0ZTPkdxlAKf-V33tqXwi3Q)
-
-There are a lot of other great hackers who have youtube channels who share, talk about bug bounty. You can easily find them!
-
-### **CTFs**
-
-CTFs are really great and can be helpful to sharpen your hacking skills. There are some great CTFs platforms that can help you to sharpen your skills. Some of them are,
-
-[https://www.hackthebox.eu/](https://www.hackthebox.eu/)
-
-[https://tryhackme.com/](https://tryhackme.com/)
-
-[https://ctftime.org/event/list/upcoming](https://ctftime.org/event/list/upcoming)
-
-### **Tons of programs?**
-
-There is always a question on, "How to pick a program"!
-
-While selecting a program, check if you have used the application ever before like a regular user! Hunt on these programs first, because you are already aware of the functionality of an application. If none of these applications is working for you, know where your interest really is! Do you love mobile applications, more or web applications? Where are you more comfortable while hacking, on the web or on mobile applications? These things will help you while choosing a program to hack on!
-
-### **Not getting a bug?**
-
-While it's demotivating and frustrating to not get a bug even hacking for a month! But one thing you can remember is that "this happens with almost everyone!" You are not alone in this fight! Take a break and come back with more power!
-
-### **Duplicates!**
-
-Duplicates are not bad at all! It tells you that you are on the right path! But certainly getting around these duplicates is the thing you really want! While hacking an excellent thing to remember is, "One vulnerability can be exploited using one or more different ways." While your way might be different from the original reporter's way but does, he tried your method on other applications? Or did you try his way on your favorite applications? Can you bypass the Patch of the bug? Just don't stop!
-
-### **Looking for courses?**
-
-There is always a debate on this topic in infosec. But we think you should decide this for yourself! There are some great courses available on the internet and some of them are just fake/stolen! But there are some courses that stands-out! And we recommend you to buy these courses and start learning from them. Below are some best courses,
-
-[https://hackersera.com/p/?page=online-training](https://hackersera.com/p/?page=online-training)
-
-[https://academy.tcm-sec.com/](https://academy.tcm-sec.com/)
-
-### **A Final Note!**
-
-Bug bounty needs your time and money! Sometimes it can give you frustration, burnout. But in return, it will also give you the happiness of helping and securing the company's assets and obviously a recognization in different ways to remember for a lifetime! :)
-
-&#x20;

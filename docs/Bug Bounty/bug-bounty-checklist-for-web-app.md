@@ -1,228 +1,224 @@
 # **Bug Bounty Checklist for Web App**
 
-## **Bug Bounty Checklist for Web App**
+## **Table of Contents**
 
-> **This checklist may help you to have a good methodology for bug bounty hunting. When you have done a action, don't forget to check ;) Happy hunting!**
+- [ ] [Recon on wildcard domain](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#%22Recon\_on\_wildcard\_domain%22)
+- [ ] [Single domain](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Single\_domain)
+- [ ] [Information Gathering](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Information)
+- [ ] [Configuration Management](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Configuration)
+- [ ] [Secure Transmission](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Transmission)
+- [ ] [Authentication](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Authentication)
+- [ ] [Session Management](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Session)
+- [ ] [Authorization](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Authorization)
+- [ ] [Data Validation](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Validation)
+- [ ] [Denial of Service](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Denial)
+- [ ] [Business Logic](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Business)
+- [ ] [Cryptography](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Cryptography)
+- [ ] [Risky Functionality - File Uploads](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#File)
+- [ ] [Risky Functionality - Card Payment](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Card)
+- [ ] [HTML 5](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#HTML)
 
-### **Table of Contents**
+## **Recon on wildcard domain**
 
-* [Recon on wildcard domain](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#%22Recon\_on\_wildcard\_domain%22)
-* [Single domain](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Single\_domain)
-* [Information Gathering](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Information)
-* [Configuration Management](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Configuration)
-* [Secure Transmission](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Transmission)
-* [Authentication](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Authentication)
-* [Session Management](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Session)
-* [Authorization](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Authorization)
-* [Data Validation](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Validation)
-* [Denial of Service](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Denial)
-* [Business Logic](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Business)
-* [Cryptography](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Cryptography)
-* [Risky Functionality - File Uploads](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#File)
-* [Risky Functionality - Card Payment](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#Card)
-* [HTML 5](https://github.com/sehno/Bug-bounty/blob/master/bugbounty\_checklist.md#HTML)
+- [ ] Run amass
+- [ ] Run subfinder
+- [ ] Run assetfinder
+- [ ] Run dnsgen
+- [ ] Run massdns
+- [ ] Use httprobe
+- [ ] Run aquatone (screenshot for alive host)
 
-### **Recon on wildcard domain**
+## **Single Domain**
 
-* &#x20;Run amass
-* &#x20;Run subfinder
-* &#x20;Run assetfinder
-* &#x20;Run dnsgen
-* &#x20;Run massdns
-* &#x20;Use httprobe
-* &#x20;Run aquatone (screenshot for alive host)
+### **Scanning**
 
-### **Single Domain**
+- [ ] Nmap scan
+- [ ] Burp crawler
+- [ ] ffuf (directory and file fuzzing)
+- [ ] hakrawler/gau/paramspider
+- [ ] Linkfinder
+- [ ] Url with Android application
 
-#### **Scanning**
+### **Manual checking**
 
-* &#x20;Nmap scan
-* &#x20;Burp crawler
-* &#x20;ffuf (directory and file fuzzing)
-* &#x20;hakrawler/gau/paramspider
-* &#x20;Linkfinder
-* &#x20;Url with Android application
+- [ ] Shodan
+- [ ] Censys
+- [ ] Google dorks
+- [ ] Pastebin
+- [ ] Github
+- [ ] OSINT
 
-#### **Manual checking**
+## **Information Gathering**
 
-* &#x20;Shodan
-* &#x20;Censys
-* &#x20;Google dorks
-* &#x20;Pastebin
-* &#x20;Github
-* &#x20;OSINT
+- [ ] Manually explore the site
+- [ ] Spider/crawl for missed or hidden content
+- [ ] Check for files that expose content, such as robots.txt, sitemap.xml, .DS\_Store
+- [ ] Check the caches of major search engines for publicly accessible sites
+- [ ] Check for differences in content based on User Agent (eg, Mobile sites, access as a Search engine Crawler)
+- [ ] Perform Web Application Fingerprinting
+- [ ] Identify technologies used
+- [ ] Identify user roles
+- [ ] Identify application entry points
+- [ ] Identify client-side code
+- [ ] Identify multiple versions/channels (e.g. web, mobile web, mobile app, web services)
+- [ ] Identify co-hosted and related applications
+- [ ] Identify all hostnames and ports
+- [ ] Identify third-party hosted content
+- [ ] Identify Debug parameters
 
-### **Information Gathering**
+## **Configuration Management**
 
-* &#x20;Manually explore the site
-* &#x20;Spider/crawl for missed or hidden content
-* &#x20;Check for files that expose content, such as robots.txt, sitemap.xml, .DS\_Store
-* &#x20;Check the caches of major search engines for publicly accessible sites
-* &#x20;Check for differences in content based on User Agent (eg, Mobile sites, access as a Search engine Crawler)
-* &#x20;Perform Web Application Fingerprinting
-* &#x20;Identify technologies used
-* &#x20;Identify user roles
-* &#x20;Identify application entry points
-* &#x20;Identify client-side code
-* &#x20;Identify multiple versions/channels (e.g. web, mobile web, mobile app, web services)
-* &#x20;Identify co-hosted and related applications
-* &#x20;Identify all hostnames and ports
-* &#x20;Identify third-party hosted content
-* &#x20;Identify Debug parameters
+- [ ] Check for commonly used application and administrative URLs
+- [ ] Check for old, backup and unreferenced files
+- [ ] Check HTTP methods supported and Cross Site Tracing (XST)
+- [ ] Test file extensions handling
+- [ ] Test for security HTTP headers (e.g. CSP, X-Frame-Options, HSTS)
+- [ ] Test for policies (e.g. Flash, Silverlight, robots)
+- [ ] Test for non-production data in live environment, and vice-versa
+- [ ] Check for sensitive data in client-side code (e.g. API keys, credentials)
 
-### **Configuration Management**
+## **Secure Transmission**
 
-* &#x20;Check for commonly used application and administrative URLs
-* &#x20;Check for old, backup and unreferenced files
-* &#x20;Check HTTP methods supported and Cross Site Tracing (XST)
-* &#x20;Test file extensions handling
-* &#x20;Test for security HTTP headers (e.g. CSP, X-Frame-Options, HSTS)
-* &#x20;Test for policies (e.g. Flash, Silverlight, robots)
-* &#x20;Test for non-production data in live environment, and vice-versa
-* &#x20;Check for sensitive data in client-side code (e.g. API keys, credentials)
+- [ ] Check SSL Version, Algorithms, Key length
+- [ ] Check for Digital Certificate Validity (Duration, Signature and CN)
+- [ ] Check credentials only delivered over HTTPS
+- [ ] Check that the login form is delivered over HTTPS
+- [ ] Check session tokens only delivered over HTTPS
+- [ ] Check if HTTP Strict Transport Security (HSTS) in use
 
-### **Secure Transmission**
+## **Authentication**
 
-* &#x20;Check SSL Version, Algorithms, Key length
-* &#x20;Check for Digital Certificate Validity (Duration, Signature and CN)
-* &#x20;Check credentials only delivered over HTTPS
-* &#x20;Check that the login form is delivered over HTTPS
-* &#x20;Check session tokens only delivered over HTTPS
-* &#x20;Check if HTTP Strict Transport Security (HSTS) in use
+- [ ] Test for user enumeration
+- [ ] Test for authentication bypass
+- [ ] Test for bruteforce protection
+- [ ] Test password quality rules
+- [ ] Test remember me functionality
+- [ ] Test for autocomplete on password forms/input
+- [ ] Test password reset and/or recovery
+- [ ] Test password change process
+- [ ] Test CAPTCHA
+- [ ] Test multi factor authentication
+- [ ] Test for logout functionality presence
+- [ ] Test for cache management on HTTP (eg Pragma, Expires, Max-age)
+- [ ] Test for default logins
+- [ ] Test for user-accessible authentication history
+- [ ] Test for out-of channel notification of account lockouts and successful password changes
+- [ ] Test for consistent authentication across applications with shared authentication schema / SSO
 
-### **Authentication**
+## **Session Management**
 
-* &#x20;Test for user enumeration
-* &#x20;Test for authentication bypass
-* &#x20;Test for bruteforce protection
-* &#x20;Test password quality rules
-* &#x20;Test remember me functionality
-* &#x20;Test for autocomplete on password forms/input
-* &#x20;Test password reset and/or recovery
-* &#x20;Test password change process
-* &#x20;Test CAPTCHA
-* &#x20;Test multi factor authentication
-* &#x20;Test for logout functionality presence
-* &#x20;Test for cache management on HTTP (eg Pragma, Expires, Max-age)
-* &#x20;Test for default logins
-* &#x20;Test for user-accessible authentication history
-* &#x20;Test for out-of channel notification of account lockouts and successful password changes
-* &#x20;Test for consistent authentication across applications with shared authentication schema / SSO
+- [ ] Establish how session management is handled in the application (eg, tokens in cookies, token in URL)
+- [ ] Check session tokens for cookie flags (httpOnly and secure)
+- [ ] Check session cookie scope (path and domain)
+- [ ] Check session cookie duration (expires and max-age)
+- [ ] Check session termination after a maximum lifetime
+- [ ] Check session termination after relative timeout
+- [ ] Check session termination after logout
+- [ ] Test to see if users can have multiple simultaneous sessions
+- [ ] Test session cookies for randomness
+- [ ] Confirm that new session tokens are issued on login, role change and logout
+- [ ] Test for consistent session management across applications with shared session management
+- [ ] Test for session puzzling
+- [ ] Test for CSRF and clickjacking
 
-### **Session Management**
+## **Authorization**
 
-* &#x20;Establish how session management is handled in the application (eg, tokens in cookies, token in URL)
-* &#x20;Check session tokens for cookie flags (httpOnly and secure)
-* &#x20;Check session cookie scope (path and domain)
-* &#x20;Check session cookie duration (expires and max-age)
-* &#x20;Check session termination after a maximum lifetime
-* &#x20;Check session termination after relative timeout
-* &#x20;Check session termination after logout
-* &#x20;Test to see if users can have multiple simultaneous sessions
-* &#x20;Test session cookies for randomness
-* &#x20;Confirm that new session tokens are issued on login, role change and logout
-* &#x20;Test for consistent session management across applications with shared session management
-* &#x20;Test for session puzzling
-* &#x20;Test for CSRF and clickjacking
+- [ ] Test for path traversal
+- [ ] Test for bypassing authorization schema
+- [ ] Test for vertical Access control problems (a.k.a. Privilege Escalation)
+- [ ] Test for horizontal Access control problems (between two users at the same privilege level)
+- [ ] Test for missing authorization
 
-### **Authorization**
+## **Data Validation**
 
-* &#x20;Test for path traversal
-* &#x20;Test for bypassing authorization schema
-* &#x20;Test for vertical Access control problems (a.k.a. Privilege Escalation)
-* &#x20;Test for horizontal Access control problems (between two users at the same privilege level)
-* &#x20;Test for missing authorization
+- [ ] Test for Reflected Cross Site Scripting
+- [ ] Test for Stored Cross Site Scripting
+- [ ] Test for DOM based Cross Site Scripting
+- [ ] Test for Cross Site Flashing
+- [ ] Test for HTML Injection
+- [ ] Test for SQL Injection
+- [ ] Test for LDAP Injection
+- [ ] Test for ORM Injection
+- [ ] Test for XML Injection
+- [ ] Test for XXE Injection
+- [ ] Test for SSI Injection
+- [ ] Test for XPath Injection
+- [ ] Test for XQuery Injection
+- [ ] Test for IMAP/SMTP Injection
+- [ ] Test for Code Injection
+- [ ] Test for Expression Language Injection
+- [ ] Test for Command Injection
+- [ ] Test for Overflow (Stack, Heap and Integer)
+- [ ] Test for Format String
+- [ ] Test for incubated vulnerabilities
+- [ ] Test for HTTP Splitting/Smuggling
+- [ ] Test for HTTP Verb Tampering
+- [ ] Test for Open Redirection
+- [ ] Test for Local File Inclusion
+- [ ] Test for Remote File Inclusion
+- [ ] Compare client-side and server-side validation rules
+- [ ] Test for NoSQL injection
+- [ ] Test for HTTP parameter pollution
+- [ ] Test for auto-binding
+- [ ] Test for Mass Assignment
+- [ ] Test for NULL/Invalid Session Cookie
 
-### **Data Validation**
+## **Denial of Service**
 
-* &#x20;Test for Reflected Cross Site Scripting
-* &#x20;Test for Stored Cross Site Scripting
-* &#x20;Test for DOM based Cross Site Scripting
-* &#x20;Test for Cross Site Flashing
-* &#x20;Test for HTML Injection
-* &#x20;Test for SQL Injection
-* &#x20;Test for LDAP Injection
-* &#x20;Test for ORM Injection
-* &#x20;Test for XML Injection
-* &#x20;Test for XXE Injection
-* &#x20;Test for SSI Injection
-* &#x20;Test for XPath Injection
-* &#x20;Test for XQuery Injection
-* &#x20;Test for IMAP/SMTP Injection
-* &#x20;Test for Code Injection
-* &#x20;Test for Expression Language Injection
-* &#x20;Test for Command Injection
-* &#x20;Test for Overflow (Stack, Heap and Integer)
-* &#x20;Test for Format String
-* &#x20;Test for incubated vulnerabilities
-* &#x20;Test for HTTP Splitting/Smuggling
-* &#x20;Test for HTTP Verb Tampering
-* &#x20;Test for Open Redirection
-* &#x20;Test for Local File Inclusion
-* &#x20;Test for Remote File Inclusion
-* &#x20;Compare client-side and server-side validation rules
-* &#x20;Test for NoSQL injection
-* &#x20;Test for HTTP parameter pollution
-* &#x20;Test for auto-binding
-* &#x20;Test for Mass Assignment
-* &#x20;Test for NULL/Invalid Session Cookie
+- [ ] Test for anti-automation
+- [ ] Test for account lockout
+- [ ] Test for HTTP protocol DoS
+- [ ] Test for SQL wildcard DoS
 
-### **Denial of Service**
+## **Business Logic**
 
-* &#x20;Test for anti-automation
-* &#x20;Test for account lockout
-* &#x20;Test for HTTP protocol DoS
-* &#x20;Test for SQL wildcard DoS
+- [ ] Test for feature misuse
+- [ ] Test for lack of non-repudiation
+- [ ] Test for trust relationships
+- [ ] Test for integrity of data
+- [ ] Test segregation of duties
 
-### **Business Logic**
+## **Cryptography**
 
-* &#x20;Test for feature misuse
-* &#x20;Test for lack of non-repudiation
-* &#x20;Test for trust relationships
-* &#x20;Test for integrity of data
-* &#x20;Test segregation of duties
+- [ ] Check if data which should be encrypted is not
+- [ ] Check for wrong algorithms usage depending on context
+- [ ] Check for weak algorithms usage
+- [ ] Check for proper use of salting
+- [ ] Check for randomness functions
 
-### **Cryptography**
+## **Risky Functionality - File Uploads**
 
-* &#x20;Check if data which should be encrypted is not
-* &#x20;Check for wrong algorithms usage depending on context
-* &#x20;Check for weak algorithms usage
-* &#x20;Check for proper use of salting
-* &#x20;Check for randomness functions
+- [ ] Test that acceptable file types are whitelisted
+- [ ] Test that file size limits, upload frequency and total file counts are defined and are enforced
+- [ ] Test that file contents match the defined file type
+- [ ] Test that all file uploads have Anti-Virus scanning in-place.
+- [ ] Test that unsafe filenames are sanitised
+- [ ] Test that uploaded files are not directly accessible within the web root
+- [ ] Test that uploaded files are not served on the same hostname/port
+- [ ] Test that files and other media are integrated with the authentication and authorisation schemas
 
-### **Risky Functionality - File Uploads**
+## **Risky Functionality - Card Payment**
 
-* &#x20;Test that acceptable file types are whitelisted
-* &#x20;Test that file size limits, upload frequency and total file counts are defined and are enforced
-* &#x20;Test that file contents match the defined file type
-* &#x20;Test that all file uploads have Anti-Virus scanning in-place.
-* &#x20;Test that unsafe filenames are sanitised
-* &#x20;Test that uploaded files are not directly accessible within the web root
-* &#x20;Test that uploaded files are not served on the same hostname/port
-* &#x20;Test that files and other media are integrated with the authentication and authorisation schemas
+- [ ] Test for known vulnerabilities and configuration issues on Web Server and Web Application
+- [ ] Test for default or guessable password
+- [ ] Test for non-production data in live environment, and vice-versa
+- [ ] Test for Injection vulnerabilities
+- [ ] Test for Buffer Overflows
+- [ ] Test for Insecure Cryptographic Storage
+- [ ] Test for Insufficient Transport Layer Protection
+- [ ] Test for Improper Error Handling
+- [ ] Test for all vulnerabilities with a CVSS v2 score > 4.0
+- [ ] Test for Authentication and Authorization issues
+- [ ] Test for CSRF
 
-### **Risky Functionality - Card Payment**
+## **HTML 5**
 
-* &#x20;Test for known vulnerabilities and configuration issues on Web Server and Web Application
-* &#x20;Test for default or guessable password
-* &#x20;Test for non-production data in live environment, and vice-versa
-* &#x20;Test for Injection vulnerabilities
-* &#x20;Test for Buffer Overflows
-* &#x20;Test for Insecure Cryptographic Storage
-* &#x20;Test for Insufficient Transport Layer Protection
-* &#x20;Test for Improper Error Handling
-* &#x20;Test for all vulnerabilities with a CVSS v2 score > 4.0
-* &#x20;Test for Authentication and Authorization issues
-* &#x20;Test for CSRF
+- [ ] Test Web Messaging
+- [ ] Test for Web Storage SQL injection
+- [ ] Check CORS implementation
+- [ ] Check Offline Web Application
 
-### **HTML 5**
-
-* &#x20;Test Web Messaging
-* &#x20;Test for Web Storage SQL injection
-* &#x20;Check CORS implementation
-* &#x20;Check Offline Web Application
-
-### **Source:**
+## **Source:**
 
 [https://github.com/sehno/Bug-bounty/blob/master/bugbounty_checklist.md](https://github.com/sehno/Bug-bounty/blob/master/bugbounty_checklist.md)
 
