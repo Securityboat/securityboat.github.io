@@ -217,7 +217,6 @@ nav:
             - Pentesting/Web Application/idor.md
             - Pentesting/Web Application/insecure-deserialization.md
             - Pentesting/Web Application/jwt-and-its-bypass.md
-            - Pentesting/Web Application/my-checklist.md
             - Pentesting/Web Application/oauth.md
             - Pentesting/Web Application/payloads.md
             - Pentesting/Web Application/postmessage-vuls.md
