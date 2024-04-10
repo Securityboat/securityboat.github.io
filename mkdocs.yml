@@ -407,7 +407,7 @@ nav:
             - Other/basic-linux-commands/bash-scripting.md
             - Other/basic-linux-commands/linux-commands.md
             - Other/basic-linux-commands/windows.md
-        - Hardware Security:
+        - Hardware:
             - Other/Hardware Security/README.md
             - NodeMCU ESP8266:
                 - Other/Hardware Security/NodeMCU ESP8266/README.md
