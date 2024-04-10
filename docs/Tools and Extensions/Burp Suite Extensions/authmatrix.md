@@ -1,21 +1,20 @@
 # **AuthMatrix**
 
-### **Description**
+## **Description**
 
-AuthMatrix extension is used for test authorization in web applications and web services. With AuthMatrix, testers focus on thoroughly defining tables of users, roles, and requests for their specific target application upfront. These tables are structured in a similar format to that of an access control matrix common in various threat modelling methodologies.
+The AuthMatrix extension is designed for testing authorization in web applications and web services. With AuthMatrix, testers can focus on thoroughly defining tables of users, roles, and requests specific to their target application upfront. These tables are structured similarly to an access control matrix, which is common in various threat modeling methodologies.
 
-Once the tables have been assembled, testers can use the simple click-to-run interface to kick off all combinations of roles and requests. The results can be confirmed with an easy to read, colorr-coded interface indicating any authorization vulnerabilities detected in the system. Additionally, the extension provides the ability to save and load target configurations for simple regression testing.
+Once the tables are assembled, testers can use the simple click-to-run interface to initiate all combinations of roles and requests. The results are displayed in an easy-to-read, color-coded interface that indicates any authorization vulnerabilities detected in the system. Additionally, the extension provides the ability to save and load target configurations for simple regression testing.
 
-### **Steps to install**
+## **Steps to Install**
 
 1. Start Burp Suite.
-2. Move to the Extender tab.
-3. Go to BApp Store.
-4. Search AuthMatrix.
-5. Hit Install.
+2. Navigate to the Extender tab.
+3. Visit the BApp Store.
+4. Search for AuthMatrix.
+5. Click on Install.
 
-### **References**
+## **References**
 
-[https://zuxsecurity.blogspot.com/2018/01/authmatrix-08.html](https://zuxsecurity.blogspot.com/2018/01/authmatrix-08.html)
-
-[https://github.com/SecurityInnovation/AuthMatrix](https://github.com/SecurityInnovation/AuthMatrix)
+- [AuthMatrix Blog Post](https://zuxsecurity.blogspot.com/2018/01/authmatrix-08.html)
+- [AuthMatrix GitHub Repository](https://github.com/SecurityInnovation/AuthMatrix)

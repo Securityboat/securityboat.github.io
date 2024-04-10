@@ -1,29 +1,28 @@
 # **HTTP Request Smuggler**
 
-### **Description**
+## **Description**
 
-This is the go-to Burp extension, By using this you can easily detect and exploit a web application for[ HTTP Request Smuggling](../../Pentesting/Web Application/http-request-smuggling.md). It detects whether you have a [CL.TE or TE.CL](https://portswigger.net/web-security/request-smuggling/finding) condition and reports it directly into Burp Suite’s Dashboard tab, under the Issue Activity menu where all the issues get listed.&#x20;
+The **HTTP Request Smuggler** is a go-to Burp extension that allows you to easily detect and exploit web applications for [HTTP Request Smuggling](../../Pentesting/Web%20Application/http-request-smuggling.md). It detects conditions such as CL.TE or TE.CL and reports them directly to Burp Suite’s Dashboard tab, under the Issue Activity menu where all issues are listed.
 
-To use the HTTP request smuggler extension first you need to install a Turbo intruder extension, which sends a large number of requests to analyze the result.
+To use the HTTP Request Smuggler extension, you first need to install the Turbo Intruder extension, which sends a large number of requests to analyze the result.
 
-### **Steps to install Turbo Intruder**
-
-1. Start Burp Suite.
-2. Move to the Extender tab.
-3. Go to BApp Store.
-4. Search Turbo intruder.
-5. Hit Install.
-
-### **Steps to install HTTP Request Smuggler**
+## **Steps to Install Turbo Intruder**
 
 1. Start Burp Suite.
-2. Move to the Extender tab.
-3. Go to BApp Store.
-4. Search HTTP request smuggler.
-5. Hit Install.
+2. Navigate to the Extender tab.
+3. Visit the BApp Store.
+4. Search for Turbo Intruder.
+5. Click Install.
 
-### **References**
+## **Steps to Install HTTP Request Smuggler**
 
-[https://github.com/PortSwigger/turbo-intruder](https://github.com/PortSwigger/turbo-intruder)
+1. Start Burp Suite.
+2. Navigate to the Extender tab.
+3. Visit the BApp Store.
+4. Search for HTTP Request Smuggler.
+5. Click Install.
 
-[https://github.com/portswigger/http-request-smuggler](https://github.com/portswigger/http-request-smuggler)
+## **References**
+
+- [Turbo Intruder GitHub Repository](https://github.com/PortSwigger/turbo-intruder)
+- [HTTP Request Smuggler GitHub Repository](https://github.com/portswigger/http-request-smuggler)

@@ -1,21 +1,21 @@
 # **Flow**
 
-### **Description**
+## **Description**
 
-Flow extension provides a Proxy history-like view along with search filter capabilities for all Burp tools. Requests without responses received are also shown and they are later updated as soon a response is received.&#x20;
+The Flow extension provides a Proxy history-like view along with search filter capabilities for all Burp Suite tools. It displays requests even without responses, updating them once a response is received.
 
-### **Note&#x20;**
+## **Note**
 
-If you are using the "Platform Authentication" or "Match and Replace" feature of a burp, then Flow is unable to match responses to related requests.
+If you are using the "Platform Authentication" or "Match and Replace" feature of Burp Suite, Flow may not match responses to related requests.
 
-### **Steps to install**
+## **Steps to Install**
 
 1. Start Burp Suite.
-2. Move to the Extender tab.
-3. Go to BApp Store.
-4. Search Flow.
-5. Hit Install.
+2. Navigate to the Extender tab.
+3. Visit the BApp Store.
+4. Search for Flow.
+5. Click on Install.
 
-### **References**
+## **References**
 
-[https://github.com/hvqzao/burp-flow](https://github.com/hvqzao/burp-flow)
+- [Flow GitHub Repository](https://github.com/hvqzao/burp-flow)

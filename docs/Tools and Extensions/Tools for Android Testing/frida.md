@@ -1,40 +1,77 @@
 # **Frida**
 
+1\. **Understanding the Target**: Before using Frida, you need to understand the target application or process you want to instrument. Identify the functions, APIs, or behaviors you want to intercept or modify.
 
+2\. **Installation**
 
-Frida is a free and open-source dynamic code instrumentation toolkit, used for intercepting IPC(Interprocess Communication) requests and modifying it to make a function perform the desired operation, this concept is called Hooking. Dynamic instrumentation is the process of modifying the instructions of a binary program while it executes.
+- Install Frida tools on your development machine (laptop/PC) using pip:
+    ```
+    pip install frida-tools
+    ```
+- Install Frida server on the target device (Android in this case):
+    - Determine the device architecture (arm/arm64/x86/x86_64) using:
+    ```
+    adb shell getprop | grep abi
+    ```
+    - Download the compatible Frida server from the official repository: [Frida Releases](https://github.com/frida/frida/releases)
+    - Extract the downloaded archive and navigate to the directory.
+    - Push Frida server to the device:
+    ```
+    adb push frida-server /data/local/tmp
+    ```
+    - Enter ADB shell and navigate to the directory:
+    ```
+    adb shell
+    cd /data/local/tmp
+    ```
+    - Provide executable permissions to Frida server:
+    ```
+    chmod 777 frida-server
+    ```
+    - Start Frida server:
+    ```
+    ./frida-server
+       ```
 
-Some use cases of Frida
+3\. **Instrumentation**
 
-* Spy on Crypto APIs
-* Modify function’s output
-* Bypass AES encryption
-* Bypass SSLPinning and Root detection
-* Trace private application code
-* Bypass various software sided locks (like app lock)
+- Launch the target application on the device.
 
-### **Setting Up Frida For Testing**
+- Write Frida scripts (JavaScript) to define hooks or modifications.
 
-We need to install the Frida tool on a laptop/PC and Frida Server on a mobile device.&#x20;
+- Run the Frida CLI or scripts using Frida tools to inject instrumentation into the target process.
 
-#### **Steps to Frida tool install on Laptop/PC**
+4\. **Example Usage**:
 
-1. Install Python 3 and the latest pip.
-2. Open the terminal or command prompt and run the following command.              `pip install frida-tools`
-3. Verify Frida is installed properly.                                                                         `frida --version`
-4. If the version is displayed then Frida is properly installed.
+   - Spy on Crypto APIs:
+     ```javascript
+     Java.perform(function () {
+         var Crypto = Java.use('javax.crypto.Cipher');
+         Crypto.doFinal.overload('[B').implementation = function (data) {
+             console.log("doFinal intercepted with data: " + data);
+             return this.doFinal(data);
+         };
+     });
+     ```
+   - Bypass SSL Pinning:
+     ```javascript
+     Java.perform(function () {
+         var TrustManagerImpl = Java.use('com.android.org.conscrypt.TrustManagerImpl');
+         TrustManagerImpl.verifyChain.implementation = function (untrustedChain, trustAnchorChain, host, clientAuth, ocspData, tlsSctData) {
+             // bypassing SSL pinning
+             return;
+         };
+     });
+     ```
 
-#### **Steps to install on Android device&#x20;**
+5\. **Execution**:
 
-1. Execute the following command to get to know about the process type on the device( Emulator/Physical device ).                                                                                      `adb shell                                                                    getprop | grep abi`                                                       &#x20;
-2. Download the supported Frida server from  [https://github.com/frida/frida/releases](https://github.com/frida/frida/releases)
-3. Unzip the downloaded folder and CD into the directory.
-4.  Push Frida Server into the device.&#x20;
+   - Run Frida scripts against the target application:
+     ```
+     frida -U -f <package_name> -l <script.js> --no-pause
+     ```
+     Replace `<package_name>` with the target application's package name and `<script.js>` with the path to your Frida script.
 
-    `ADB push Frida server /data/local/tmp`
-5. Do ADB shell and CD into _/data/local/tmp._                                                              `adb shell                                                     su                                                             cd data/local/tmp`
-6. Give Executable permission to Frida Server.                                                     `chmod 777 frida-server`
-7. Run Frida Server.                                                                                              `./frida-server`
+6\. **Verification**: Monitor the output of Frida scripts to verify that hooks are functioning as expected. You can observe logs or interactions as defined in your Frida scripts.
 
-### **How To use**
-
+7\. **Cleanup**: After testing, make sure to stop Frida server on the device and remove the injected instrumentation from the target process.
