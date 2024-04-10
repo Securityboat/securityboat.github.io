@@ -26,6 +26,6 @@ description: Thanks to all the people who helped to make this Gitbook.
 
 **Akshay Satav** [:fontawesome-brands-linkedin-in:](https://www.linkedin.com/in/akshaysatav) [:fontawesome-brands-square-x-twitter:](https://twitter.com/AkkiSatav)
 
-**Himanshu Gupta** [:fontawesome-brands-linkedin-in:](https://www.linkedin.com/in/himanshugupta2077) [:fontawesome-brands-square-x-twitter:](https://twitter.com/himanshug2077)
+**Himanshu Gupta** [:material-web:](https://himanshugupta2077.github.io/) [:fontawesome-brands-linkedin-in:](https://www.linkedin.com/in/himanshugupta2077) [:fontawesome-brands-square-x-twitter:](https://twitter.com/himanshug2077)
 
 **Tejas Shingade** [:fontawesome-brands-linkedin-in:](https://www.linkedin.com/in/tejas-shingade/)
