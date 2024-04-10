@@ -376,16 +376,6 @@ nav:
             - Bug Bounty/Report Templates/use-of-default-credentials.md
     - Tools and Extensions:
         - Tools and Extensions/index.md
-        - Burp Suite Extensions:
-            - Tools and Extensions/Burp Suite Extensions/README.md
-            - Tools and Extensions/Burp Suite Extensions/authmatrix.md
-            - Tools and Extensions/Burp Suite Extensions/flow.md
-            - Tools and Extensions/Burp Suite Extensions/http-request-smuggler.md
-            - Tools and Extensions/Burp Suite Extensions/java-deserialize-scanner.md
-            - Tools and Extensions/Burp Suite Extensions/json-js-beautifier.md
-            - Tools and Extensions/Burp Suite Extensions/json-web-tokens-jwt4b.md
-            - Tools and Extensions/Burp Suite Extensions/saml-raider.md
-            - Tools and Extensions/Burp Suite Extensions/wsdler-for-soap-services.md
         - Tools Cheatsheet for Pentesting:
             - Tools and Extensions/Tools Cheatsheet for Pentesting/README.md
             - Tools and Extensions/Tools Cheatsheet for Pentesting/metasploit.md
@@ -398,6 +388,16 @@ nav:
             - Tools and Extensions/Tools for Android Testing/README.md
             - Tools and Extensions/Tools for Android Testing/frida.md
             - Tools and Extensions/Tools for Android Testing/mobile-security-framework-mobsf.md
+        - Burp Suite Extensions:
+            - Tools and Extensions/Burp Suite Extensions/README.md
+            - Tools and Extensions/Burp Suite Extensions/authmatrix.md
+            - Tools and Extensions/Burp Suite Extensions/flow.md
+            - Tools and Extensions/Burp Suite Extensions/http-request-smuggler.md
+            - Tools and Extensions/Burp Suite Extensions/java-deserialize-scanner.md
+            - Tools and Extensions/Burp Suite Extensions/json-js-beautifier.md
+            - Tools and Extensions/Burp Suite Extensions/json-web-tokens-jwt4b.md
+            - Tools and Extensions/Burp Suite Extensions/saml-raider.md
+            - Tools and Extensions/Burp Suite Extensions/wsdler-for-soap-services.md
     - Other:
         - Other/index.md
         - Mindmaps:
