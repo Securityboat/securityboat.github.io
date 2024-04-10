@@ -230,7 +230,6 @@ nav:
             - Pentesting/Web Application/subdomain-enumeration.md
             - Pentesting/Web Application/template-injection.md
             - Pentesting/Web Application/unristricted-file-upload.md
-            - Pentesting/Web Application/vps-1.md
             - Pentesting/Web Application/vps.md
             - Pentesting/Web Application/web-app-pentest-checklist.md
             - Pentesting/Web Application/web-cache-deception.md
