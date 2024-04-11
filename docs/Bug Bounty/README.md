@@ -1,4 +1,4 @@
-# **Bug Bounty**
+# Bug Bounty
 
 <div class="grid cards" markdown>
 

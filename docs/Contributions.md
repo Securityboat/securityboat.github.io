@@ -2,7 +2,7 @@
 description: Thanks to all the people who helped to make this Gitbook.
 ---
 
-# **Contributors**
+# Contributors
 
 **Ninad Mathpati** [:material-web:](https://ninadmathpati.com) [:fontawesome-brands-linkedin-in:](https://linkedin.com/in/ninad-mathpati/)     [:fontawesome-brands-square-x-twitter:](https://twitter.com/ninad\_mathpati)
 

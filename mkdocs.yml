@@ -184,19 +184,14 @@ nav:
     - Pentesting:
         - Pentesting/index.md
         - Web Application:
-            - Business Logic Vulnerabilities:
-              - Pentesting/Web Application/business-logic-vulnerabilities/index.md
-              - Pentesting/Web Application/business-logic-vulnerabilities/2fa-bypass.md
-              - Pentesting/Web Application/business-logic-vulnerabilities/password-reset-functionality.md
-            - XSS:
-              - Pentesting/Web Application/cross-site-scripting-xss/index.md
-              - Pentesting/Web Application/cross-site-scripting-xss/payloads.md
-            - Pentesting/Web Application/insecure-http-methods.md
             - Keyhacks:
               - Pentesting/Web Application/keyhacks/index.md
               - Pentesting/Web Application/keyhacks/firebase-exploits.md
               - Pentesting/Web Application/keyhacks/gmaps-api-scanner.md
               - Pentesting/Web Application/keyhacks/map-box-api-scanner.md
+            - Pentesting/Web Application/2fa-bypass.md
+            - Pentesting/Web Application/cross-site-scripting.md
+            - Pentesting/Web Application/password-reset-functionality.md
             - Pentesting/Web Application/sensitive-information-disclosure.md
             - Pentesting/Web Application/web-cache-poisoning.md
             - Pentesting/Web Application/Directory bruteforcing-fingerprinting.md
@@ -211,6 +206,7 @@ nav:
             - Pentesting/Web Application/file-upload-bypass.md
             - Pentesting/Web Application/http-cheat-sheet.md
             - Pentesting/Web Application/http-request-smuggling.md
+            - Pentesting/Web Application/insecure-http-methods.md
             - Pentesting/Web Application/idor.md
             - Pentesting/Web Application/insecure-deserialization.md
             - Pentesting/Web Application/jwt-and-its-bypass.md
@@ -230,13 +226,11 @@ nav:
             - Pentesting/Web Application/web-cache-deception.md
             - Pentesting/Web Application/xxe.md
         - API:
-            - Pentesting/API/index.md
             - Pentesting/API/api-endpoints.md
             - Pentesting/API/graphql.md
             - Pentesting/API/rest.md
             - Pentesting/API/soap.md
         - Android:
-            - Pentesting/Android/index.md
             - Pentesting/Android/mobile-infrastructure-and-architecture.md
             - Pentesting/Android/understand-android-os.md
             - Pentesting/Android/understanding-androidmanifest.xml.md
