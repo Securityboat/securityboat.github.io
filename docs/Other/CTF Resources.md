@@ -1,10 +1,6 @@
-**CTF Resources**
+# **CTF**
 
-**Description:** This document provides a comprehensive list of resources for individuals interested in participating in Capture The Flag (CTF) competitions, a popular form of information security challenge.
-
----
-
-# **What is CTF?**
+## **What is CTF?**
 
 Capture The Flag (CTF) is an information security competition that presents participants with a variety of tasks, ranging from scavenger hunts on Wikipedia to basic programming exercises, or even attempting to breach a server to obtain specific data. In these challenges, participants are typically tasked with locating a specific piece of text, often referred to as the "flag," which may be concealed on a server or within a webpage.
 

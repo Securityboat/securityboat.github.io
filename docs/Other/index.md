@@ -2,33 +2,32 @@
 
 <div class="grid cards" markdown>
 
--   :material-lightbulb-on-20: &nbsp;
-    __Mindmaps__
-
-    ---
-
-    Dive into our concise mindmap section, encompassing visual guides.
-
 -   :fontawesome-solid-terminal: &nbsp;
-    __Command Line Interface__
+    [__Command Line Interface__](basic-linux-commands/linux-commands.md)
 
     ---
 
     Master the Command Line: Unleash Your Potential in Linux, Bash, and Windows.
 
--   :simple-comicfury: &nbsp;
-    __Security Comics__
+-   :material-lightbulb-on-20: &nbsp;
+    [__Mindmaps__](Mindmaps/README.md)
 
     ---
 
-    Read Walter's Journey: From XSS Novice to Bug Bounty Pro through Lessons, Laughs, and Code!
+    Dive into our concise mindmap section, encompassing visual guides.
 
 -   :fontawesome-solid-puzzle-piece: &nbsp;
     [__CTF__](CTF Resources.md)
 
     ---
 
-    Ask a question on our [discussion board] and get in touch with our
-    community
+    Unlock the Challenge: Master CTF with Expert Strategies, Tools, and Practice Arenas.
+
+-   :simple-comicfury: &nbsp;
+    [__Security Comics__](Technical Comics/The Story of XSS.md)
+
+    ---
+
+    Read Walter's Journey: From XSS Novice to Bug Bounty Pro through Lessons, Laughs, and Code!
 
 </div>

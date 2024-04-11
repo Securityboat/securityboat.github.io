@@ -407,15 +407,13 @@ nav:
             - Tools and Extensions/Burp Suite Extensions/wsdler-for-soap-services.md
     - Other:
         - Other/index.md
-        - Mindmaps:
-            - Other/Mindmaps/README.md
         - Command Line Interface:
-            - Other/basic-linux-commands/README.md
             - Other/basic-linux-commands/linux-commands.md
             - Other/basic-linux-commands/bash-scripting.md
             - Other/basic-linux-commands/windows.md
-        - Security Comics:
-            - Other/Technical Comics/README.md
-            - Other/Technical Comics/The Story of XSS.md
+        - Mindmaps:
+            - Other/Mindmaps/README.md
         - Other/CTF Resources.md
+        - Security Comics:
+            - Other/Technical Comics/The Story of XSS.md
     - Contributions.md
