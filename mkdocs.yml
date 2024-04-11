@@ -308,7 +308,6 @@ nav:
         - Secure Code Review:
             - Pentesting/Secure Code Review/appendix-a-glossary.md
             - Pentesting/Secure Code Review/code-review-checklist.md
-            - Pentesting/Secure Code Review/code-review-guidelines.md
             - Pentesting/Secure Code Review/manual-code-review.md
             - Pentesting/Secure Code Review/recommendation-and-references.md
             - Pentesting/Secure Code Review/remedial-code-snippets.md
