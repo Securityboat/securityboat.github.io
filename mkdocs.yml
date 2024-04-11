@@ -144,6 +144,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       emoji_index: !!python/name:material.extensions.emoji.twemoji
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -181,7 +184,6 @@ nav:
     - Pentesting:
         - Pentesting/index.md
         - Web Application:
-            - Pentesting/Web Application/index.md
             - Business Logic Vulnerabilities:
               - Pentesting/Web Application/business-logic-vulnerabilities/index.md
               - Pentesting/Web Application/business-logic-vulnerabilities/2fa-bypass.md
@@ -190,11 +192,6 @@ nav:
               - Pentesting/Web Application/cross-site-scripting-xss/index.md
               - Pentesting/Web Application/cross-site-scripting-xss/payloads.md
             - Pentesting/Web Application/insecure-http-methods.md
-            - Dorking:
-              - Pentesting/Web Application/dorking/index.md
-              - Pentesting/Web Application/dorking/google-dorks.md              
-              - Pentesting/Web Application/dorking/github-dorks.md
-              - Pentesting/Web Application/dorking/shodan.md
             - Keyhacks:
               - Pentesting/Web Application/keyhacks/index.md
               - Pentesting/Web Application/keyhacks/firebase-exploits.md

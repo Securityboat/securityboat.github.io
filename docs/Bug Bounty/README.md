@@ -9,7 +9,7 @@
 
     Master the Command Line: Unleash Your Potential in Linux, Bash, and Windows.
 
--   :fontawesome-solid-desktop: &nbsp;
+-   :material-web: &nbsp;
     [__Bug Bounty Checklist for Web App__](bug-bounty-checklist-for-web-app.md)
 
     ---
@@ -24,7 +24,7 @@
     Dive into our concise mindmap section, encompassing visual guides.
 
 -   :material-clipboard-text: &nbsp;
-    [__Bug Bounty Dorks__](bug-bounty-dorks.md)
+    [__Dorking__](bug-bounty-dorks.md)
 
     ---
 
