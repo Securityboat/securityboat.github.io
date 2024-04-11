@@ -384,7 +384,6 @@ nav:
     - Tools and Extensions:
         - Tools and Extensions/index.md
         - Tools Cheatsheet for Pentesting:
-            - Tools and Extensions/Tools Cheatsheet for Pentesting/README.md
             - Tools and Extensions/Tools Cheatsheet for Pentesting/metasploit.md
             - Tools and Extensions/Tools Cheatsheet for Pentesting/nikto.md
             - Tools and Extensions/Tools Cheatsheet for Pentesting/nmap.md
@@ -394,7 +393,6 @@ nav:
             - Tools and Extensions/Tools Cheatsheet for Pentesting/frida.md
             - Tools and Extensions/Tools Cheatsheet for Pentesting/mobile-security-framework-mobsf.md
         - Burp Suite Extensions:
-            - Tools and Extensions/Burp Suite Extensions/README.md
             - Tools and Extensions/Burp Suite Extensions/authmatrix.md
             - Tools and Extensions/Burp Suite Extensions/flow.md
             - Tools and Extensions/Burp Suite Extensions/http-request-smuggler.md
