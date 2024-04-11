@@ -354,7 +354,6 @@ nav:
         - Bug Bounty/reconnotes.md
         - Bug Bounty/vps.md
         - Bug Bounty Report Templates:
-            - Bug Bounty/Report Templates/README.md
             - Bug Bounty/Report Templates/clickjacking.md
             - Bug Bounty/Report Templates/command-injection.md
             - Bug Bounty/Report Templates/crlf-injection.md

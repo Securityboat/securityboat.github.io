@@ -1,4 +1,4 @@
-# **How to Begin Your Bug Bounty Journey**
+# **Start your Bug Bounty Journey**
 
 To start your bug bounty journey, numerous platforms are publicly accessible for anyone interested in joining the bug bounty community. We refrain from naming specific platforms, as we believe it's essential for you to take your first steps independently!
 

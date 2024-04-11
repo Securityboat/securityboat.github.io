@@ -1,6 +1,6 @@
-# **ReconNotes** #
+# **Recon**
 
-### **Shortcut to Extract Subdomains and running services** ###
+### **Shortcut to Extract Subdomains and running services**
 
 | Website                                                                      | Comment                                                                                                                                                                                               |
 | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -20,7 +20,7 @@
 | [https://recon.dev/](https://recon.dev/)                                     |                                                                                                                                                                                                       |
 | [https://host.io/](https://host.io/)                                         | A Powerful and Fast Domain Name Data AP                                                                                                                                                               |
 
-## **&#x20;Process/Methodology:** ##
+## **&#x20;Process/Methodology**
 
 ### **&#x20;1. Attacks(Test on Subdomains first if Target has no subdomains or not juicy subdomains then go for main Domain.)** ###
 
