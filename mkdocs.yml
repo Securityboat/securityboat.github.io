@@ -217,12 +217,10 @@ nav:
             - Pentesting/Web Application/idor.md
             - Pentesting/Web Application/insecure-deserialization.md
             - Pentesting/Web Application/jwt-and-its-bypass.md
-            - Pentesting/Web Application/my-checklist.md
             - Pentesting/Web Application/oauth.md
             - Pentesting/Web Application/payloads.md
             - Pentesting/Web Application/postmessage-vuls.md
             - Pentesting/Web Application/race-conditions.md
-            - Pentesting/Web Application/reconnotes.md
             - Pentesting/Web Application/redirects.md
             - Pentesting/Web Application/response-manipulation.md
             - Pentesting/Web Application/saml-sso.md
@@ -230,10 +228,7 @@ nav:
             - Pentesting/Web Application/sql-injection.md
             - Pentesting/Web Application/ssrf.md
             - Pentesting/Web Application/subdomain-enumeration.md
-            - Pentesting/Web Application/template-injection.md
             - Pentesting/Web Application/unristricted-file-upload.md
-            - Pentesting/Web Application/vps-1.md
-            - Pentesting/Web Application/vps.md
             - Pentesting/Web Application/web-app-pentest-checklist.md
             - Pentesting/Web Application/web-cache-deception.md
             - Pentesting/Web Application/xxe.md
@@ -356,6 +351,8 @@ nav:
         - Bug Bounty/bug-bounty-checklist-for-web-app.md
         - Bug Bounty/bug-bounty-checklist-for-android.md
         - Bug Bounty/bug-bounty-dorks.md
+        - Bug Bounty/reconnotes.md
+        - Bug Bounty/vps.md
         - Bug Bounty Report Templates:
             - Bug Bounty/Report Templates/README.md
             - Bug Bounty/Report Templates/clickjacking.md
