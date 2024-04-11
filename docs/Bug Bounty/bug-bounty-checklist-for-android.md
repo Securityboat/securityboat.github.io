@@ -14,7 +14,7 @@
 - [ ] Reverse Engineering
 - [ ] Extraneous Functionality
 
-## **&#x20;[Important Tools](../Tools and Extensions/Tools for Android Testing/README.md)**
+## **Important Tools**
 
 - [ ] MobSF
 - [ ] Frida
@@ -40,7 +40,7 @@
 - [ ] Test input validation on API.
 - [ ] Test for information exposure through API response message.
 
-## **Insecure Data Storage**&#x20;
+## **Insecure Data Storage**
 
 - [ ] Testing local storage for sensitive data
 - [ ] Testing Logs for sensitive data.

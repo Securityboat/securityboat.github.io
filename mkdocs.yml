@@ -391,10 +391,8 @@ nav:
             - Tools and Extensions/Tools Cheatsheet for Pentesting/shodan.md
             - Tools and Extensions/Tools Cheatsheet for Pentesting/sqlmap.md
             - Tools and Extensions/Tools Cheatsheet for Pentesting/wpscan.md
-        - Tools for Android Testing:
-            - Tools and Extensions/Tools for Android Testing/README.md
-            - Tools and Extensions/Tools for Android Testing/frida.md
-            - Tools and Extensions/Tools for Android Testing/mobile-security-framework-mobsf.md
+            - Tools and Extensions/Tools Cheatsheet for Pentesting/frida.md
+            - Tools and Extensions/Tools Cheatsheet for Pentesting/mobile-security-framework-mobsf.md
         - Burp Suite Extensions:
             - Tools and Extensions/Burp Suite Extensions/README.md
             - Tools and Extensions/Burp Suite Extensions/authmatrix.md
