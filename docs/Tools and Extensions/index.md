@@ -6,14 +6,12 @@
     [__Tools Cheatsheet for Pentesting__](Tools Cheatsheet for Pentesting/metasploit.md)
 
     ---
-
-    Master the Command Line: Unleash Your Potential in Linux, Bash, and Windows.
+    Explore essential pentesting tools to upgrade your cybersecurity arsenal.
 
 -   :simple-burpsuite: &nbsp;
     [__Burp Suite Extensions__](Burp Suite Extensions/authmatrix.md)
 
     ---
-
-    Dive into our concise mindmap section, encompassing visual guides.
+    Explore Burp Suite extensions to optimize your penetration testing workflows.
 
 </div>

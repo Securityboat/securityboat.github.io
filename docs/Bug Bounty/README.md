@@ -6,42 +6,36 @@
     [__Start your Bug Bounty Journey__](how-to-get-started-in-a-bug-bounty.md)
 
     ---
-
-    Master the Command Line: Unleash Your Potential in Linux, Bash, and Windows.
+    Embark on your bug bounty hunting adventure with good foundation and confidence.
 
 -   :material-web: &nbsp;
     [__Bug Bounty Checklist for Web App__](bug-bounty-checklist-for-web-app.md)
 
     ---
-
-    Dive into our concise mindmap section, encompassing visual guides.
+    A comprehensive checklist for ensuring thorough web application security testing in bug bounty programs.
 
 -   :simple-android: &nbsp;
     [__Bug Bounty Checklist For Android__](bug-bounty-checklist-for-android.md)
 
     ---
-
-    Dive into our concise mindmap section, encompassing visual guides.
+    A comprehensive checklist for ensuring thorough android application security testing in bug bounty programs.
 
 -   :material-clipboard-text: &nbsp;
     [__Dorking__](bug-bounty-dorks.md)
 
     ---
-
-    Dive into our concise mindmap section, encompassing visual guides.
+    Uncover hidden vulnerabilities and sensitive information using advanced search engine queries.
 
 -   :octicons-search-24: &nbsp;
     [__Recon__](reconnotes.md)
 
     ---
-
-    Dive into our concise mindmap section, encompassing visual guides.
+    Master the art of reconnaissance to uncover potential attack vectors and vulnerabilities in bug bounty programs.
 
 -   :octicons-repo-template-24: &nbsp;
     [__Bug Bounty & Pen-Test Templates__](Report Templates/clickjacking.md)
 
     ---
-
-    Dive into our concise mindmap section, encompassing visual guides.
+    Streamline your bug bounty reporting process with pre-built templates.
 
 </div>
