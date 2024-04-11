@@ -340,6 +340,16 @@ nav:
                 - Pentesting/Secure Code Review/manual-code-crawling/searching-for-code-in-classic-asp.md
                 - Pentesting/Secure Code Review/manual-code-crawling/searching-for-code-in-java.md
                 - Pentesting/Secure Code Review/manual-code-crawling/searching-for-code-in-javascript-and-ajax.md
+        - Physical:
+            - Pentesting/Physical/README.md
+            - NodeMCU ESP8266:
+                - Pentesting/Physical/NodeMCU ESP8266/README.md
+                - Pentesting/Physical/NodeMCU ESP8266/Wi-Fi Deauther.md
+            - Raspberry Pi:
+                - Pentesting/Physical/Raspberry Pi/README.md
+                - Pentesting/Physical/Raspberry Pi/honeypot-using-raspberry-pi-and-opencanary..md
+                - Pentesting/Physical/Raspberry Pi/portable-hacking-machine.md
+                - Pentesting/Physical/Raspberry Pi/usb-rubber-ducky-using-raspberry-pi-pico.md
     - Bug Bounty:
         - Bug Bounty/README.md
         - Bug Bounty/how-to-get-started-in-a-bug-bounty.md
@@ -407,16 +417,6 @@ nav:
             - Other/basic-linux-commands/linux-commands.md
             - Other/basic-linux-commands/bash-scripting.md
             - Other/basic-linux-commands/windows.md
-        - Hardware:
-            - Other/Hardware Security/README.md
-            - NodeMCU ESP8266:
-                - Other/Hardware Security/NodeMCU ESP8266/README.md
-                - Other/Hardware Security/NodeMCU ESP8266/Wi-Fi Deauther.md
-            - Raspberry Pi:
-                - Other/Hardware Security/Raspberry Pi/README.md
-                - Other/Hardware Security/Raspberry Pi/honeypot-using-raspberry-pi-and-opencanary..md
-                - Other/Hardware Security/Raspberry Pi/portable-hacking-machine.md
-                - Other/Hardware Security/Raspberry Pi/usb-rubber-ducky-using-raspberry-pi-pico.md
         - Technical Comics:
             - Other/Technical Comics/README.md
             - Other/Technical Comics/The Story of XSS.md
