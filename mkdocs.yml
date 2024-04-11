@@ -414,7 +414,7 @@ nav:
             - Other/basic-linux-commands/linux-commands.md
             - Other/basic-linux-commands/bash-scripting.md
             - Other/basic-linux-commands/windows.md
-        - Technical Comics:
+        - Security Comics:
             - Other/Technical Comics/README.md
             - Other/Technical Comics/The Story of XSS.md
         - Other/CTF Resources.md
