@@ -259,7 +259,6 @@ nav:
             - Pentesting/IOS/untitled.md
         - Network:
             - Pentesting/Network/active-info-gathering.md
-            - Pentesting/Network/basic-linux-and-windows-commands.md
             - Pentesting/Network/brute-force.md
             - Pentesting/Network/buffer-overflow.md
             - Pentesting/Network/cheatsheet-short.md
