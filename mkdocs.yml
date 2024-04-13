@@ -184,10 +184,6 @@ nav:
     - Pentesting:
         - Pentesting/index.md
         - Web Application:
-            - Keyhacks:
-              - Pentesting/Web Application/keyhacks/firebase-exploits.md
-              - Pentesting/Web Application/keyhacks/gmaps-api-scanner.md
-              - Pentesting/Web Application/keyhacks/map-box-api-scanner.md
             - Pentesting/Web Application/2fa-bypass.md
             - Pentesting/Web Application/cross-site-scripting.md
             - Pentesting/Web Application/password-reset-functionality.md
@@ -224,6 +220,10 @@ nav:
             - Pentesting/Web Application/web-app-pentest-checklist.md
             - Pentesting/Web Application/web-cache-deception.md
             - Pentesting/Web Application/xxe.md
+            - Keyhacks:
+              - Pentesting/Web Application/keyhacks/firebase-exploits.md
+              - Pentesting/Web Application/keyhacks/gmaps-api-scanner.md
+              - Pentesting/Web Application/keyhacks/map-box-api-scanner.md
         - API:
             - Pentesting/API/api-endpoints.md
             - Pentesting/API/graphql.md
@@ -250,13 +250,13 @@ nav:
             - Pentesting/Android/reverse-engineer.md
             - Pentesting/Android/command-line-for-android-pt-cheatsheet.md
         - IOS:
-            - Pentesting/IOS/command-line-cheatsheet-for-ios-pt.md
+            - Pentesting/IOS/untitled.md
             - Pentesting/IOS/how-to-extract-ipa-from-idevice-manually..md
             - Pentesting/IOS/lets-jailbreak-iphone-ipad.md
             - Pentesting/IOS/reverse-engineering.md
             - Pentesting/IOS/setting-up-frida+objection.md
             - Pentesting/IOS/ssl-pinning.md
-            - Pentesting/IOS/untitled.md
+            - Pentesting/IOS/command-line-cheatsheet-for-ios-pt.md
         - Network:
             - Pentesting/Network/active-info-gathering.md
             - Pentesting/Network/brute-force.md
@@ -272,7 +272,6 @@ nav:
             - Pentesting/Network/port-and-services-scanning.md
             - Pentesting/Network/post-exploitation.md
             - Pentesting/Network/priv-escalation.md
-            - Pentesting/Network/recon-scanning-and-enumeration.md
             - Pentesting/Network/shells.md
             - Pentesting/Network/smb-enumeration.md
             - Pentesting/Network/snmp-enumeration.md
@@ -298,7 +297,6 @@ nav:
               - Pentesting/Thick Client/windows-application-pentesting/unquoted-service-paths.md
         - Cloud:
             - Pentesting/Cloud/Best practice rules for Google Cloud Platform.md
-            - Pentesting/Cloud/Cloud Security.md
             - Pentesting/Cloud/GCP API.md
             - Pentesting/Cloud/GCP Domain Name System (DNS).md
             - Pentesting/Cloud/GCP Identity and Access Management (IAM).md
@@ -322,6 +320,7 @@ nav:
                 - Pentesting/Physical/Raspberry Pi/honeypot-using-raspberry-pi-and-opencanary..md
                 - Pentesting/Physical/Raspberry Pi/portable-hacking-machine.md
                 - Pentesting/Physical/Raspberry Pi/usb-rubber-ducky-using-raspberry-pi-pico.md
+        - Pentesting/Resources.md
     - Bug Bounty:
         - Bug Bounty/README.md
         - Bug Bounty/how-to-get-started-in-a-bug-bounty.md
