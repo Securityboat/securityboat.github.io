@@ -2,40 +2,40 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-road: &nbsp;
-    [__CVE-2024-3094 Handbook__]()
+-   :material-file-document: &nbsp;
+    [__CVE-2024-3094 Handbook__](CVE-2024-3094-Handbook.md)
 
     ---
-    Embark on your bug bounty hunting adventure with good foundation and confidence.
+    CVE-2024-3094, a critical vulnerability impacting various Linux distributions, has been uncovered in XZ Utils. Get to know more about it in the CVE-2024-3094 Handbook.
 
--   :material-web: &nbsp;
-    [__IDOR Handbook__]()
-
-    ---
-    A comprehensive checklist for ensuring thorough web application security testing in bug bounty programs.
-
--   :simple-android: &nbsp;
-    [__Insecure Deserialization Handbook__]()
+-   :material-identifier: &nbsp;
+    [__IDOR Handbook__](IDOR-Handbook.md)
 
     ---
-    A comprehensive checklist for ensuring thorough android application security testing in bug bounty programs.
+    A comprehensive guide to identifying, exploiting and mitigating Insecure Direct Object Reference vulnerabilities.
 
--   :material-clipboard-text: &nbsp;
-    [__JWT Attacks Handbook__]()
-
-    ---
-    Uncover hidden vulnerabilities and sensitive information using advanced search engine queries.
-
--   :octicons-search-24: &nbsp;
-    [__SSTI Handbook__]()
+-   :material-dots-vertical: &nbsp;
+    [__Insecure Deserialization Handbook__](Insecure-Deserialization-Handbook.md)
 
     ---
-    Master the art of reconnaissance to uncover potential attack vectors and vulnerabilities in bug bounty programs.
+    Detailed insights into detecting and preventing attacks stemming from insecure deserialization flaws.
 
--   :octicons-repo-template-24: &nbsp;
-    [__Unrestricted File Upload Attacks Handbook__]()
+-   :material-badge-account-horizontal-outline: &nbsp;
+    [__JWT Attacks Handbook__](JWT-Handbook.md)
 
     ---
-    Streamline your bug bounty reporting process with pre-built templates.
+    Essential strategies and best practices for exploiting and securing JSON Web Tokens (JWT) in modern applications.
+
+-   :material-server: &nbsp;
+    [__SSTI Handbook__](SSTI-Handbook.md)
+
+    ---
+    A focused overview of Server-Side Template Injection, exploring its risks and mitigation techniques.
+
+-   :material-file-alert: &nbsp;
+    [__Unrestricted File Upload Attacks Handbook__](Unrestricted-File-Upload-Handbook.md)
+
+    ---
+    A practical manual on identifying and defending against threats posed by unrestricted file uploads in web environments.
 
 </div>
