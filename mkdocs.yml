@@ -396,4 +396,6 @@ nav:
         - Other/CTF Resources.md
         - Security Comics:
             - Other/Technical Comics/The Story of XSS.md
-    - Contributions.md
+    - Contribution:
+      - Contribution/Contributions.md
+      - Contribution/contributing.md
