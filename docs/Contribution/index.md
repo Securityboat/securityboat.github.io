@@ -1,30 +1,35 @@
-# Contributing
+# Contribution
 
-Material for MkDocs is an actively maintained and constantly evolving project
-serving a diverse user base with versatile backgrounds and needs. In order to
-efficiently address the requirements of all our users, evaluate change requests,
-and fix bugs, we put in a lot of work.
+The SecurityBoat Workbook is an open-source project which is actively maintained and constantly evolving. We welcome contributions in the form of additions, corrections, or updates to the resources and we have implemented a process for these contributions.
 
-Our ever-growing community includes many active users, who open new
-issues and discussions several times a day, evolving our 
-[discussion board] into a knowledge base – an important addition to
-our [documentation] – yielding value to both new and experienced users.
+## Want to add or update a section/page?
 
-## How you can contribute
+Before adding a new section or note, please first search the knowledge base to ensure it doesn't already exist. If it is not present, visit the [discussion board] to see if there are any existing discussions about the topic. If there are none, initiate a new discussion and include all the necessary information below:
 
-We've carefully defined guidelines to improve the overall interaction
-within the knowledge base.
+### Format of discussion
 
-### Creating an issue
+#### Title
+- A good title should be a short, one-sentence description, contain all relevant information.
 
-### Contributing
+| Example | <!-- --> |
+| -------- | -------- |
+| Update to the XYZ resource in ABC page | :material-check:{ style="color: #4DB6AC" } __Clear__
+| Addition of XYZ resource in ABC page | :material-check:{ style="color: #4DB6AC" } __Clear__
+| Missing information in the docs | :material-close:{ style="color: #EF5350" } __Unclear__
+| XYZ Section not found | :material-close:{ style="color: #EF5350" } __Unclear__
+| Help | :material-close:{ style="color: #EF5350" } __Useless__
 
-## Checklist
+#### Description
+- When requesting updates or additions to the knowledge base, please provide a clear and brief summary of what needs to change and explain why.
+- Please address only one specific issue at a time to simplify tracking and updating. 
+- Please clearly describe the problem to help us understand the needed improvements. 
+- Please include direct, anchored links to the relevant documentation sections for easy reference.
 
-Before interacting within the project, please take a moment to consider the
-following questions. By doing so, you can ensure that you are using the correct
-issue template and that you provide all necessary information when interacting
-with our community.
+## Found a typo?
+
+- Please submit a PR with the correction.
+
+We appreciate you for following the guide and providing valuable feedback the knowledge base.
 
 !!! warning "Issues, discussions, and comments are forever"
 
@@ -32,31 +37,6 @@ with our community.
     for everyone to read – forever. Therefore, please always be nice and
     constructive, follow our contribution guidelines, and comply with our
     [Code of Conduct].
-
-### Before creating an issue
-
-- Did your fill out every field as requested and did you provide all additional
-  information we maintainers need to comprehend your request?
-
-### Before asking a question
-
-- Is there an open discussion on the topic of your request? If the answer is yes,
-  does your question match the direction of the discussion, or should you open a
-  new discussion?
-
-- Did your provide our community with all the necessary information to
-  understand your question and help you quickly, or can you make it easier to
-  help you?
-
-### Before commenting
-
-- Is your comment relevant to the topic of the current page, post, issue, or
-  discussion, or is it a better idea to create a new issue or discussion?
-
-- Does your comment add value to the conversation? Is it constructive and
-  respectful to our community and us maintainers?
-
-  [Code of Conduct]: https://github.com/Securityboat/workbook/blob/master/CODE_OF_CONDUCT.md
 
 ## Rights and responsibilities
 
@@ -76,35 +56,7 @@ commitment is to foster a positive and supportive environment, free of
 inappropriate, offensive, or harmful behavior.
 
 We take any violations seriously and will take appropriate action in response to
-uphold these values.[^1]
-
-  [^1]:
-    __Warning and blocking policy:__
-    Given the increasing popularity of our project and our commitment to a
-    healthy community, we've defined clear guidelines on how we proceed with
-    violations:
-
-    1.1. __First warning:__ Users displaying repeated inappropriate, offensive,
-    or harmful behavior will receive a first warning. This warning serves as a
-    formal notice that their behavior is not in alignment with our community
-    standards and Code of Conduct. The first warning is permanent.
-
-    1.2. __Second warning and opportunity for resolution:__ If the behavior
-    persists, a second warning will be issued. Upon receiving the second
-    warning, the user will be given a 5-day period for reflection, during which
-    they are encouraged to publicly explain or apologize for their actions.
-    This period is designed to offer an opportunity for openly clearing out any
-    misunderstanding.
-
-    1.3. __Blocking:__ Should there be no response or improvement in behavior
-    following the second warning, we reserve the right to block the user from
-    the community and repository. Blocking is considered a last resort, used
-    only when absolutely necessary to protect the community's integrity and
-    positive atmosphere.
-
-    Blocking has been an exceptionally rare necessity in our overwhelmingly
-    positive community, highlighting our preference for constructive dialogue
-    and mutual respect. It aims to protect our community members and team.
+uphold these values.
 
 ### Incomplete issues and duplicates
 
@@ -122,9 +74,10 @@ uphold these values.[^1]
   progresses with new information helps us to maintain focus and support our
   community.
 
-    We further _reserve the right to immediately close discussions or issues that
+  - We further _reserve the right to immediately close discussions or issues that
     are reopened without providing new information_ or simply because users have
     not yet received a response to their issue/question, as the issue is marked as
     incomplete.
 
 [discussion board]: https://github.com/Securityboat/workbook/discussions
+[Code of Conduct]: https://github.com/Securityboat/workbook/blob/master/CODE_OF_CONDUCT.md
