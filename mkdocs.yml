@@ -397,5 +397,5 @@ nav:
         - Security Comics:
             - Other/Technical Comics/The Story of XSS.md
     - Contribution:
+      - Contribution/index.md
       - Contribution/Contributions.md
-      - Contribution/contributing.md
