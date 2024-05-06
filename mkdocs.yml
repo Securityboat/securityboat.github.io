@@ -4,14 +4,14 @@
 
 # Project information
 site_name: SecurityBoat Workbook
-site_url: https://securityboat.github.io/workbook
+site_url: https://securityboat.github.io/
 site_author: Himanshu Gupta
 site_description: >-
   SecurityBoat Workbook is an open-source repository of knowledge cultivated through years of penetration testing and expertise contributed by security professionals at SecurityBoat. <br><br>Covering comprehensive security topics, including application, api, network, cloud, and hardware security, this workbook provides valuable insights and practical knowledge to build up your understanding and skills.
 
 # Repository
-repo_name: Securityboat/workbook
-repo_url: https://github.com/Securityboat/workbook
+repo_name: Securityboat/securityboat.github.io
+repo_url: https://github.com/Securityboat/securityboat.github.io
 edit_uri: edit/main/docs/
 
 # Copyright
@@ -159,7 +159,7 @@ markdown_extensions:
       normalize_issue_symbols: true
       repo_url_shorthand: true
       user: securityboat
-      repo: workbook
+      repo: securityboat.github.io
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
