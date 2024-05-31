@@ -3,7 +3,7 @@
 # Copyright CONTENT
 
 # Project information
-site_name: SecurityBoat Workbook
+site_name: SecurityBoat Workbook 
 site_url: https://securityboat.github.io/
 site_author: Himanshu Gupta
 site_description: >-
@@ -182,7 +182,6 @@ markdown_extensions:
 
 # Page tree
 nav:
-    - Home: index.md
     - Pentesting:
         - Pentesting/index.md
         - Web Application:
