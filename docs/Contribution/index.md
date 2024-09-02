@@ -57,7 +57,7 @@ code .
 ```
 - Run the following command to run the site locally:
 ```
-mkdocs-serve
+mkdocs serve
 ```
 - Make changes and check them in the site running locally. Either use [GitHub Desktop](https://desktop.github.com/) or [generate a new SSH key to use for github authentication](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to commit and sync the changes to your forked workbook repository. You can now sumbit a pull request.
 
